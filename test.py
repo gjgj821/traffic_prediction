@@ -16,9 +16,7 @@ if __name__ == '__main__':
 	test_time = '2014-06-02'
 	test_table = 'RTBApp'
 	with chronic.Timer('create'):
-		# 实际中
-		total = get_sum(test_time, {}, test_table, is_train=False)
-		manage = TermTestManage(total)
+		manage = TermTestManage()
 
 		# 加载修正组合
 		fo = open(TERM_FILE, 'r')
@@ -32,13 +30,13 @@ if __name__ == '__main__':
 		manage.load_dim(lines)
 		fo.close()
 		f = Flow(test_time, test_table)
-		load_dim()
-		dim_dict_combine = dim_combine()
-		term_map = get_termmap(dim_dict_combine)
+		#load_dim()
+		#dim_dict_combine = dim_combine()
+		#term_map = get_termmap(dim_dict_combine)
 
 	with chronic.Timer('test'):
 		value = f.total_current(7)
-		manage.estimate(term_map=term_map, total=value)
+		manage.estimate(term_map={'DeviceType': ['Phone']}, total=value)
 
 	# 计算单次执行时间
 	pprint(chronic.timings)

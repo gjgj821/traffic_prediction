@@ -30,4 +30,4 @@ class Relative(object):
 
 	@staticmethod
 	def get_city():
-		return get_relate('zhName', 'b_base_geo', where='level=2')
+		return get_relate('zhName', 'b_base_geo', where='level=2 or firstcity = 1')

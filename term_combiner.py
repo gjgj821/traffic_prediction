@@ -42,7 +42,7 @@ def load_dim():
 				dim_dict[key].append(value)
 	return True
 
-max_combinations = 40
+max_combinations = 10
 max_possible = 1
 
 

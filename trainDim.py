@@ -25,11 +25,11 @@ if __name__ == '__main__':
 
 	# 只读取日表信息
 	m2 = TermManage('RTBLocation', train_time, where='`Type` = 1')
-	m1.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName').add_dim('Province').add_dim('City')
+	m2.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName').add_dim('City')
 	# 不再进行OS和DeviceType的聚合查询
-	term_map_list = m1.union_dim(2, ['OS', 'CarrierName', 'Province', 'City'])
+	term_map_list = m2.union_dim(2, ['OS', 'CarrierName', 'City'])
 	term_map_all = dict(term_map_all, **term_map_list)
-	term_map_list = m1.union_dim(2, ['DeviceType', 'CarrierName', 'Province', 'City'])
+	term_map_list = m2.union_dim(2, ['DeviceType', 'CarrierName', 'City'])
 	term_map_all = dict(term_map_all, **term_map_list)
 
 	type_list = [value.get_line() for key, value in term_map_all.items()]
@@ -40,6 +40,6 @@ if __name__ == '__main__':
 	output = open(DIM_FILE, 'w')
 	output.writelines(m1.export_dim(['OS', 'DeviceType', 'Categorys', 'AppName']))
 	output.close()
-	output = open(DIM_FILE, 'w+')
+	output = open(DIM_FILE, 'a')
 	output.writelines(m2.export_dim(['CarrierName', 'Province', 'City']))
 	output.close()

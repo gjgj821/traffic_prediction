@@ -34,6 +34,9 @@ class Flow(object):
 		yes_ratio_list, yes_total = self.load_yesterday()
 		return self.fix(yes_ratio_list, yes_total, hour, ratio_list, total)
 
+	def future(self, total, length=1):
+		return total
+
 	@staticmethod
 	def amend(hourly_list):
 		# 修正数据
