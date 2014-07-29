@@ -41,5 +41,5 @@ if __name__ == '__main__':
 	output.writelines(m1.export_dim(['OS', 'DeviceType', 'Categorys', 'AppName']))
 	output.close()
 	output = open(DIM_FILE, 'a')
-	output.writelines(m2.export_dim(['CarrierName', 'Province', 'City']))
+	output.writelines(m2.export_dim(['CarrierName', 'City']))
 	output.close()
