@@ -37,9 +37,9 @@ if __name__ == '__main__':
 	output.writelines(type_list)
 	output.close()
 
-	output = open(DIM_FILE, 'w')
+	output = open(DIM_FILE + '_RTBApp', 'w')
 	output.writelines(m1.export_dim(['OS', 'DeviceType', 'Categorys', 'AppName']))
 	output.close()
-	output = open(DIM_FILE, 'a')
-	output.writelines(m2.export_dim(['CarrierName', 'City']))
+	output = open(DIM_FILE + '_RTBLocation', 'w')
+	output.writelines(m2.export_dim(['OS', 'DeviceType', 'CarrierName', 'City']))
 	output.close()
