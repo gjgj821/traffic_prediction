@@ -113,7 +113,7 @@ class TermManage(object):
 		string = Term.get_string(term_map)
 		return self.term_map[string] if string in self.term_map else None
 
-	def export_dim(self, dim_list=None):
+	def export_dim(self, dim_list=None, relative=True):
 		"""
 		导出维度数据
 		"""
@@ -130,7 +130,7 @@ class TermManage(object):
 				term_map = {}
 				term_map[dim] = item[0]
 				term = self.get_term(term_map)
-				lines.append(term.get_line())
+				lines.append(term.get_line(relative=relative))
 		return lines
 
 	def get_relative_value(self, dim, value):
