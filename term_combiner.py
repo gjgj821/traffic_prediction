@@ -7,7 +7,10 @@ import math
 import random
 
 # single dim list
-dim_list_name = './dim_list.txt'
+table_name = 'RTBLocation'
+dim_list_name = './dim_list_' + table_name + '.txt'
+# dim_list_name = './dim_list_'+table_name+'_noappname.txt'
+
 dim_dict = {}
 
 #{key:[[...],[...],...]}

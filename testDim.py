@@ -2,6 +2,7 @@
 # coding=utf-8
 
 import time
+from decimal import Decimal
 from core.dbget import *
 from core.term_test import TermTestManage
 import matplotlib.pyplot as plt
@@ -10,8 +11,7 @@ from term_combiner import *
 
 __author__ = 'GaoJie'
 TERM_FILE = 'term_list.txt'
-DIM_FILE = 'dim_list.txt'
-
+DIM_FILE = 'dim_list'
 
 if __name__ == '__main__':
 	test_time = '2014-06-02'
@@ -27,7 +27,8 @@ if __name__ == '__main__':
 	fo.close()
 
 	# 加载基础维度
-	fo = open(DIM_FILE, 'r')
+	filename = DIM_FILE + '_' + test_table + '.txt'
+	fo = open(filename, 'r')
 	lines = fo.readlines()
 	manage.load_dim(lines)
 	fo.close()
@@ -51,16 +52,31 @@ if __name__ == '__main__':
 	dim_dict_combine = dim_combine()
 	for i in range(0, 500):
 		term_map = get_termmap(dim_dict_combine)
-		result.append(manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False), p=False))
-		#result.append(manage.estimate_test(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False), p=False))
+		result.append(
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			                      p=False))
+	# result.append(manage.estimate_test(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False), p=False))
 
-	#x_list, y1_list = zip(*result)
+	# x_list, y1_list = zip(*result)
 	x_list, y1_list, y2_list = zip(*result)
+	# 分档
+	# 100,000,000-100
+	for LBound in [10 ** x for x in range(1, 9)]:
+		list = [[i, x] for i, x in enumerate(x_list) if x >= LBound and x < LBound * 10]
+		sum_y2 = 0
+		sum_x = 0
+		# print list
+		for item in list:
+			sum_x += item[1]
+			sum_y2 += y2_list[item[0]]
+		if sum_x > 0:
+			diff = (sum_y2 - sum_x) / Decimal(sum_x)
+			print "[%s,%s) avg_diff: %s" % (LBound, LBound * 10, diff)
 
 	plt.plot(x_list, y1_list, 'og')
 	plt.plot(x_list, y2_list, 'ob')
 
-	plt.plot([0, total/2], [0, total/2], 'r')
+	plt.plot([0, total / 2], [0, total / 2], 'r')
 	#plt.plot([0, 1], [0, 1], 'r')
 	plt.grid(True)
 	# 修正最大值

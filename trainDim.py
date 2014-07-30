@@ -7,8 +7,7 @@ __author__ = 'GaoJie'
 # 最大维度，最多几个定向条件的组合 #
 MAX_DIM = 2
 TERM_FILE = 'term_list.txt'
-DIM_FILE = 'dim_list.txt'
-
+DIM_FILE = 'dim_list'
 
 if __name__ == '__main__':
 	train_time = '2014-06-01'
@@ -16,7 +15,7 @@ if __name__ == '__main__':
 
 	m1 = TermManage('RTBApp', train_time)
 	m1.add_dim('OS').add_dim('Categorys').add_dim('DeviceType').add_dim('AppName')
-	#for i in range(2, MAX_DIM + 1):
+	# for i in range(2, MAX_DIM + 1):
 	#	term_map_list = m.union_dim(i, ['OS', 'DeviceType', 'Categorys'])
 	#	if term_map_list:
 	#		term_map_all = dict(term_map_all, **term_map_list)
@@ -32,14 +31,16 @@ if __name__ == '__main__':
 	term_map_list = m2.union_dim(2, ['DeviceType', 'CarrierName', 'City'])
 	term_map_all = dict(term_map_all, **term_map_list)
 
-	type_list = [value.get_line() for key, value in term_map_all.items()]
+	type_list = [value.get_line(relative=False) for key, value in term_map_all.items()]
 	output = open(TERM_FILE, 'w')
 	output.writelines(type_list)
 	output.close()
 
-	output = open(DIM_FILE + '_RTBApp', 'w')
-	output.writelines(m1.export_dim(['OS', 'DeviceType', 'Categorys', 'AppName']))
+	filename = DIM_FILE + '_RTBApp' + '.txt'
+	output = open(filename, 'w')
+	output.writelines(m1.export_dim(['OS', 'DeviceType', 'Categorys', 'AppName'], relative=False))
 	output.close()
-	output = open(DIM_FILE + '_RTBLocation', 'w')
-	output.writelines(m2.export_dim(['OS', 'DeviceType', 'CarrierName', 'City']))
+	filename = DIM_FILE + '_RTBLocation' + '.txt'
+	output = open(filename, 'w')
+	output.writelines(m2.export_dim(['OS', 'DeviceType', 'CarrierName', 'City'], relative=False))
 	output.close()
