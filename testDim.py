@@ -14,8 +14,8 @@ TERM_FILE = 'term_list.txt'
 DIM_FILE = 'dim_list'
 
 if __name__ == '__main__':
-	test_time = '2014-06-02'
-	test_table = 'RTBApp'
+	test_time = '2014-06-01'
+	test_table = 'RTBLocation'
 	# 实际中
 	total = get_sum(test_time, {}, test_table, is_train=False)
 	manage = TermTestManage(total)
@@ -50,8 +50,10 @@ if __name__ == '__main__':
 
 	load_dim()
 	dim_dict_combine = dim_combine()
-	for i in range(0, 500):
-		term_map = get_termmap(dim_dict_combine)
+	for i in range(0, 200):
+		# term_map = get_termmap(dim_dict_combine)
+		#term_map = get_termmap_single_dim('City',dim_dict_combine)
+		term_map = get_termmap_dim_single(dim_dict_combine)
 		result.append(
 			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
 			                      p=False))
@@ -61,16 +63,14 @@ if __name__ == '__main__':
 	x_list, y1_list, y2_list = zip(*result)
 	# 分档
 	# 100,000,000-100
-	for LBound in [10 ** x for x in range(1, 9)]:
+	for LBound in [10 ** x for x in range(1, 12)]:
 		list = [[i, x] for i, x in enumerate(x_list) if x >= LBound and x < LBound * 10]
-		sum_y2 = 0
-		sum_x = 0
+		sum_rate = 0
 		# print list
 		for item in list:
-			sum_x += item[1]
-			sum_y2 += y2_list[item[0]]
-		if sum_x > 0:
-			diff = (sum_y2 - sum_x) / Decimal(sum_x)
+			sum_rate += (y2_list[item[0]] - item[1]) / Decimal(item[1])
+		if sum_rate > 0:
+			diff = sum_rate / len(list)
 			print "[%s,%s) avg_diff: %s" % (LBound, LBound * 10, diff)
 
 	plt.plot(x_list, y1_list, 'og')

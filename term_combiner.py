@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#encoding: utf-8
+# encoding: utf-8
 __author__ = 'WangWei'
 import os
 import time
@@ -45,7 +45,8 @@ def load_dim():
 				dim_dict[key].append(value)
 	return True
 
-max_combinations = 10
+
+max_combinations = 50
 max_possible = 1
 
 
@@ -57,16 +58,16 @@ def dim_combine():
 	for key in dim_dict:
 		size = len(dim_dict[key])
 		#print 'key:%s size:%s'%(key,size)
-		limit=min(size,max_combinations)
-		max_possible=max_possible*limit
+		limit = min(size, max_combinations)
+		max_possible = max_possible * limit
 
-		rset=[0]
-		for i in range(0,limit):
+		rset = [0]
+		for i in range(0, limit):
 			t_com = []
 			r = 0
 
 			while not rset.count(r) == 0:
-				r = random.randint(1,(1 << size)-1)
+				r = random.randint(1, (1 << size) - 1)
 			rset.append(r)
 			#print 'randint:%s'%(r)
 			for shift in range(0, size):
@@ -84,10 +85,27 @@ def dim_combine():
 
 
 def get_termmap(dim_dict_combine):
-	tm={}
+	tm = {}
 	for key in dim_dict_combine:
-		r=random.randint(0,len(dim_dict_combine[key])-1)
-		tm[key]=dim_dict_combine[key][r]
+		r = random.randint(0, len(dim_dict_combine[key]) - 1)
+		tm[key] = dim_dict_combine[key][r]
+	return tm
+
+
+def get_termmap_dim_single(dim_dict_combine):
+	tm = {}
+	for key in dim_dict:
+		r = random.randint(0, len(dim_dict[key]) - 1)
+		tm[key] = [dim_dict[key][r]]
+	print tm
+	return tm
+
+
+def get_termmap_single_dim(key, dim_dict_combine):
+	tm = {}
+	r = random.randint(0, len(dim_dict_combine[key]) - 1)
+	tm[key] = dim_dict_combine[key][r]
+	print tm
 	return tm
 
 #load_dim()
