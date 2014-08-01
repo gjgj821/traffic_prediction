@@ -114,7 +114,7 @@ def get_termmap_dim_single():
 def get_termmap_single_dim(key, dim_dict_combine):
 	tm = {}
 	r = random.randint(0, len(dim_dict_combine[key]) - 1)
-	tm[key] = dim_dict_combine[key][r]
+	tm[key] = dim_dict[key]#dim_dict_combine[key][r]
 	return tm
 
 #load_dim()
