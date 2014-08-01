@@ -38,8 +38,8 @@ if __name__ == '__main__':
 
 	for i in range(0, 200):
 		#term_map = get_termmap(dim_dict_combine)
-		#term_map = get_termmap_single_dim('Categorys', dim_dict_combine)
-		term_map = get_termmap_dim_single()
+		term_map = get_termmap_single_dim('Categorys', dim_dict_combine)
+		#term_map = get_termmap_dim_single()
 		result.append(
 			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
 			                      p=False))
@@ -55,7 +55,7 @@ if __name__ == '__main__':
 		# print list
 		for item in list:
 			sum_rate += (y2_list[item[0]] - item[1]) / Decimal(item[1])
-		if sum_rate > 0:
+		if len(list) > 0:
 			diff = sum_rate / len(list)
 			print "[%s,%s) avg_diff: %s" % (LBound, LBound * 10, diff)
 

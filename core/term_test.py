@@ -50,6 +50,7 @@ class TermTestManage(object):
 		if result_map:
 			self.dim_map_list.append(dim)
 			self.dim_list.append(result_map)
+		print self.dim_list
 		return self
 
 	def analyze(self, term_map=None, fix=True):
@@ -90,9 +91,7 @@ class TermTestManage(object):
 			print "未修正：%s(比例),%s(预估量),%s(差比)" % (self.ratio, total_source, (total_source - real) / real)
 			# 修正的差值
 			print "修正后：%s(比例),%s(预估量),%s(差比)" % (self.ratio_fix, total_fix, (total_fix - real) / real)
-		else:
-			# 真实比例，预估比例，修正预估比例
-			return real / total, self.ratio, self.ratio_fix
+		return real / total, self.ratio, self.ratio_fix
 
 	def estimate_test2(self, term_map=None, total=None, real=None, p=True):
 		"""
@@ -110,9 +109,7 @@ class TermTestManage(object):
 			print "未修正：%s(比例),%s(预估量),%s(差比)" % (self.ratio, total_source, (total_source - real) / real)
 			# 修正的差值
 			print "修正后：%s(比例),%s(预估量),%s(差比)" % (self.ratio_fix, total_fix, (total_fix - real) / real)
-		else:
-			# 真实流量，预估流量
-			return real, total_source, total_fix
+		return real, total_source, total_fix
 
 	def parse_term_map(self, term_map, fix=True):
 		"""
@@ -138,7 +135,7 @@ class TermTestManage(object):
 			ratio_list.append(abs(self.parse_or(index, value) + (-1 if reverse else 0)))
 		ratio = Decimal(reduce(lambda x, y: x * y, ratio_list))
 		# 优化
-		if fix and fix_list:
+		if fix and len(fix_list) > 1:
 			fix_wait_list = []
 			## 获取可以产生影响的term
 			for item in itertools.product(*fix_list):
