@@ -16,8 +16,10 @@ dim_dict = {}
 #{key:[[...],[...],...]}
 #dim_dict_combine = {}
 
-
 def load_dim():
+	"""
+	载入并解析单维度
+	"""
 	global dim_dict
 	if not os.path.exists(dim_list_name):
 		return False
@@ -51,6 +53,10 @@ max_possible = 1
 
 
 def dim_combine():
+	"""
+	各个随机维度组合
+	:return:
+	"""
 	global max_possible
 	#{key:[[...],[...],...]}
 	dim_dict_combine = {}
@@ -74,9 +80,9 @@ def dim_combine():
 				b = (r >> shift) & 1
 				if b == 1:
 					t_com.append(dim_dict[key][shift])
-			#for value in t_com:
-			#	print value,'|',
-			#print ''
+			# for value in t_com:
+			# print value,'|',
+			# print ''
 			if not key in dim_dict_combine:
 				dim_dict_combine[key] = []
 			dim_dict_combine[key].append(t_com)
@@ -85,6 +91,11 @@ def dim_combine():
 
 
 def get_termmap(dim_dict_combine):
+	"""
+	获取各个维度之间的组合
+	:param dim_dict_combine:
+	:return:
+	"""
 	tm = {}
 	for key in dim_dict_combine:
 		r = random.randint(0, len(dim_dict_combine[key]) - 1)
@@ -92,7 +103,7 @@ def get_termmap(dim_dict_combine):
 	return tm
 
 
-def get_termmap_dim_single(dim_dict_combine):
+def get_termmap_dim_single():
 	tm = {}
 	for key in dim_dict:
 		r = random.randint(0, len(dim_dict[key]) - 1)

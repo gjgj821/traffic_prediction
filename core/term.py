@@ -17,7 +17,7 @@ EFFECT_RADIO = 1
 ACCURACY_VALUE = 10000
 
 ## 得出计算的精确度
-ACCURACY_F = int(math.log(ACCURACY_VALUE, 10))
+ACCURACY_F = 9
 
 
 def round_f(d):

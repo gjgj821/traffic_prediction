@@ -9,13 +9,11 @@ from mysql.connector.conversion import MySQLConverter
 # 日期的统计周期
 STAT_CYCLE = 7
 
-
 STAT_DB_HOST = '192.168.168.144'
 STAT_DB_PORT = '3306'
 STAT_DB_USER = 'root'
 STAT_DB_PASS = 'gaojie'
 STAT_DB_NAME = 'test'
-
 
 SOURCE_DB_HOST = 'dsp.corp.limei.com'
 SOURCE_DB_PORT = '3306'
@@ -23,8 +21,10 @@ SOURCE_DB_USER = 'kaiden'
 SOURCE_DB_PASS = 'qwe123'
 SOURCE_DB_NAME = 'bunny'
 
-mysqlConnectStat = MySQLConnection(host=STAT_DB_HOST, user=STAT_DB_USER, passwd=STAT_DB_PASS, db=STAT_DB_NAME, port=STAT_DB_PORT)
-mysqlConnectSource = MySQLConnection(host=SOURCE_DB_HOST, user=SOURCE_DB_USER, passwd=SOURCE_DB_PASS, db=SOURCE_DB_NAME, port=SOURCE_DB_PORT)
+mysqlConnectStat = MySQLConnection(host=STAT_DB_HOST, user=STAT_DB_USER, passwd=STAT_DB_PASS, db=STAT_DB_NAME,
+                                   port=STAT_DB_PORT)
+mysqlConnectSource = MySQLConnection(host=SOURCE_DB_HOST, user=SOURCE_DB_USER, passwd=SOURCE_DB_PASS, db=SOURCE_DB_NAME,
+                                     port=SOURCE_DB_PORT)
 mysqlConverterUTF8 = MySQLConverter(charset='utf8')
 
 
@@ -34,7 +34,7 @@ def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datet
 	"""
 	cursor = mysqlConnectStat.cursor()
 	select = 'sum(%s)' % sum_field
-	time_stamp = int(time.mktime(time.strptime(date_time, '%Y-%m-%d'))) - (STAT_CYCLE*86400 if is_train else 0)
+	time_stamp = int(time.mktime(time.strptime(date_time, '%Y-%m-%d'))) - (STAT_CYCLE * 86400 if is_train else 0)
 	if not where:
 		where = '1'
 	where += ' and %s between %s and %s' % (date_field, time_stamp, time_stamp + 86400 - 1)
@@ -51,7 +51,7 @@ def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datet
 				op = ' != ' if reverse else ' = '
 				where += " and %s %s '%s'" % (key, op, mysqlConverterUTF8.escape(value))
 	sql = 'select %s from %s where %s ' % (select, table, where)
-	#print sql
+	# print sql
 	cursor.execute(sql)
 	result = cursor.fetchone()
 	cursor.close()
@@ -65,7 +65,7 @@ def get_group(date_time, field, table, sum_field='Requests', date_field='Datetim
 	"""
 	cursor = mysqlConnectStat.cursor()
 	select = '`%s`,sum(`%s`),count(`%s`)' % (field, sum_field, field)
-	time_stamp = int(time.mktime(time.strptime(date_time, '%Y-%m-%d'))) - (STAT_CYCLE*86400 if is_train else 0)
+	time_stamp = int(time.mktime(time.strptime(date_time, '%Y-%m-%d'))) - (STAT_CYCLE * 86400 if is_train else 0)
 	if not where:
 		where = '1'
 	where += ' and `%s` between %s and %s and %s <> ""' % (date_field, time_stamp, time_stamp + 86400 - 1, field)
@@ -84,7 +84,8 @@ def get_sum_hourly(date_time, table, sum_field='Requests', date_field='Datetime'
 	select = 'FROM_UNIXTIME(`%s`, "%%k"),sum(`%s`)' % (date_field, sum_field)
 	time_stamp = int(time.mktime(time.strptime(date_time, '%Y-%m-%d')))
 	where = '`%s` between %s and %s ' % (date_field, time_stamp, time_stamp + 86400 - 1)
-	sql = 'select %s from `%s` where %s group by `%s` order by `%s` asc' % (select, table, where, date_field, date_field)
+	sql = 'select %s from `%s` where %s group by `%s` order by `%s` asc' % (
+	select, table, where, date_field, date_field)
 	cursor.execute(sql)
 	result = cursor.fetchall()
 	cursor.close()

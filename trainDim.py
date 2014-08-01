@@ -10,7 +10,7 @@ TERM_FILE = 'term_list.txt'
 DIM_FILE = 'dim_list'
 
 if __name__ == '__main__':
-	train_time = '2014-06-01'
+	train_time = '2014-06-10'
 	term_map_all = {}
 
 	m1 = TermManage('RTBApp', train_time)
