@@ -1,10 +1,10 @@
 # coding=utf-8
-from decimal import Decimal
+from decimal import Decimal, getcontext
 import itertools
-from term import Term, TermManage
+from term import Term, TermManage, ACCURACY_F
 
 __author__ = 'GaoJie'
-
+getcontext().prec = ACCURACY_F
 
 class TermTestManage(object):
 	def __init__(self, total=0):
@@ -218,7 +218,8 @@ class TermTestManage(object):
 		ratio_plus_list = []
 		for term in fix_wait_list:
 			ratio_list_tmp = ratio_list[:]
-			cls.fix_base(term, ratio_list_tmp, fix_dim)
+			fix_dim_tmp = fix_dim[:]
+			cls.fix_base(term, ratio_list_tmp, fix_dim_tmp)
 			ratio_plus_list.append(Decimal(reduce(lambda x, y: x * y, ratio_list_tmp)))
 		return [1, Decimal(reduce(lambda x, y: x + y, ratio_plus_list)) / len(ratio_plus_list)]
 

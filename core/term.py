@@ -1,4 +1,5 @@
 # coding=utf-8
+from decimal import getcontext
 from dbget import *
 from relative import Relative
 
@@ -11,20 +12,21 @@ import uuid
 ## 放大流量，10为将流量比例放大10倍，并且10分之一以上的流量都考虑相关性
 REQUEST_UP = 100000
 ## 以support为x轴，流量比例为y轴，对于半径为1的集合过滤
-EFFECT_RADIO = 1
+EFFECT_RADIO = 0
 
 ## 过滤精确度，过滤不足该量的定向条件，对于单维度很多条件的则过滤一定比例的条件（按总请求量升序过滤）并且计算精度也是该值与总量的比率
 ACCURACY_VALUE = 10000
 
 ## 得出计算的精确度
 ACCURACY_F = 9
+getcontext().prec = ACCURACY_F
 
 
 def round_f(d):
 	"""
 	取精度
 	"""
-	return round(d, ACCURACY_F)
+	return d
 
 
 class TermManage(object):
@@ -100,8 +102,8 @@ class TermManage(object):
 					continue
 				sum_value = get_sum(self.date_time, term_map, self.table)
 				term = self.add_term(term_map, sum_value)
-				if not self.need_filter(term):
-					continue
+				#if not self.need_filter(term):
+				#	continue
 				#term.effect()
 				#print term.format()
 				#print term.format2()
@@ -255,7 +257,7 @@ class Term(object):
 		"""
 		自身比例，父交集比例，影响度
 		"""
-		string = u'%s:%s:%f:%f:%f' % (self._sum, self.relative_string if relative else self.string, round_f(self.ratio), round_f(self.ratio3), self.ratio4 if self.ratio4 else 1)
+		string = u'%s:%s:%s:%s:%s' % (self._sum, self.relative_string if relative else self.string, round_f(self.ratio), round_f(self.ratio3), self.ratio4 if self.ratio4 else 1)
 		return string.encode("utf-8") if encode else string
 
 	def get_line(self, relative=True):

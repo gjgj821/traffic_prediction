@@ -1,2301 +1,324 @@
-2:DeviceType=Phone|AppName=钻石之星|:0.005900:0.005500:588.771218
-2:City=黄冈市|CarrierName=UNICOM|:0.000100:0.000200:8.619316
-2:Categorys=街机和动作游戏|AppName=大理石祖玛v1.5|:0.000600:0.000000:57.954313
-2:City=吕梁市|DeviceType=Pad|:0.000200:0.000200:16.195861
-2:City=昌吉回族自治州|DeviceType=Phone|:0.000600:0.000600:64.401469
-2:City=深圳市|DeviceType=Phone|:0.012900:0.012600:1286.392430
-2:DeviceType=Phone|AppName=PopStar! 高清免费版|:0.000300:0.000500:28.691513
-2:City=济宁市|OS=iOS|:0.000800:0.000700:75.277338
-2:City=潮州市|DeviceType=Phone|:0.000600:0.000600:63.676144
-2:City=鄂尔多斯市|DeviceType=Phone|:0.000400:0.000400:40.187637
-2:City=遵义市|OS=iOS|:0.000700:0.000700:72.053830
-2:DeviceType=Phone|CarrierName=True Move|:0.001500:0.001500:147.674672
-2:City=吉林市|DeviceType=Phone|:0.001300:0.001400:130.116228
-2:City=昌吉回族自治州|OS=iOS|:0.000300:0.000400:34.455217
-2:City=衡阳市|OS=iOS|:0.000700:0.000800:71.914369
-2:City=咸阳市|OS=Android|:0.000300:0.000300:33.261909
-2:City=临汾市|DeviceType=Pad|:0.000200:0.000200:21.537298
-2:City=威海市|DeviceType=Phone|:0.000800:0.000900:75.469006
-2:DeviceType=Pad|AppName=TuneIn Radio|:0.000200:0.000200:22.639976
-2:City=北海市|CarrierName=China Mobile|:0.000200:0.000100:18.837406
-2:City=齐齐哈尔市|CarrierName=China Telecom|:0.000100:0.000200:12.232809
-2:City=湖州市|OS=Android|:0.000600:0.000700:57.766241
-2:City=张家口市|OS=iOS|:0.000400:0.000400:42.636448
-2:City=湛江市|CarrierName=Other|:0.000200:0.000200:21.924193
-2:City=乐山市|OS=Android|:0.000300:0.000400:30.680997
-2:Categorys=纸牌游戏|OS=Android|:0.001200:0.000400:117.037197
-2:OS=Android|CarrierName=China Mobile|:0.066300:0.069000:6633.731243
-2:DeviceType=Phone|AppName=捕鱼达人iPhone版|:0.000900:0.000700:92.503431
-2:DeviceType=Pad|AppName=碰碰糖|:0.000900:0.000300:90.764244
-2:City=潮州市|DeviceType=Pad|:0.000100:0.000100:7.500791
-2:City=商丘市|DeviceType=Pad|:0.000200:0.000200:17.423974
-2:City=蚌埠市|DeviceType=Phone|:0.000400:0.000500:44.359398
-2:City=拉萨市|DeviceType=Pad|:0.000100:0.000200:12.619853
-2:City=邢台市|CarrierName=UNICOM|:0.000600:0.000300:57.479185
-2:City=烟台市|OS=Android|:0.002400:0.002200:235.767820
-2:DeviceType=Pad|CarrierName=LG Telecom|:0.000100:0.000500:5.641391
-2:City=韶关市|OS=Android|:0.000400:0.000300:43.367423
-2:City=丽水市|CarrierName=China Telecom|:0.000400:0.000200:41.549997
-2:City=连云港市|DeviceType=Phone|:0.000900:0.000900:85.318857
-2:Categorys=休闲游戏|AppName=Marble Blast 3|:0.000500:0.000000:50.433645
-2:DeviceType=Phone|AppName=Pop Star for Android|:0.053600:0.045200:5357.042475
-2:City=沧州市|OS=Android|:0.000800:0.000800:82.645409
-2:OS=iOS|CarrierName=M1|:0.000300:0.000400:30.934535
-2:City=蚌埠市|CarrierName=Other|:0.000200:0.000200:18.913746
-2:City=达州市|CarrierName=Other|:0.000300:0.000200:34.008517
-2:City=抚顺市|OS=iOS|:0.000500:0.000400:54.672990
-2:City=三亚市|DeviceType=Phone|:0.000500:0.000500:51.386962
-2:City=乌鲁木齐市|DeviceType=Phone|:0.004800:0.004400:476.681507
-2:City=临汾市|OS=Android|:0.000500:0.000400:45.147288
-2:City=锦州市|DeviceType=Pad|:0.000200:0.000200:23.727360
-2:City=荆门市|CarrierName=China Telecom|:0.000200:0.000500:21.766542
-2:City=承德市|OS=iOS|:0.000400:0.000400:44.423020
-2:City=岳阳市|CarrierName=China Mobile|:0.000100:0.000200:7.374606
-2:Categorys=音乐|AppName=钢琴 HD|:0.000500:0.000000:50.233110
-2:City=其他城市|DeviceType=Pad|:0.049700:0.061800:4972.943875
-2:City=湛江市|OS=iOS|:0.000300:0.000300:31.594962
-2:City=淄博市|CarrierName=UNICOM|:0.000600:0.000200:63.528789
-2:OS=Android|AppName=果蔬连连看|:0.000300:0.000400:30.291080
-2:Categorys=音乐与音频|DeviceType=Phone|:0.001000:0.000800:96.330802
-2:City=安阳市|CarrierName=UNICOM|:0.000500:0.000200:48.518397
-2:City=济宁市|CarrierName=China Telecom|:0.000200:0.000300:24.831490
-2:City=南阳市|OS=iOS|:0.000600:0.000600:56.083945
-2:City=濮阳市|DeviceType=Phone|:0.000500:0.000500:50.493854
-2:City=咸阳市|DeviceType=Phone|:0.000600:0.000600:56.311057
-2:Categorys=商业|DeviceType=Phone|:0.000200:0.000100:15.032682
-2:Categorys=摄影与录像|AppName=玩图－全能美化|:0.005200:0.000100:517.471994
-2:City=中山市|DeviceType=Phone|:0.001700:0.001600:171.761232
-2:City=许昌市|CarrierName=China Telecom|:0.000200:0.000200:15.750206
-2:DeviceType=Pad|CarrierName=Reliance|:0.000100:0.000000:11.212644
-2:Categorys=游戏|AppName=蜘蛛纸牌|:0.000200:0.000000:19.496165
-2:City=鄂尔多斯市|CarrierName=UNICOM|:0.000300:0.000100:25.768155
-2:City=晋中市|CarrierName=China Telecom|:0.000200:0.000300:15.390025
-2:OS=iOS|AppName=画中画相机|:0.000200:0.001100:24.682295
-2:City=舟山市|OS=Android|:0.000300:0.000400:25.013250
-2:City=宜昌市|DeviceType=Pad|:0.000300:0.000500:31.755176
-2:City=十堰市|OS=iOS|:0.000300:0.000300:32.671237
-2:City=邯郸市|CarrierName=China Mobile|:0.000600:0.000400:55.993524
-2:DeviceType=Phone|CarrierName=MobiFone|:0.000200:0.000200:19.687117
-2:City=宿迁市|OS=iOS|:0.000800:0.000700:75.435427
-2:DeviceType=Pad|AppName=OPlayerHD Lite - 免费的万能播放器。快速，网络流播放，Samba播放，FTP播放，下载管理，MKV硬件解码高清电影，无需转换，多媒体多格式播放，多音轨切换，外置内嵌字幕支持。|:0.001900:0.000400:188.985134
-2:City=大理白族自治州|CarrierName=China Telecom|:0.000200:0.000600:18.155062
-2:City=宿迁市|OS=Android|:0.000500:0.000600:50.193417
-2:City=长春市|DeviceType=Phone|:0.004700:0.004900:474.441532
-2:City=天津市|OS=Android|:0.004200:0.006600:420.805116
-2:City=宁德市|DeviceType=Pad|:0.000300:0.000300:32.224429
-2:Categorys=图书|AppName=最畅销书籍TOP100|:0.000800:0.000000:78.888494
-2:City=咸阳市|OS=iOS|:0.000400:0.000400:43.192618
-2:City=九江市|OS=Android|:0.000700:0.000700:74.416104
-2:City=安庆市|OS=Android|:0.000500:0.000400:51.899844
-2:City=菏泽市|DeviceType=Phone|:0.000600:0.000600:62.972497
-2:City=信阳市|DeviceType=Pad|:0.000200:0.000300:19.397690
-2:Categorys=图书|AppName=一生必读的60部名著|:0.000600:0.000000:57.576167
-2:City=泉州市|CarrierName=China Telecom|:0.003900:0.002100:391.680294
-2:City=宝鸡市|DeviceType=Phone|:0.000500:0.000600:54.548467
-2:City=舟山市|DeviceType=Phone|:0.000600:0.000700:57.246513
-2:OS=iOS|CarrierName=China Mobile|:0.085800:0.083100:8575.855947
-2:City=盘锦市|OS=Android|:0.000200:0.000300:16.751133
-2:City=秦皇岛市|CarrierName=China Mobile|:0.000100:0.000200:5.349721
-2:City=南充市|CarrierName=China Mobile|:0.000200:0.000200:20.463732
-2:City=营口市|CarrierName=Other|:0.000200:0.000200:20.014088
-2:City=张家口市|CarrierName=China Telecom|:0.000200:0.000200:17.504395
-2:City=新乡市|OS=Android|:0.000800:0.000700:75.023302
-2:OS=iOS|CarrierName=Telkomsel|:0.000400:0.001900:41.473173
-2:City=聊城市|CarrierName=China Telecom|:0.000200:0.000200:17.943048
-2:City=宣城市|DeviceType=Phone|:0.000600:0.000600:59.280705
-2:OS=iOS|CarrierName=Celcom|:0.000300:0.001100:30.240460
-2:City=焦作市|CarrierName=China Telecom|:0.000200:0.000300:17.324506
-2:City=吕梁市|OS=iOS|:0.000400:0.000400:39.463485
-2:City=营口市|CarrierName=China Telecom|:0.000100:0.000200:9.730141
-2:DeviceType=Phone|AppName=漫画大全(专业版)|:0.000500:0.000900:54.310113
-2:City=日照市|OS=Android|:0.000300:0.000300:28.123946
-2:City=汕头市|CarrierName=UNICOM|:0.000300:0.000400:25.990068
-2:City=温州市|CarrierName=China Mobile|:0.000500:0.001000:52.587874
-2:City=宝鸡市|CarrierName=China Mobile|:0.000200:0.000100:16.323630
-2:City=长治市|OS=iOS|:0.000400:0.000400:42.139730
-2:Categorys=图书与工具书|DeviceType=Phone|:0.002500:0.002000:252.796578
-2:City=宁波市|OS=Android|:0.002200:0.003500:223.914993
-2:City=乌鲁木齐市|CarrierName=UNICOM|:0.001200:0.001000:116.287967
-2:City=邯郸市|OS=Android|:0.001500:0.001300:153.584886
-2:OS=iOS|AppName=开心果蔬连连看|:0.000800:0.000600:84.185534
-2:City=三明市|DeviceType=Pad|:0.000200:0.000100:16.529257
-2:City=北海市|OS=iOS|:0.000300:0.000300:25.651242
-2:DeviceType=Phone|AppName=智财迅手机版|:0.000500:0.000400:49.911212
-2:City=北京市|DeviceType=Pad|:0.015500:0.010800:1553.982026
-2:City=杭州市|OS=Android|:0.004800:0.007900:477.895659
-2:DeviceType=Phone|CarrierName=StarHub|:0.000700:0.000600:70.827501
-2:Categorys=健康健美|DeviceType=Phone|:0.000400:0.000300:40.777313
-2:City=江门市|DeviceType=Pad|:0.000200:0.000200:22.094579
-2:DeviceType=Pad|AppName=最畅销书籍TOP100|:0.000800:0.000200:78.886621
-2:Categorys=工具|AppName=闹钟 (Alarm Clock) Xtreme 免费版|:0.002100:0.000100:208.007673
-2:City=鞍山市|CarrierName=UNICOM|:0.000800:0.000400:76.847886
-2:City=阜阳市|CarrierName=Other|:0.000200:0.000200:23.633481
-2:Categorys=社交|AppName=Echofon for Twitter|:0.000600:0.000000:56.815769
-2:City=银川市|OS=iOS|:0.000900:0.001000:89.363370
-2:City=湖州市|DeviceType=Pad|:0.000400:0.000300:37.216005
-2:City=珠海市|OS=Android|:0.000400:0.000500:35.389798
-2:DeviceType=Phone|CarrierName=China Mobile|:0.137100:0.120200:13712.208402
-2:DeviceType=Pad|AppName=Dragon Gem|:0.000100:0.000100:14.359616
-2:DeviceType=Phone|AppName=Camfrog Video Chat|:0.002500:0.002200:251.088646
-2:City=连云港市|CarrierName=China Telecom|:0.000600:0.000300:64.199089
-2:OS=iOS|CarrierName=Vinaphone|:0.000400:0.000700:41.055219
-2:Categorys=游戏|AppName=PopStars 2|:0.003300:0.000200:325.426224
-2:OS=Android|AppName=捕鱼达人|:0.000800:0.000300:81.554894
-2:City=中山市|CarrierName=Other|:0.000200:0.000600:24.093362
-2:City=成都市|CarrierName=Other|:0.005200:0.006400:522.637513
-2:City=运城市|CarrierName=China Mobile|:0.000200:0.000200:23.388085
-2:City=金华市|DeviceType=Pad|:0.000800:0.000700:82.228258
-2:Categorys=摄影与录像|DeviceType=Phone|:0.011300:0.010400:1133.110661
-2:City=芜湖市|DeviceType=Pad|:0.000400:0.000300:35.922760
-2:OS=Android|CarrierName=Vinaphone|:0.000800:0.000500:79.214156
-2:DeviceType=Phone|CarrierName=KDDI/au|:0.019500:0.015800:1952.567407
-2:City=常州市|DeviceType=Phone|:0.002300:0.002700:234.390724
-2:Categorys=参考|DeviceType=Phone|:0.011600:0.009600:1161.027616
-2:Categorys=摄影与录像|DeviceType=Pad|:0.001600:0.002500:162.406981
-2:City=聊城市|DeviceType=Phone|:0.000600:0.000600:64.181661
-2:City=东莞市|DeviceType=Pad|:0.000800:0.001200:79.130010
-2:City=上海市|DeviceType=Pad|:0.018000:0.010400:1797.517336
-2:Categorys=休闲游戏|DeviceType=Pad|:0.002700:0.006600:270.506301
-2:City=海口市|CarrierName=China Telecom|:0.001000:0.000800:104.222468
-2:City=天津市|CarrierName=China Telecom|:0.002000:0.003600:199.394689
-2:City=伊春市|OS=Android|:0.000900:0.000600:89.368093
-2:City=齐齐哈尔市|DeviceType=Pad|:0.000200:0.000200:24.627615
-2:City=商丘市|OS=iOS|:0.000400:0.000500:43.477076
-2:City=盘锦市|DeviceType=Pad|:0.000200:0.000100:19.558995
-2:City=咸宁市|CarrierName=China Telecom|:0.000200:0.000100:22.963512
-2:DeviceType=Phone|AppName=Skater Boy|:0.000900:0.000700:92.146610
-2:Categorys=音乐|DeviceType=Pad|:0.001800:0.001900:178.433585
-2:OS=iOS|CarrierName=Reliance|:0.000200:0.000100:16.953455
-2:City=莆田市|DeviceType=Phone|:0.002100:0.001900:208.903430
-2:City=株洲市|OS=iOS|:0.000600:0.000500:55.751554
-2:City=蚌埠市|OS=Android|:0.000200:0.000300:24.810598
-2:OS=iOS|CarrierName=SingTel|:0.000500:0.000700:51.377281
-2:Categorys=图书|AppName=触摸玄幻热-含绝世唐门、莽荒纪、大主宰、斗罗大陆＋唐家三少作品全集|:0.001400:0.000000:140.154523
-2:City=滁州市|CarrierName=China Telecom|:0.000300:0.000200:30.796673
-2:City=宝鸡市|CarrierName=China Telecom|:0.000300:0.000200:32.779957
-2:OS=iOS|AppName=捕鱼达人iPhone版|:0.000900:0.000600:92.503863
-2:City=滨州市|DeviceType=Phone|:0.000400:0.000400:41.389659
-2:Categorys=摄影|AppName=PicsArt - Photo Studio|:0.005600:0.000200:564.257546
-2:DeviceType=Phone|AppName=Dragon Gem|:0.000600:0.000600:57.534631
-2:City=齐齐哈尔市|OS=iOS|:0.000600:0.000600:59.569638
-2:DeviceType=Phone|CarrierName=3|:0.002600:0.002700:263.186866
-2:DeviceType=Phone|AppName=有声小说大全(海量+更新)|:0.000700:0.000800:68.756335
-2:DeviceType=Phone|CarrierName=Vietel|:0.001400:0.001100:136.478746
-2:City=阜阳市|OS=iOS|:0.000400:0.000400:37.114510
-2:Categorys=休闲游戏|AppName=果蔬连连看|:0.000300:0.000000:30.302272
-2:City=徐州市|CarrierName=UNICOM|:0.000300:0.000600:31.540282
-2:DeviceType=Phone|AppName=古印加-失落宝藏HD|:0.000200:0.000800:20.850829
-2:DeviceType=Phone|CarrierName=KT|:0.004100:0.003300:406.443127
-2:DeviceType=Pad|AppName=PopStars 2|:0.000800:0.000600:82.529190
-2:City=日照市|CarrierName=China Telecom|:0.000100:0.000100:12.214732
-2:City=六安市|CarrierName=Other|:0.000300:0.000200:25.115796
-2:City=深圳市|CarrierName=Other|:0.003500:0.004900:351.364974
-2:City=景德镇市|OS=iOS|:0.000300:0.000300:31.691422
-2:City=邯郸市|CarrierName=UNICOM|:0.001200:0.000500:121.610649
-2:City=通辽市|CarrierName=UNICOM|:0.000200:0.000100:19.707650
-2:City=太原市|DeviceType=Pad|:0.001200:0.001300:116.748060
-2:City=大庆市|CarrierName=China Telecom|:0.000100:0.000300:13.645262
-2:City=茂名市|CarrierName=UNICOM|:0.000000:0.000200:3.987084
-2:DeviceType=Pad|AppName=电视连续剧|:0.000900:0.000300:90.054495
-2:City=包头市|CarrierName=UNICOM|:0.000600:0.000300:62.527917
-2:City=南京市|CarrierName=China Mobile|:0.003400:0.002400:339.693317
-2:City=郴州市|CarrierName=UNICOM|:0.000100:0.000200:8.415212
-2:City=其他城市|CarrierName=DiGi|:0.001500:0.000400:149.915540
-2:City=海口市|CarrierName=Other|:0.000500:0.001000:54.047123
-2:City=四平市|CarrierName=UNICOM|:0.000300:0.000100:32.627732
-2:City=聊城市|CarrierName=UNICOM|:0.000400:0.000100:38.092466
-2:City=厦门市|CarrierName=UNICOM|:0.001300:0.001200:129.395174
-2:City=上海市|CarrierName=China Telecom|:0.026100:0.012200:2610.098867
-2:OS=iOS|AppName=Luv TV - 網路電視劇|:0.000700:0.000400:67.729953
-2:City=平顶山市|OS=Android|:0.000400:0.000400:41.067487
-2:OS=Android|CarrierName=Celcom|:0.001700:0.000900:172.364016
-2:City=齐齐哈尔市|CarrierName=Other|:0.000300:0.000300:27.221622
-2:OS=iOS|AppName=手机铃声 (免费版)|:0.004400:0.002900:435.535433
-2:City=郴州市|CarrierName=China Mobile|:0.000100:0.000100:11.208921
-2:City=兰州市|CarrierName=UNICOM|:0.000500:0.000800:47.148194
-2:Categorys=效率|AppName=视频下载及管理工具 iBolt|:0.001400:0.000000:139.767381
-2:City=怀化市|OS=iOS|:0.000300:0.000300:30.553136
-2:DeviceType=Phone|AppName=照片工坊-Fotolr|:0.001600:0.001500:156.810340
-2:City=黄山市|CarrierName=China Telecom|:0.000200:0.000200:18.249265
-2:City=遵义市|OS=Android|:0.000500:0.000600:54.885138
-2:DeviceType=Phone|AppName=hao网址大全|:0.008100:0.006600:814.588350
-2:DeviceType=Phone|AppName=玩图－全能美化|:0.004500:0.004200:453.233028
-2:City=晋城市|OS=Android|:0.000300:0.000300:27.383998
-2:OS=iOS|AppName=电视连续剧|:0.001300:0.000900:132.571155
-2:Categorys=游戏|AppName=消灭星星 PopStar! - 免费完整版|:0.004600:0.000300:464.012486
-2:City=连云港市|OS=Android|:0.000400:0.000500:43.739684
-2:Categorys=教育|DeviceType=Pad|:0.002200:0.001000:215.816706
-2:City=长沙市|CarrierName=UNICOM|:0.004300:0.002700:427.044568
-2:DeviceType=Phone|AppName=Marble Blast 2|:0.001200:0.001000:122.033410
-2:City=哈尔滨市|DeviceType=Phone|:0.006400:0.006200:635.180241
-2:City=漳州市|OS=Android|:0.000700:0.000700:70.529630
-2:OS=iOS|AppName=iOS7壁纸+|:0.010300:0.006800:1031.168611
-2:City=益阳市|CarrierName=Other|:0.000400:0.001600:39.936256
-2:City=上饶市|CarrierName=Other|:0.000800:0.000600:79.141382
-2:City=兰州市|OS=Android|:0.002400:0.002100:235.552369
-2:OS=Android|CarrierName=Reliance|:0.000000:0.000100:3.422688
-2:City=哈尔滨市|OS=iOS|:0.004800:0.004300:482.879291
-2:City=沧州市|DeviceType=Phone|:0.001500:0.001500:154.440577
-2:City=烟台市|DeviceType=Pad|:0.000800:0.001000:79.326646
-2:City=新余市|DeviceType=Phone|:0.001300:0.001200:127.781750
-2:City=廊坊市|CarrierName=China Mobile|:0.000800:0.000500:78.461725
-2:Categorys=街机和动作游戏|DeviceType=Pad|:0.000200:0.000900:15.895757
-2:OS=iOS|AppName=灵占天下－算命 八字 星座 占卜 运势 生肖|:0.001900:0.001200:185.547002
-2:City=合肥市|CarrierName=China Mobile|:0.004100:0.001400:414.526933
-2:City=三亚市|CarrierName=China Telecom|:0.000400:0.000200:37.685974
-2:City=湛江市|DeviceType=Phone|:0.000500:0.000500:49.211510
-2:City=十堰市|DeviceType=Pad|:0.000200:0.000100:15.761031
-2:DeviceType=Phone|AppName=Luv TV - 網路電視劇|:0.000700:0.000500:67.729363
-2:City=邢台市|CarrierName=China Mobile|:0.000200:0.000200:20.545966
-2:DeviceType=Pad|CarrierName=XL|:0.000300:0.000400:31.013501
-2:City=延边朝鲜族自治州|DeviceType=Phone|:0.001600:0.001500:158.984557
-2:DeviceType=Phone|AppName=新华字典有声版和汉语成语词典-历代诗词(8合1)|:0.000900:0.000800:91.400024
-2:DeviceType=Pad|AppName=松鼠泡泡龙|:0.000200:0.000200:15.741590
-2:City=嘉兴市|CarrierName=Other|:0.000700:0.000900:69.088958
-2:City=德州市|CarrierName=China Telecom|:0.000100:0.000100:10.215939
-2:City=宜昌市|CarrierName=China Telecom|:0.000500:0.000600:50.907064
-2:DeviceType=Phone|AppName=完美钢琴|:0.000800:0.000700:76.167166
-2:Categorys=商务|OS=Android|:0.000600:0.000200:62.306357
-2:Categorys=教育|AppName=新华字典有声版和汉语成语词典-历代诗词(8合1)|:0.001000:0.000000:95.588315
-2:City=泉州市|OS=iOS|:0.005000:0.004600:497.079059
-2:City=烟台市|DeviceType=Phone|:0.004000:0.003800:401.921986
-2:Categorys=益智和解谜游戏|AppName=飞行棋大战 (Battle Ludo)|:0.000600:0.000000:63.708334
-2:City=宜宾市|CarrierName=UNICOM|:0.000100:0.000200:5.725214
-2:City=娄底市|DeviceType=Phone|:0.000400:0.000400:44.395930
-2:Categorys=休闲游戏|AppName=完美钢琴|:0.000800:0.000000:82.016244
-2:Categorys=音乐|AppName=铃声大全 for iOS7|:0.005200:0.000000:515.965632
-2:OS=Android|AppName=Sudoku Fun|:0.000900:0.000300:90.693854
-2:Categorys=图书|AppName=坏蛋是怎样炼成的全集|:0.000600:0.000000:60.526103
-2:City=淮安市|OS=iOS|:0.000700:0.000700:71.367343
-2:DeviceType=Phone|AppName=国标麻将13张|:0.000200:0.000700:24.274082
-2:DeviceType=Pad|AppName=玩图-全能美化|:0.000500:0.002000:47.695537
-2:DeviceType=Phone|AppName=BMX Boy|:0.000800:0.000700:81.004157
-2:City=大同市|CarrierName=China Mobile|:0.000100:0.000100:5.493170
-2:City=延边朝鲜族自治州|DeviceType=Pad|:0.000300:0.000400:27.672154
-2:City=太原市|OS=iOS|:0.003700:0.003300:367.903973
-2:OS=Android|AppName=Hair Salon - Kids Games|:0.000600:0.000200:58.091911
-2:City=咸宁市|CarrierName=Other|:0.000200:0.000200:23.425648
-2:Categorys=摄影与录像|AppName=画中画相机|:0.000200:0.000000:24.687224
-2:City=淄博市|CarrierName=China Mobile|:0.000000:0.000200:3.277310
-2:DeviceType=Phone|AppName=消除星星|:0.006100:0.008300:608.830502
-2:City=长春市|DeviceType=Pad|:0.001400:0.001300:142.955926
-2:City=抚州市|OS=Android|:0.000400:0.000300:38.525315
-2:City=潮州市|OS=Android|:0.000300:0.000300:34.166453
-2:City=厦门市|DeviceType=Pad|:0.001100:0.001300:114.662386
-2:DeviceType=Phone|CarrierName=Vinaphone|:0.001100:0.001000:105.083518
-2:City=宜宾市|OS=Android|:0.000400:0.000400:43.124196
-2:Categorys=图书与工具书|AppName=Kamus Inggris (Kamusku)|:0.000800:0.000000:83.061281
-2:OS=Android|CarrierName=Smart|:0.000200:0.000100:15.219317
-2:DeviceType=Pad|AppName=MX Player|:0.000300:0.000200:33.317373
-2:City=邢台市|DeviceType=Pad|:0.000300:0.000300:27.461821
-2:City=景德镇市|DeviceType=Phone|:0.000400:0.000400:38.295486
-2:City=襄樊市|CarrierName=China Telecom|:0.000500:0.000300:45.013272
-2:City=邯郸市|CarrierName=China Telecom|:0.000500:0.000700:46.881382
-2:City=滨州市|CarrierName=Other|:0.000200:0.000200:15.265268
-2:City=北海市|CarrierName=Other|:0.000100:0.000200:10.273597
-2:City=中山市|CarrierName=UNICOM|:0.000200:0.000400:20.238275
-2:City=淄博市|CarrierName=Other|:0.000300:0.000300:30.054315
-2:OS=iOS|AppName=手电筒。|:0.011000:0.007200:1096.261775
-2:DeviceType=Phone|AppName=应用锁AppLock|:0.001900:0.001600:189.910554
-2:Categorys=工具|AppName=Download Manager for Android|:0.000600:0.000000:57.742910
-2:DeviceType=Phone|AppName=坏蛋是怎样炼成的全集|:0.000600:0.000500:60.518631
-2:City=南京市|DeviceType=Phone|:0.012400:0.012400:1240.885663
-2:City=大庆市|CarrierName=UNICOM|:0.000400:0.000200:39.494725
-2:Categorys=游戏|AppName=开心果蔬连连看|:0.000800:0.000100:84.190080
-2:City=德阳市|CarrierName=China Telecom|:0.000500:0.000300:46.901917
-2:City=深圳市|DeviceType=Pad|:0.003100:0.003400:312.014721
-2:DeviceType=Pad|AppName=手机音乐电台|:0.000100:0.000100:6.773064
-2:City=孝感市|OS=iOS|:0.000400:0.000500:41.879501
-2:Categorys=教育|OS=Android|:0.000400:0.001800:37.858632
-2:DeviceType=Phone|AppName=手電筒|:0.001200:0.000900:116.571510
-2:City=商丘市|OS=Android|:0.000500:0.000400:46.584991
-2:City=南阳市|DeviceType=Pad|:0.000300:0.000200:25.195413
-2:Categorys=图书|AppName=Manga Rock ~ 最佳漫画阅读器|:0.000600:0.000000:63.857627
-2:City=龙岩市|OS=Android|:0.000300:0.000300:27.838604
-2:City=东营市|DeviceType=Phone|:0.000500:0.000600:49.997861
-2:City=咸阳市|CarrierName=China Telecom|:0.000400:0.000200:43.910046
-2:OS=iOS|AppName=[更新]郭德纲2013相声- 最新最全|:0.000800:0.000500:79.999459
-2:City=佛山市|DeviceType=Phone|:0.005100:0.004600:513.805920
-2:Categorys=娱乐|AppName=K歌达人-最专业的手机KTV|:0.000600:0.000100:64.681111
-2:City=淮安市|CarrierName=China Mobile|:0.000300:0.000200:27.778922
-2:DeviceType=Phone|AppName=Tagged - Meet New People|:0.001000:0.001000:102.293223
-2:City=漳州市|CarrierName=China Mobile|:0.000100:0.000200:10.211057
-2:Categorys=图书|DeviceType=Pad|:0.007300:0.005700:728.114436
-2:City=大理白族自治州|CarrierName=UNICOM|:0.000100:0.000400:7.069227
-2:DeviceType=Phone|AppName=Smart Lock Free (App/Photo)|:0.000500:0.000400:48.563492
-2:City=抚顺市|OS=Android|:0.000200:0.000300:21.165326
-2:City=韶关市|CarrierName=China Mobile|:0.000000:0.000100:4.672667
-2:City=通辽市|DeviceType=Phone|:0.000600:0.000600:59.368637
-2:City=烟台市|CarrierName=China Telecom|:0.000300:0.001200:27.936389
-2:City=南昌市|DeviceType=Pad|:0.001200:0.001700:121.349248
-2:DeviceType=Phone|CarrierName=dtac|:0.000100:0.000200:13.527823
-2:City=其他城市|CarrierName=SoftBank|:0.014600:0.004300:1463.348990
-2:City=潍坊市|CarrierName=China Mobile|:0.000500:0.000300:46.346746
-2:City=徐州市|CarrierName=China Mobile|:0.000500:0.000500:48.202813
-2:DeviceType=Phone|CarrierName=SoftBank|:0.014100:0.011600:1408.575762
-2:Categorys=图书|AppName=一生必读的历史书|:0.000500:0.000000:52.354705
-2:City=赤峰市|CarrierName=Other|:0.000200:0.000200:16.464121
-2:City=沈阳市|CarrierName=China Telecom|:0.001400:0.002600:141.718779
-2:Categorys=摄影与录像|AppName=拼立得 - 杂志拼图|:0.003800:0.000100:379.383946
-2:City=晋中市|DeviceType=Phone|:0.001100:0.001100:111.580308
-2:City=忻州市|CarrierName=UNICOM|:0.000300:0.000100:25.417004
-2:City=开封市|DeviceType=Phone|:0.000600:0.000600:58.979121
-2:City=齐齐哈尔市|DeviceType=Phone|:0.000800:0.000800:76.439001
-2:Categorys=社交|AppName=Plume for Twitter|:0.000600:0.000000:58.682977
-2:City=温州市|CarrierName=Other|:0.001900:0.002000:188.938565
-2:DeviceType=Pad|AppName=Star Gems|:0.000500:0.000100:47.507529
-2:City=赤峰市|OS=Android|:0.000200:0.000300:21.322004
-2:City=厦门市|OS=Android|:0.002400:0.002900:237.765708
-2:Categorys=生活时尚|OS=Android|:0.001500:0.000500:152.391246
-2:DeviceType=Phone|AppName=Kamus Inggris (Kamusku)|:0.000800:0.000700:83.055522
-2:City=常德市|CarrierName=China Telecom|:0.000400:0.000200:37.313658
-2:City=泰州市|CarrierName=UNICOM|:0.000100:0.000500:8.314238
-2:City=桂林市|DeviceType=Pad|:0.000300:0.000300:31.315159
-2:City=漳州市|CarrierName=China Telecom|:0.000700:0.000400:74.955997
-2:City=四平市|OS=Android|:0.000300:0.000300:27.271330
-2:City=呼和浩特市|OS=Android|:0.001800:0.001900:176.799636
-2:City=无锡市|OS=Android|:0.001900:0.003200:193.605891
-2:Categorys=娱乐|DeviceType=Pad|:0.029800:0.020100:2978.969031
-2:City=临汾市|CarrierName=Other|:0.000300:0.000300:28.026310
-2:City=晋中市|CarrierName=UNICOM|:0.000400:0.000200:43.907962
-2:City=邯郸市|DeviceType=Pad|:0.000600:0.000600:61.129138
-2:DeviceType=Pad|OS=Android|:0.014900:0.067200:1487.517900
-2:DeviceType=Phone|AppName=[更新]郭德纲2013相声- 最新最全|:0.000800:0.000600:79.998959
-2:City=南京市|CarrierName=China Telecom|:0.007900:0.003900:787.631023
-2:DeviceType=Phone|CarrierName=M1|:0.000600:0.000500:58.464212
-2:Categorys=游戏|AppName=黄金矿工(免费)|:0.000800:0.000000:78.653747
-2:OS=iOS|AppName=电视直播 HD|:0.002700:0.001700:265.358401
-2:City=南充市|DeviceType=Pad|:0.000200:0.000300:23.080703
-2:City=娄底市|OS=Android|:0.000300:0.000300:28.060216
-2:City=天津市|CarrierName=Other|:0.002700:0.004400:267.208734
-2:OS=Android|AppName=疯狂桌球 Pool Mania|:0.000700:0.000200:71.177893
-2:City=九江市|CarrierName=China Mobile|:0.000200:0.000200:22.045009
-2:City=南宁市|DeviceType=Phone|:0.004600:0.004400:462.250008
-2:OS=Android|AppName=3D摩托|:0.002600:0.000900:255.691942
-2:Categorys=健康与健身|DeviceType=Phone|:0.001400:0.001100:139.894041
-2:City=鄂尔多斯市|OS=Android|:0.000200:0.000200:17.649056
-2:City=重庆市|DeviceType=Pad|:0.003200:0.002900:315.868610
-2:City=佛山市|CarrierName=Other|:0.000600:0.001800:64.308319
-2:City=常德市|OS=Android|:0.000400:0.000400:41.822353
-2:City=荆门市|OS=iOS|:0.001200:0.001100:119.429618
-2:Categorys=游戏|AppName=忘忧围棋|:0.001400:0.000100:140.337245
-2:City=漳州市|DeviceType=Phone|:0.001200:0.001100:117.260776
-2:City=绵阳市|OS=iOS|:0.001300:0.001500:126.493383
-2:City=龙岩市|DeviceType=Phone|:0.000500:0.000500:50.914355
-2:City=扬州市|DeviceType=Phone|:0.002000:0.002100:196.913881
-2:City=银川市|OS=Android|:0.001000:0.000800:97.511974
-2:City=常州市|OS=iOS|:0.002600:0.001800:258.797540
-2:City=广州市|OS=iOS|:0.011200:0.010800:1117.703046
-2:City=舟山市|OS=iOS|:0.000600:0.000500:61.394832
-2:City=枣庄市|CarrierName=China Telecom|:0.000100:0.000200:9.118888
-2:OS=iOS|AppName=漫画大全(专业版)|:0.001200:0.000800:117.166396
-2:City=镇江市|CarrierName=China Mobile|:0.000100:0.000200:6.233218
-2:City=景德镇市|CarrierName=Other|:0.000200:0.000200:19.883993
-2:City=北海市|DeviceType=Pad|:0.000100:0.000100:10.375151
-2:City=黄石市|CarrierName=UNICOM|:0.000100:0.000200:12.233524
-2:City=盐城市|DeviceType=Pad|:0.000500:0.000400:48.494227
-2:OS=iOS|AppName=新华字典有声版和汉语成语词典-历代诗词(8合1)|:0.001000:0.000600:95.583758
-2:City=张家口市|CarrierName=Other|:0.000200:0.000200:17.936976
-2:City=漳州市|OS=iOS|:0.000700:0.000800:73.854260
-2:City=丹东市|CarrierName=China Mobile|:0.000000:0.000100:3.333363
-2:City=合肥市|OS=Android|:0.004500:0.004100:454.090742
-2:OS=iOS|AppName=Flappy Bird|:0.001800:0.001200:183.773850
-2:City=泸州市|CarrierName=UNICOM|:0.000000:0.000100:4.624687
-2:City=上饶市|DeviceType=Pad|:0.000300:0.000400:33.119474
-2:City=四平市|CarrierName=Other|:0.000200:0.000200:16.290679
-2:City=廊坊市|OS=Android|:0.001300:0.001500:131.916186
-2:City=枣庄市|CarrierName=Other|:0.000200:0.000200:18.533622
-2:City=上海市|DeviceType=Phone|:0.031800:0.039300:3176.942686
-2:City=赤峰市|CarrierName=China Telecom|:0.000100:0.000200:13.168657
-2:City=宁波市|DeviceType=Phone|:0.006000:0.006000:597.773295
-2:City=临沂市|DeviceType=Pad|:0.000300:0.000400:32.416855
-2:City=抚顺市|CarrierName=China Telecom|:0.000100:0.000200:13.772341
-2:City=郴州市|CarrierName=China Telecom|:0.000300:0.000200:32.405078
-2:City=大庆市|DeviceType=Phone|:0.000900:0.001000:88.468017
-2:City=宣城市|CarrierName=China Mobile|:0.000100:0.000100:13.140247
-2:City=黄石市|OS=Android|:0.000400:0.000400:41.707013
-2:Categorys=工具|AppName=PocketInvEditor|:0.000900:0.000100:89.394467
-2:City=淮安市|CarrierName=UNICOM|:0.000100:0.000200:11.345918
-2:DeviceType=Pad|AppName=宠物连连看2.5版|:0.000700:0.000100:69.994691
-2:City=赣州市|CarrierName=UNICOM|:0.000100:0.000400:8.354352
-2:DeviceType=Pad|CarrierName=3|:0.000800:0.000700:75.064181
-2:City=西安市|CarrierName=China Mobile|:0.002800:0.001800:283.890040
-2:DeviceType=Pad|AppName=中国好声音(1-2) [开心听歌特别版]|:0.000700:0.000100:70.942105
-2:DeviceType=Pad|CarrierName=China Mobile|:0.015000:0.031900:1497.378882
-2:DeviceType=Phone|AppName=PicsArt - Photo Studio|:0.005100:0.004500:510.762423
-2:City=抚顺市|DeviceType=Phone|:0.000500:0.000600:49.408733
-2:City=广州市|CarrierName=Other|:0.004800:0.006000:475.225160
-2:City=沧州市|CarrierName=China Mobile|:0.000400:0.000300:40.747944
-2:City=安庆市|DeviceType=Pad|:0.000200:0.000200:18.983342
-2:City=宁波市|OS=iOS|:0.005400:0.004200:537.883100
-2:Categorys=休闲游戏|AppName=Garden Mania|:0.002200:0.000100:216.862025
-2:DeviceType=Phone|AppName=铃声大全 for iOS7|:0.005100:0.004100:507.704919
-2:OS=iOS|CarrierName=Smart|:0.000100:0.000100:11.948439
-2:City=承德市|CarrierName=China Mobile|:0.000100:0.000100:9.687444
-2:City=淄博市|CarrierName=China Telecom|:0.000100:0.000300:14.036128
-2:City=韶关市|CarrierName=China Telecom|:0.000200:0.000200:16.625736
-2:City=宜昌市|CarrierName=China Mobile|:0.001300:0.000300:133.555716
-2:City=安阳市|DeviceType=Pad|:0.000200:0.000200:20.133587
-2:City=中山市|OS=iOS|:0.001100:0.001100:107.370451
-2:OS=iOS|AppName=钢琴 HD|:0.000500:0.000300:50.224523
-2:Categorys=游戏|OS=iOS|:0.060000:0.039400:5998.989759
-2:City=保定市|DeviceType=Phone|:0.003000:0.002900:299.698181
-2:City=常州市|OS=Android|:0.000800:0.001500:77.385735
-2:DeviceType=Pad|CarrierName=True Move|:0.000400:0.000400:41.444555
-2:City=九江市|DeviceType=Phone|:0.001100:0.001100:107.631912
-2:City=青岛市|CarrierName=Other|:0.001400:0.002300:138.289999
-2:Categorys=导航|DeviceType=Phone|:0.000300:0.000300:32.050299
-2:City=温州市|DeviceType=Pad|:0.001400:0.001400:135.644997
-2:City=哈尔滨市|CarrierName=Other|:0.001400:0.002400:136.282651
-2:City=衢州市|CarrierName=China Telecom|:0.000300:0.000200:29.077706
-2:City=临汾市|CarrierName=China Telecom|:0.000100:0.000200:13.094923
-2:DeviceType=Phone|AppName=主驾驶|:0.000500:0.000400:54.249265
-2:Categorys=音乐与音频|AppName=TuneIn Radio|:0.000100:0.000000:9.524376
-2:OS=iOS|AppName=Onet|:0.001700:0.001100:165.966114
-2:City=宝鸡市|OS=Android|:0.000400:0.000300:35.593204
-2:Categorys=图书与工具书|AppName=SOFTnet Waktu Solat|:0.000500:0.000000:53.560276
-2:OS=Android|AppName=怪物闹钟( AlarmMon , alarm clock)|:0.000700:0.000200:68.418239
-2:Categorys=休闲游戏|AppName=Star Gems|:0.000100:0.000000:6.015011
-2:Categorys=娱乐|AppName=第一视角 for LOL(英雄联盟)|:0.001000:0.000100:98.320806
-2:City=周口市|DeviceType=Pad|:0.000200:0.000200:15.138135
-2:Categorys=娱乐|AppName=懒人听书|:0.080600:0.008300:8060.718070
-2:City=贵阳市|CarrierName=China Mobile|:0.000000:0.001200:3.269559
-2:Categorys=参考|DeviceType=Pad|:0.000300:0.002300:32.588432
-2:OS=iOS|CarrierName=KDDI/au|:0.012000:0.010900:1204.168548
-2:City=宜昌市|CarrierName=UNICOM|:0.000100:0.000400:13.670665
-2:City=湘西土家族苗族自治州|DeviceType=Pad|:0.000100:0.000100:6.146813
-2:OS=Android|AppName=LED 手电筒专业版 – Flashlight|:0.001100:0.000400:107.315502
-2:City=丽水市|DeviceType=Pad|:0.000200:0.000200:19.046917
-2:Categorys=游戏|DeviceType=Phone|:0.031600:0.048200:3156.248774
-2:DeviceType=Pad|AppName=黄金矿工(免费)|:0.000500:0.000200:47.567000
-2:City=台州市|DeviceType=Phone|:0.003000:0.003000:299.611538
-2:City=衡水市|CarrierName=China Mobile|:0.000000:0.000100:3.551810
-2:City=运城市|CarrierName=UNICOM|:0.000500:0.000200:47.084449
-2:City=许昌市|CarrierName=UNICOM|:0.000300:0.000200:34.745241
-2:OS=iOS|AppName=一生必读的历史书|:0.000500:0.000300:52.346830
-2:OS=iOS|AppName=限时免费大全|:0.000900:0.000600:86.567983
-2:City=南昌市|DeviceType=Phone|:0.006800:0.006400:683.243566
-2:City=揭阳市|OS=Android|:0.000400:0.000400:42.888218
-2:DeviceType=Pad|AppName=国标麻将13张|:0.000600:0.000200:57.968372
-2:City=其他城市|CarrierName=3|:0.003400:0.001000:338.248714
-2:City=滁州市|DeviceType=Phone|:0.000500:0.000500:48.475706
-2:City=鞍山市|CarrierName=Other|:0.000500:0.000600:46.955012
-2:City=抚州市|CarrierName=China Mobile|:0.000100:0.000100:14.182261
-2:City=吉林市|OS=iOS|:0.001100:0.001000:107.960222
-2:City=莆田市|CarrierName=China Mobile|:0.001000:0.000400:95.439071
-2:OS=Android|AppName=完美钢琴|:0.000800:0.000300:82.013174
-2:City=合肥市|CarrierName=Other|:0.001100:0.002700:106.375438
-2:OS=Android|AppName=俯卧撑教练|:0.000700:0.000200:65.409928
-2:City=忻州市|OS=iOS|:0.000300:0.000300:28.984955
-2:City=西安市|CarrierName=Other|:0.002100:0.003700:214.159718
-2:City=呼和浩特市|CarrierName=China Telecom|:0.000800:0.001000:78.693283
-2:City=东营市|CarrierName=UNICOM|:0.000500:0.000100:46.764782
-2:OS=Android|AppName=Garden Mania|:0.002200:0.000700:216.860864
-2:City=咸宁市|CarrierName=China Mobile|:0.000100:0.000100:7.714506
-2:City=遵义市|DeviceType=Pad|:0.000300:0.000300:32.920190
-2:City=珠海市|CarrierName=China Mobile|:0.000100:0.000200:7.905580
-2:City=鞍山市|DeviceType=Pad|:0.000500:0.000400:49.964139
-2:City=宣城市|CarrierName=Other|:0.000300:0.000200:29.028994
-2:DeviceType=Pad|AppName=Tagged - Meet New People|:0.000200:0.000200:18.442198
-2:City=青岛市|OS=iOS|:0.004500:0.004000:448.496658
-2:DeviceType=Phone|AppName=Download Manager for Android|:0.000600:0.000500:57.735527
-2:City=天津市|CarrierName=China Mobile|:0.001400:0.002200:143.298567
-2:DeviceType=Phone|CarrierName=Maxis|:0.001800:0.001600:181.410445
-2:City=呼和浩特市|CarrierName=Other|:0.000500:0.001300:48.829451
-2:City=渭南市|OS=Android|:0.000300:0.000300:28.979526
-2:OS=iOS|AppName=照片工坊-Fotolr|:0.001900:0.001200:186.720846
-2:City=南充市|DeviceType=Phone|:0.001000:0.001000:102.072884
-2:City=抚州市|CarrierName=Other|:0.000300:0.000200:29.152155
-2:OS=Android|AppName=飞行棋大战 (Battle Ludo)|:0.000600:0.000200:63.704986
-2:City=南充市|CarrierName=China Telecom|:0.000400:0.000300:42.570507
-2:OS=iOS|AppName=iPad计算器|:0.001000:0.000600:98.422122
-2:City=大理白族自治州|OS=Android|:0.001400:0.001000:143.192219
-2:OS=iOS|AppName=捕鱼达人2|:0.001000:0.000700:101.486774
-2:City=贵阳市|DeviceType=Phone|:0.006500:0.006200:654.474071
-2:City=三明市|OS=Android|:0.000300:0.000300:28.105892
-2:City=辽阳市|OS=Android|:0.000200:0.000300:17.042650
-2:OS=Android|AppName=智财迅手机版|:0.000500:0.000200:49.915140
-2:City=锦州市|OS=Android|:0.000300:0.000400:26.240743
-2:Categorys=游戏|AppName=爱死祖玛 - 免费 可爱 祖玛 射击  春天 夏天 秋天 冬天|:0.000900:0.000100:93.975709
-2:City=大庆市|DeviceType=Pad|:0.000400:0.000300:41.869013
-2:City=赤峰市|DeviceType=Phone|:0.000500:0.000500:45.465664
-2:City=伊春市|CarrierName=UNICOM|:0.000100:0.000300:5.611613
-2:City=榆林市|CarrierName=China Mobile|:0.000200:0.000100:18.352874
-2:City=兰州市|CarrierName=China Telecom|:0.001600:0.001100:158.687252
-2:City=长春市|CarrierName=China Telecom|:0.001600:0.001500:164.923175
-2:City=包头市|CarrierName=Other|:0.000300:0.000400:28.226407
-2:City=太原市|CarrierName=Other|:0.001000:0.001800:97.717772
-2:Categorys=街机和动作游戏|AppName=Skater Boy|:0.000900:0.000000:92.151778
-2:OS=iOS|AppName=摘下闪闪满天星 Lucky Stars HD - PopStar!|:0.004900:0.003200:490.259775
-2:City=石家庄市|CarrierName=China Telecom|:0.002100:0.001600:210.032432
-2:City=白山市|DeviceType=Phone|:0.000400:0.000500:41.100531
-2:City=抚顺市|CarrierName=Other|:0.000200:0.000200:18.265733
-2:OS=Android|AppName=Daddy Was A Thief|:0.000900:0.000300:90.746733
-2:City=新余市|OS=iOS|:0.000900:0.000800:93.409350
-2:City=滁州市|DeviceType=Pad|:0.000200:0.000100:15.134234
-2:City=呼和浩特市|OS=iOS|:0.002400:0.002300:241.692709
-2:City=广州市|CarrierName=China Mobile|:0.005200:0.003000:515.973893
-2:OS=iOS|AppName=搞笑妹子-看美图淘无节操笑话,美女姐的囧颜表情,内涵段子电影视频剧片快乐地播,我百思不顾得天机魔相狐兔宝风暴云度,陌跑漫行往来遇见约会泡你查找搜iOS7幽默文库性感酷壁纸铃声贴吧秀|:0.000600:0.000400:58.254531
-2:City=赣州市|CarrierName=China Telecom|:0.000600:0.000500:59.103252
-2:OS=iOS|AppName=彩色连珠免费版|:0.004600:0.003000:460.776440
-2:City=吉林市|CarrierName=China Telecom|:0.000200:0.000400:22.176164
-2:City=赣州市|CarrierName=China Mobile|:0.001000:0.000300:96.985988
-2:City=邵阳市|OS=iOS|:0.000300:0.000400:34.023082
-2:City=镇江市|CarrierName=UNICOM|:0.000200:0.000200:15.814360
-2:City=湘西土家族苗族自治州|DeviceType=Phone|:0.000600:0.000500:58.052873
-2:City=南平市|DeviceType=Pad|:0.000200:0.000200:22.028598
-2:Categorys=新闻|DeviceType=Phone|:0.000200:0.000200:19.804373
-2:City=秦皇岛市|DeviceType=Phone|:0.001100:0.001100:108.760022
-2:City=太原市|DeviceType=Phone|:0.004800:0.004700:481.565938
-2:Categorys=商品指南|DeviceType=Phone|:0.000300:0.000300:34.482270
-2:City=柳州市|OS=Android|:0.001300:0.001000:129.573510
-2:City=青岛市|DeviceType=Pad|:0.001800:0.001600:175.793503
-2:City=常德市|DeviceType=Phone|:0.000700:0.000700:69.661170
-2:City=德阳市|CarrierName=China Mobile|:0.000100:0.000200:14.629559
-2:City=其他城市|DeviceType=Phone|:0.244900:0.232800:24488.132720
-2:City=枣庄市|DeviceType=Pad|:0.000200:0.000100:15.218904
-2:City=滨州市|OS=iOS|:0.000300:0.000300:29.556634
-2:Categorys=新闻杂志|DeviceType=Phone|:0.000400:0.000300:36.231102
-2:City=德州市|CarrierName=UNICOM|:0.000300:0.000100:31.534468
-2:Categorys=益智和解谜游戏|AppName=Pop Star for Android|:0.056300:0.004200:5626.893164
-2:City=安阳市|CarrierName=China Telecom|:0.000100:0.000200:12.061322
-2:DeviceType=Phone|AppName=心动小狗 - QQ微信微博用户最爱的天天要玩的比酷跑好玩的带音乐支持的住爱情公寓看爸爸去哪儿时玩的美女很多的HD宠物养成游戏|:0.000300:0.000500:28.301134
-2:City=牡丹江市|DeviceType=Phone|:0.000500:0.000500:48.380007
-2:City=晋城市|DeviceType=Pad|:0.000100:0.000100:14.041223
-2:OS=iOS|CarrierName=NTT DoCoMo|:0.004000:0.011900:404.419618
-2:City=忻州市|OS=Android|:0.000200:0.000200:24.751982
-2:City=乌鲁木齐市|CarrierName=China Mobile|:0.001500:0.000900:151.211843
-2:Categorys=图书|AppName=通用TXT小说阅读器|:0.001100:0.000000:106.837223
-2:City=济宁市|OS=Android|:0.000600:0.000600:59.455772
-2:DeviceType=Phone|AppName=飞行棋大战 (Battle Ludo)|:0.000600:0.000500:63.701909
-2:City=肇庆市|CarrierName=UNICOM|:0.000100:0.000300:8.030124
-2:City=泸州市|OS=Android|:0.000300:0.000300:28.556574
-2:City=葫芦岛市|CarrierName=UNICOM|:0.000400:0.000100:39.808212
-2:Categorys=音乐|OS=iOS|:0.009600:0.006300:957.482651
-2:OS=iOS|AppName=视频下载及管理工具 iBolt|:0.001400:0.000900:139.764271
-2:OS=Android|AppName=Star Gems|:0.000100:0.000200:6.013799
-2:DeviceType=Phone|AppName=捕鱼达人2|:0.001000:0.000800:101.486381
-2:City=乐山市|OS=iOS|:0.000500:0.000400:47.836285
-2:Categorys=娱乐|AppName=会说话的熊猫保罗 iPhone版|:0.000600:0.000100:55.999716
-2:Categorys=娱乐|AppName=超高清壁纸.|:0.001200:0.000100:119.832792
-2:City=郴州市|DeviceType=Phone|:0.000800:0.000700:76.900912
-2:Categorys=娱乐|AppName=RushPlayer Lite|:0.000900:0.000100:93.321224
-2:DeviceType=Pad|AppName=麻将二人行|:0.000800:0.000200:81.679605
-2:City=济南市|CarrierName=UNICOM|:0.004400:0.001300:440.249786
-2:Categorys=游戏|AppName=和风物语|:0.000900:0.000100:86.028389
-2:Categorys=生活时尚|DeviceType=Phone|:0.001500:0.001200:152.389959
-2:City=肇庆市|DeviceType=Pad|:0.000400:0.000400:43.966143
-2:City=金华市|DeviceType=Phone|:0.002700:0.002800:272.861984
-2:DeviceType=Phone|AppName=与陌生人聊天  (随机聊天)|:0.001200:0.001000:120.748566
-2:City=济宁市|CarrierName=Other|:0.000400:0.000400:36.683729
-2:Categorys=纸牌游戏|DeviceType=Phone|:0.001200:0.000900:117.035522
-2:Categorys=体育游戏|OS=Android|:0.000800:0.000300:76.406634
-2:City=扬州市|OS=iOS|:0.001700:0.001400:170.756915
-2:OS=Android|AppName=智能应用锁 免费版|:0.000700:0.000200:71.417035
-2:City=焦作市|OS=Android|:0.000500:0.000500:50.258077
-2:City=榆林市|OS=iOS|:0.000500:0.000400:46.962936
-2:DeviceType=Phone|AppName=Gay Chat & Dating - Jack'd|:0.000500:0.000400:49.339539
-2:Categorys=街机和动作游戏|DeviceType=Phone|:0.004400:0.003600:437.658160
-2:City=衡水市|DeviceType=Phone|:0.000600:0.000600:57.294817
-2:City=揭阳市|CarrierName=China Mobile|:0.000200:0.000100:17.566176
-2:City=桂林市|CarrierName=Other|:0.000400:0.000400:38.750657
-2:City=昌吉回族自治州|CarrierName=China Telecom|:0.000300:0.000200:25.607107
-2:City=衡水市|OS=iOS|:0.000400:0.000400:40.888609
-2:City=襄樊市|CarrierName=China Mobile|:0.000100:0.000200:7.527638
-2:City=兰州市|CarrierName=China Mobile|:0.001600:0.000700:158.081225
-2:City=东莞市|CarrierName=Other|:0.000800:0.001800:79.823485
-2:Categorys=游戏|AppName=捕鱼达人2|:0.001000:0.000100:101.490545
-2:City=深圳市|CarrierName=China Mobile|:0.003700:0.002400:373.836891
-2:City=鄂尔多斯市|CarrierName=Other|:0.000100:0.000200:13.191485
-2:City=泸州市|DeviceType=Phone|:0.000500:0.000500:45.852140
-2:Categorys=旅游与本地出行|DeviceType=Phone|:0.000100:0.000100:14.877782
-2:OS=iOS|AppName=欢乐碰碰猫|:0.000700:0.003700:69.285978
-2:City=荆门市|DeviceType=Phone|:0.001800:0.001600:180.129626
-2:OS=iOS|CarrierName=Indosat|:0.001400:0.013800:137.811933
-2:City=北海市|OS=Android|:0.000300:0.000300:31.121736
-2:OS=iOS|AppName=有声小说大全(海量+更新)|:0.001000:0.000700:99.325844
-2:DeviceType=Phone|AppName=会说话的金杰 - Talking Ginger|:0.001300:0.001100:126.290924
-2:City=邢台市|OS=iOS|:0.000700:0.000800:68.837240
-2:Categorys=游戏|AppName=消除星星|:0.010300:0.000600:1030.273830
-2:DeviceType=Pad|AppName=玩图－全能美化|:0.000600:0.001000:64.239068
-2:City=龙岩市|CarrierName=China Telecom|:0.000300:0.000200:31.468358
-2:City=伊春市|DeviceType=Phone|:0.001100:0.001100:114.114505
-2:City=榆林市|OS=Android|:0.000300:0.000400:33.964243
-2:DeviceType=Phone|AppName=Battery Watch ★★★ Funny Voices|:0.000500:0.000500:54.174730
-2:City=淄博市|DeviceType=Phone|:0.000800:0.000900:82.086198
-2:OS=iOS|AppName=OPlayer Lite - 免费的万能播放器|:0.002800:0.001800:278.273550
-2:City=深圳市|CarrierName=UNICOM|:0.004600:0.002900:460.031779
-2:City=其他城市|CarrierName=Smart|:0.000300:0.000100:27.174133
-2:Categorys=工具|AppName=LED 手电筒专业版 – Flashlight|:0.001100:0.000100:107.317647
-2:City=邵阳市|CarrierName=Other|:0.000200:0.000200:23.354653
-2:City=韶关市|OS=iOS|:0.000200:0.000400:23.697383
-2:City=菏泽市|OS=iOS|:0.000400:0.000400:41.169879
-2:City=唐山市|DeviceType=Pad|:0.000700:0.001000:72.198763
-2:City=北海市|CarrierName=UNICOM|:0.000100:0.000100:8.249353
-2:DeviceType=Phone|AppName=PVSTAR+ (YouTube Music Player)|:0.000500:0.000400:52.768153
-2:City=台州市|CarrierName=China Telecom|:0.002000:0.000900:199.355295
-2:City=运城市|CarrierName=China Telecom|:0.000200:0.000300:15.024354
-2:DeviceType=Pad|AppName=Battery Watch ★★★ Funny Voices|:0.000000:0.000100:5.025353
-2:Categorys=医疗|OS=iOS|:0.000200:0.000100:15.392939
-2:City=濮阳市|CarrierName=China Telecom|:0.000100:0.000200:14.074762
-2:City=滁州市|CarrierName=Other|:0.000200:0.000200:19.659965
-2:City=泉州市|CarrierName=UNICOM|:0.000400:0.001500:41.881002
-2:City=长沙市|OS=iOS|:0.007500:0.008100:754.435038
-2:City=揭阳市|CarrierName=Other|:0.000200:0.000300:18.128952
-2:City=盘锦市|DeviceType=Phone|:0.000400:0.000500:40.607093
-2:City=伊春市|OS=iOS|:0.000500:0.000800:49.321999
-2:Categorys=生活时尚|AppName=怪物闹钟( AlarmMon , alarm clock)|:0.000700:0.000000:68.422379
-2:Categorys=社交|OS=iOS|:0.004200:0.007600:422.700405
-2:City=镇江市|CarrierName=Other|:0.000300:0.000400:32.516648
-2:City=青岛市|CarrierName=UNICOM|:0.003600:0.001300:364.437833
-2:City=武汉市|CarrierName=Other|:0.003300:0.004500:331.383092
-2:City=潍坊市|OS=Android|:0.000900:0.000900:88.950660
-2:City=丹东市|OS=Android|:0.000200:0.000300:21.137512
-2:DeviceType=Phone|AppName=爱死祖玛 - 免费 可爱 祖玛 射击  春天 夏天 秋天 冬天|:0.000400:0.000800:40.259326
-2:City=榆林市|CarrierName=Other|:0.000200:0.000200:18.779032
-2:City=昆明市|CarrierName=Other|:0.001100:0.002600:108.788475
-2:DeviceType=Pad|AppName=潇湘书院精品书城|:0.000600:0.000200:57.431621
-2:OS=Android|AppName=蜘蛛纸牌|:0.000600:0.000300:58.563775
-2:OS=Android|AppName=画中画相机|:0.001400:0.000600:138.639394
-2:City=丹东市|CarrierName=China Telecom|:0.000100:0.000200:9.887407
-2:City=舟山市|CarrierName=Other|:0.000200:0.000300:24.763478
-2:DeviceType=Phone|AppName=玩图-全能美化|:0.010000:0.008400:996.209978
-2:OS=iOS|AppName=Manga Rock ~ 最佳漫画阅读器|:0.000600:0.000400:63.851170
-2:City=咸宁市|OS=Android|:0.000300:0.000300:32.745126
-2:City=葫芦岛市|OS=Android|:0.000200:0.000300:19.902533
-2:City=开封市|CarrierName=Other|:0.000300:0.000200:25.874671
-2:City=韶关市|CarrierName=UNICOM|:0.000100:0.000100:10.985335
-2:City=南京市|CarrierName=UNICOM|:0.001900:0.002800:193.672839
-2:City=襄樊市|OS=iOS|:0.000600:0.000600:58.423438
-2:OS=iOS|AppName=▻蜘蛛纸牌|:0.001400:0.000900:138.289346
-2:DeviceType=Pad|AppName=开心果蔬连连看|:0.000400:0.000200:43.340018
-2:City=南充市|OS=iOS|:0.000600:0.000700:62.041100
-2:OS=iOS|AppName=给力书城|:0.001000:0.000700:100.784567
-2:City=宁德市|DeviceType=Phone|:0.000900:0.001000:94.786640
-2:City=南宁市|CarrierName=China Telecom|:0.002100:0.001400:206.280312
-2:City=长春市|OS=Android|:0.002100:0.002800:211.191289
-2:Categorys=生活|AppName=[更新]郭德纲2013相声- 最新最全|:0.000800:0.000000:80.004914
-2:City=南京市|OS=iOS|:0.011300:0.008600:1130.378366
-2:City=宿迁市|CarrierName=UNICOM|:0.000100:0.000200:7.416237
-2:DeviceType=Pad|AppName=Onet|:0.001100:0.000300:113.833825
-2:City=洛阳市|CarrierName=China Mobile|:0.000100:0.000300:14.304528
-2:OS=Android|CarrierName=Indosat|:0.023800:0.011400:2383.108005
-2:City=泰安市|DeviceType=Pad|:0.000200:0.000200:19.398525
-2:City=唐山市|CarrierName=UNICOM|:0.001800:0.000900:181.852973
-2:OS=Android|AppName=BMX Boy|:0.000800:0.000300:81.006577
-2:City=许昌市|DeviceType=Pad|:0.000200:0.000200:18.166222
-2:DeviceType=Phone|AppName=Jewels Legend|:0.002200:0.002000:221.490013
-2:Categorys=社交|DeviceType=Phone|:0.010300:0.009300:1025.760007
-2:DeviceType=Pad|AppName=iPad计算器|:0.001000:0.000200:98.424809
-2:City=柳州市|DeviceType=Phone|:0.001800:0.001700:180.385219
-2:City=银川市|CarrierName=China Telecom|:0.000600:0.000500:64.319243
-2:City=安庆市|CarrierName=China Telecom|:0.000300:0.000200:30.863112
-2:Categorys=工具|DeviceType=Phone|:0.048600:0.045100:4859.321468
-2:City=淄博市|OS=iOS|:0.000600:0.000600:63.873986
-2:City=枣庄市|OS=Android|:0.000300:0.000300:28.807370
-2:City=日照市|DeviceType=Phone|:0.000500:0.000500:45.509054
-2:City=西安市|OS=iOS|:0.007100:0.006600:705.506828
-2:City=扬州市|CarrierName=China Telecom|:0.001500:0.000600:147.543381
-2:Categorys=摄影|AppName=拼立得 - 杂志拼图|:0.004200:0.000200:416.352291
-2:Categorys=财务|AppName=智财迅手机版|:0.000500:0.000000:49.920827
-2:City=大同市|CarrierName=China Telecom|:0.000300:0.000200:27.024114
-2:City=上饶市|CarrierName=China Telecom|:0.000500:0.000500:46.819423
-2:City=肇庆市|CarrierName=Other|:0.000500:0.000500:46.976218
-2:Categorys=医疗|DeviceType=Phone|:0.000100:0.000100:9.866865
-2:City=惠州市|CarrierName=China Mobile|:0.001200:0.000400:115.775984
-2:City=廊坊市|DeviceType=Phone|:0.002600:0.002700:260.925299
-2:City=荆州市|OS=Android|:0.000500:0.000500:46.534494
-2:Categorys=媒体与视频|AppName=MX Player|:0.001200:0.000000:118.305350
-2:City=贵阳市|CarrierName=China Telecom|:0.003400:0.001900:344.230827
-2:City=抚州市|CarrierName=UNICOM|:0.000000:0.000100:4.359629
-2:City=南通市|OS=Android|:0.000900:0.001400:89.686744
-2:OS=iOS|AppName=果蔬连连看|:0.000900:0.000800:90.218502
-2:City=邢台市|CarrierName=China Telecom|:0.000200:0.000300:24.048029
-2:City=达州市|OS=Android|:0.000400:0.000400:44.072314
-2:DeviceType=Phone|AppName=▻数独|:0.002000:0.002800:197.335385
-2:City=淮安市|CarrierName=Other|:0.000200:0.000400:21.772555
-2:City=石家庄市|CarrierName=Other|:0.001000:0.002000:97.665622
-2:City=阳泉市|DeviceType=Phone|:0.000500:0.000600:54.975616
-2:City=延边朝鲜族自治州|CarrierName=China Telecom|:0.000100:0.000500:9.218983
-2:City=金华市|CarrierName=China Telecom|:0.001900:0.000900:191.290332
-2:DeviceType=Pad|AppName=有声小说大全(海量+更新)|:0.000300:0.000200:30.571233
-2:City=镇江市|OS=iOS|:0.000900:0.000700:91.501893
-2:City=许昌市|CarrierName=Other|:0.000300:0.000300:29.133005
-2:Categorys=赛车游戏|DeviceType=Phone|:0.005300:0.004300:534.382752
-2:City=吕梁市|CarrierName=UNICOM|:0.000400:0.000100:37.074699
-2:Categorys=个性化|OS=Android|:0.000400:0.000200:44.950116
-2:City=芜湖市|OS=Android|:0.000500:0.000600:45.406242
-2:City=徐州市|CarrierName=Other|:0.000500:0.001000:53.317857
-2:City=菏泽市|CarrierName=China Telecom|:0.000100:0.000200:12.432070
-2:City=常德市|OS=iOS|:0.000500:0.000500:51.524147
-2:City=东莞市|CarrierName=China Mobile|:0.002600:0.000900:257.026755
-2:OS=Android|AppName=小月历 - 女性日记|:0.000500:0.000200:53.958486
-2:City=南宁市|CarrierName=Other|:0.001100:0.001700:111.854452
-2:City=成都市|DeviceType=Phone|:0.016000:0.016500:1596.492396
-2:OS=iOS|AppName=消灭星星 PopStar! - 免费完整版|:0.004600:0.003000:464.011661
-2:City=其他城市|CarrierName=Other|:0.142500:0.089600:14248.973760
-2:Categorys=财务|OS=iOS|:0.000300:0.000600:28.804088
-2:City=芜湖市|CarrierName=China Telecom|:0.000600:0.000300:56.672004
-2:City=长治市|CarrierName=Other|:0.000200:0.000200:24.828710
-2:City=大理白族自治州|OS=iOS|:0.000800:0.001200:82.545451
-2:City=南阳市|CarrierName=China Telecom|:0.000100:0.000300:14.377110
-2:City=芜湖市|CarrierName=China Mobile|:0.000200:0.000200:17.537449
-2:City=德州市|OS=iOS|:0.000300:0.000300:32.353294
-2:DeviceType=Pad|AppName=▻数独|:0.001500:0.000700:151.912528
-2:City=运城市|DeviceType=Phone|:0.000900:0.000900:91.155822
-2:Categorys=游戏|AppName=Star Gems|:0.000500:0.000000:48.689700
-2:City=佛山市|CarrierName=China Mobile|:0.001300:0.000900:131.464244
-2:City=常德市|DeviceType=Pad|:0.000200:0.000200:23.685980
-2:OS=iOS|AppName=拼立得 - 杂志拼图|:0.003800:0.005200:379.382797
-2:City=吕梁市|CarrierName=China Mobile|:0.000000:0.000100:2.972765
-2:OS=Android|AppName=拼立得 - 杂志拼图|:0.004200:0.002700:416.351353
-2:City=阜阳市|CarrierName=China Mobile|:0.000100:0.000100:13.782705
-2:City=湛江市|DeviceType=Pad|:0.000100:0.000100:13.574008
-2:OS=Android|CarrierName=UNICOM|:0.052000:0.082400:5201.629209
-2:City=其他城市|CarrierName=China Telecom|:0.016900:0.072400:1691.789639
-2:City=咸阳市|DeviceType=Pad|:0.000200:0.000200:20.144500
-2:City=吉林市|CarrierName=Other|:0.000300:0.000500:29.046509
-2:DeviceType=Phone|AppName=松鼠泡泡龙|:0.001100:0.001000:111.199508
-2:City=赤峰市|DeviceType=Pad|:0.000200:0.000100:16.570967
-2:DeviceType=Phone|AppName=友阅-小说下载阅读器 网络图书聚合 找书看书分享书以书会友|:0.002800:0.002700:280.636278
-2:DeviceType=Pad|AppName=触摸玄幻热-含绝世唐门、莽荒纪、大主宰、斗罗大陆＋唐家三少作品全集|:0.000200:0.000300:15.901998
-2:DeviceType=Pad|AppName=钻石之星|:0.000900:0.001300:93.648959
-2:City=茂名市|CarrierName=Other|:0.000100:0.000300:10.586721
-2:City=金华市|CarrierName=Other|:0.001100:0.001100:106.668173
-2:City=扬州市|CarrierName=UNICOM|:0.000100:0.000500:8.475398
-2:OS=Android|AppName=消灭星星Pop Star|:0.001000:0.000300:100.380233
-2:City=荆州市|CarrierName=UNICOM|:0.000100:0.000200:14.557241
-2:City=中山市|OS=Android|:0.000900:0.000900:92.870608
-2:DeviceType=Pad|AppName=应用锁AppLock|:0.000100:0.000400:10.288576
-2:DeviceType=Phone|AppName=俯卧撑教练|:0.000700:0.000500:65.406931
-2:DeviceType=Pad|AppName=消除星星|:0.004200:0.002000:421.443281
-2:City=大连市|DeviceType=Pad|:0.001700:0.001200:167.593493
-2:City=西宁市|CarrierName=UNICOM|:0.000500:0.000300:45.940569
-2:City=福州市|DeviceType=Pad|:0.002200:0.002000:219.985890
-2:OS=Android|AppName=Smart Lock Free (App/Photo)|:0.000500:0.000200:48.567529
-2:City=石家庄市|CarrierName=China Mobile|:0.001100:0.001000:113.532230
-2:City=衡阳市|DeviceType=Phone|:0.001100:0.001100:105.098231
-2:City=郴州市|DeviceType=Pad|:0.000200:0.000200:17.871776
-2:DeviceType=Pad|CarrierName=KDDI/au|:0.000400:0.004200:44.582234
-2:City=衢州市|OS=Android|:0.000300:0.000400:34.269067
-2:City=营口市|CarrierName=UNICOM|:0.000400:0.000100:44.075295
-2:City=秦皇岛市|CarrierName=China Telecom|:0.000300:0.000400:27.083908
-2:OS=Android|AppName=闹钟 (Alarm Clock) Xtreme 免费版|:0.002100:0.000700:208.006566
-2:City=昌吉回族自治州|CarrierName=Other|:0.000100:0.000200:14.829681
-2:City=白山市|CarrierName=China Telecom|:0.000100:0.000200:5.500724
-2:OS=iOS|AppName=遮神辰东全集－含完美世界小说、遮天、神墓、长生界等辰东作品全集|:0.000800:0.000600:84.465654
-2:DeviceType=Pad|AppName=漫画大全(专业版)|:0.000600:0.000200:62.860645
-2:City=焦作市|CarrierName=Other|:0.000300:0.000300:32.258776
-2:City=九江市|CarrierName=UNICOM|:0.000000:0.000300:5.020158
-2:City=忻州市|DeviceType=Pad|:0.000100:0.000100:13.163909
-2:City=廊坊市|DeviceType=Pad|:0.000800:0.000700:76.047484
-2:City=周口市|CarrierName=China Mobile|:0.000100:0.000100:7.816190
-2:Categorys=摄影|AppName=Cymera - 美图美颜相机(Camera)|:0.001800:0.000100:183.756571
-2:City=南通市|DeviceType=Phone|:0.002300:0.002500:225.784004
-2:City=潮州市|CarrierName=Other|:0.000100:0.000200:12.991681
-2:City=西宁市|CarrierName=China Mobile|:0.000300:0.000200:27.163581
-2:City=湘潭市|DeviceType=Phone|:0.000500:0.000600:50.496250
-2:DeviceType=Phone|AppName=Cymera - 美图美颜相机(Camera)|:0.001800:0.001500:183.754101
-2:City=十堰市|CarrierName=Other|:0.000200:0.000200:17.708952
-2:OS=iOS|CarrierName=True Move|:0.001200:0.001000:116.568714
-2:Categorys=财务|DeviceType=Pad|:0.000100:0.000200:12.057099
-2:City=盐城市|CarrierName=Other|:0.000400:0.000500:41.533919
-2:City=驻马店市|CarrierName=China Mobile|:0.000400:0.000200:40.060248
-2:City=贵阳市|OS=Android|:0.004200:0.003600:415.287128
-2:DeviceType=Pad|AppName=Flappy Bird|:0.000400:0.000400:40.325841
-2:Categorys=图书与工具书|OS=Android|:0.002500:0.000900:254.297531
-2:City=南阳市|CarrierName=Other|:0.000400:0.000300:39.534318
-2:City=白山市|OS=Android|:0.000200:0.000300:22.541001
-2:DeviceType=Phone|AppName=手机音乐电台|:0.000500:0.000500:52.776922
-2:City=吕梁市|CarrierName=Other|:0.000200:0.000200:21.580607
-2:OS=Android|AppName=玩图-全能美化|:0.010400:0.003600:1043.899553
-2:City=盘锦市|OS=iOS|:0.000400:0.000300:43.416621
-2:City=日照市|CarrierName=Other|:0.000200:0.000200:17.490878
-2:City=咸宁市|DeviceType=Phone|:0.000500:0.000500:45.631268
-2:OS=iOS|AppName=Star Gems|:0.000500:0.000400:48.681480
-2:Categorys=娱乐|AppName=电视连续剧|:0.001300:0.000100:132.573744
-2:Categorys=休闲游戏|AppName=Dragon Gem|:0.000700:0.000000:71.900725
-2:OS=Android|AppName=应用锁AppLock|:0.002000:0.000700:200.173665
-2:DeviceType=Phone|AppName=Nearby Messenger (Random Chat)|:0.000700:0.000600:74.471327
-2:City=六安市|OS=Android|:0.000300:0.000300:34.449947
-2:DeviceType=Pad|AppName=一生必读的60部名著|:0.000600:0.000100:57.573601
-2:Categorys=益智和解谜游戏|AppName=Jewels Legend|:0.002500:0.000200:246.064833
-2:OS=Android|AppName=Plume for Twitter|:0.000600:0.000200:58.678320
-2:City=肇庆市|CarrierName=China Mobile|:0.000900:0.000300:94.860281
-2:City=景德镇市|CarrierName=China Mobile|:0.000100:0.000100:7.289174
-2:City=大理白族自治州|DeviceType=Phone|:0.002100:0.001800:213.575498
-2:City=泉州市|CarrierName=Other|:0.002000:0.002600:198.658773
-2:City=晋中市|OS=iOS|:0.000700:0.000700:74.296078
-2:DeviceType=Phone|AppName=绝世唐门,斗罗大陆等唐家三少作品系列全集|:0.000500:0.000400:54.337875
-2:City=马鞍山市|OS=iOS|:0.000500:0.000400:46.282370
-2:City=绍兴市|CarrierName=China Telecom|:0.001500:0.000600:149.350978
-2:City=湛江市|CarrierName=China Telecom|:0.000200:0.000200:20.779001
-2:City=武汉市|CarrierName=China Mobile|:0.002300:0.002300:233.098191
-2:City=通辽市|CarrierName=Other|:0.000100:0.000200:10.955215
-2:City=四平市|DeviceType=Pad|:0.000100:0.000100:14.055974
-2:City=马鞍山市|CarrierName=Other|:0.000200:0.000200:24.143020
-2:City=锦州市|OS=iOS|:0.000600:0.000400:55.551407
-2:Categorys=休闲游戏|AppName=宝石之旅|:0.002400:0.000100:243.287132
-2:City=三亚市|OS=iOS|:0.000400:0.000400:44.568506
-2:City=汕头市|DeviceType=Phone|:0.002100:0.001900:211.610918
-2:City=黄石市|CarrierName=China Telecom|:0.000400:0.000200:35.468126
-2:OS=Android|AppName=MX Player|:0.001200:0.000400:118.302967
-2:City=拉萨市|OS=Android|:0.000300:0.000400:33.953629
-2:City=柳州市|CarrierName=China Mobile|:0.001100:0.000300:106.529202
-2:Categorys=娱乐|AppName=大富翁4 Fun HD|:0.001600:0.000200:160.427753
-2:City=榆林市|DeviceType=Pad|:0.000100:0.000200:13.952936
-2:City=邵阳市|CarrierName=UNICOM|:0.000100:0.000100:10.657052
-2:DeviceType=Phone|AppName=RushPlayer Lite|:0.000500:0.000800:52.038373
-2:OS=Android|CarrierName=Vietel|:0.001100:0.000600:106.562444
-2:OS=Android|CarrierName=NTT DoCoMo|:0.017600:0.009800:1764.920133
-2:City=辽阳市|OS=iOS|:0.000400:0.000300:43.773079
-2:City=郴州市|OS=iOS|:0.000400:0.000500:42.356310
-2:City=哈尔滨市|OS=Android|:0.003000:0.003600:303.375518
-2:City=白山市|OS=iOS|:0.000400:0.000300:38.706295
-2:City=丹东市|CarrierName=Other|:0.000200:0.000200:16.585318
-2:City=湘西土家族苗族自治州|OS=Android|:0.000300:0.000300:32.502351
-2:DeviceType=Pad|CarrierName=Indosat|:0.002700:0.005300:273.350243
-2:City=忻州市|CarrierName=China Telecom|:0.000100:0.000100:10.799430
-2:City=晋中市|OS=Android|:0.000600:0.000600:62.357361
-2:City=南通市|CarrierName=Other|:0.000700:0.001000:68.857818
-2:City=柳州市|CarrierName=China Telecom|:0.000600:0.000500:60.302531
-2:DeviceType=Pad|AppName=第一视角 for LOL(英雄联盟)|:0.000400:0.000200:41.182377
-2:OS=iOS|AppName=蜘蛛纸牌|:0.000200:0.000500:19.491207
-2:City=长沙市|CarrierName=Other|:0.004600:0.004500:459.685574
-2:City=福州市|CarrierName=China Mobile|:0.001300:0.001500:127.596818
-2:OS=Android|AppName=大理石祖玛v1.5|:0.000600:0.000200:57.949477
-2:Categorys=商务|DeviceType=Phone|:0.000600:0.000500:62.303210
-2:City=绵阳市|DeviceType=Phone|:0.002400:0.002200:235.422780
-2:City=芜湖市|OS=iOS|:0.000800:0.000700:76.214744
-2:City=锦州市|DeviceType=Phone|:0.000600:0.000600:58.064512
-2:City=株洲市|CarrierName=UNICOM|:0.000100:0.000200:13.513983
-2:City=其他城市|CarrierName=Vietel|:0.001400:0.000400:142.176857
-2:City=广州市|OS=Android|:0.008500:0.008900:853.249337
-2:Categorys=赛车游戏|AppName=BMX Boy|:0.000800:0.000000:81.010026
-2:DeviceType=Phone|AppName=遮神辰东全集－含完美世界小说、遮天、神墓、长生界等辰东作品全集|:0.000800:0.000700:84.465181
-2:City=福州市|OS=iOS|:0.006100:0.005300:607.683705
-2:City=惠州市|CarrierName=UNICOM|:0.000300:0.000400:28.686655
-2:OS=iOS|AppName=玩图－全能美化|:0.005200:0.003400:517.471167
-2:City=湛江市|CarrierName=UNICOM|:0.000100:0.000100:9.240296
-2:City=东莞市|CarrierName=UNICOM|:0.001100:0.001100:107.175570
-2:City=九江市|DeviceType=Pad|:0.000400:0.000300:36.336898
-2:DeviceType=Phone|AppName=超亮手電筒|:0.002300:0.001900:230.794131
-2:City=莆田市|DeviceType=Pad|:0.000300:0.000500:30.677317
-2:City=宁波市|CarrierName=China Telecom|:0.003400:0.001900:338.707142
-2:City=南平市|OS=Android|:0.000400:0.000400:35.100668
-2:City=东营市|CarrierName=Other|:0.000200:0.000200:17.258261
-2:Categorys=健康与健身|AppName=俯卧撑教练|:0.000700:0.000000:65.414260
-2:Categorys=游戏|AppName=果蔬连连看HD|:0.000800:0.000000:83.279740
-2:City=西安市|CarrierName=UNICOM|:0.002700:0.002200:265.445185
-2:OS=Android|AppName=Blink!Blink!Blink!|:0.001000:0.000300:96.240900
-2:OS=iOS|CarrierName=Vietel|:0.000400:0.000800:35.617511
-2:City=济宁市|DeviceType=Phone|:0.001000:0.001100:101.031926
-2:Categorys=新闻|OS=iOS|:0.000200:0.000100:19.806390
-2:City=威海市|OS=Android|:0.000500:0.000500:45.886413
-2:City=九江市|CarrierName=Other|:0.000600:0.000400:59.460162
-2:City=兰州市|CarrierName=Other|:0.001000:0.001400:104.205718
-2:City=承德市|CarrierName=Other|:0.000200:0.000200:15.217817
-2:City=其他城市|CarrierName=MobiFone|:0.000200:0.000100:21.499893
-2:City=葫芦岛市|OS=iOS|:0.000400:0.000300:43.996999
-2:City=海口市|CarrierName=China Mobile|:0.000900:0.000500:89.446313
-2:City=宿迁市|CarrierName=Other|:0.000200:0.000400:19.787791
-2:City=柳州市|OS=iOS|:0.000800:0.001100:80.707830
-2:Categorys=媒体与视频|OS=Android|:0.002900:0.001000:290.994390
-2:City=其他城市|CarrierName=KT|:0.004200:0.001200:418.227407
-2:City=乐山市|DeviceType=Pad|:0.000200:0.000200:23.878428
-2:City=衢州市|CarrierName=China Mobile|:0.000100:0.000100:7.265957
-2:Categorys=健康与健身|AppName=小月历 - 女性日记|:0.000500:0.000000:53.963737
-2:Categorys=个性化|DeviceType=Phone|:0.000400:0.000400:44.945755
-2:OS=Android|CarrierName=StarHub|:0.000400:0.000400:44.706153
-2:City=衢州市|CarrierName=Other|:0.000300:0.000200:34.070997
-2:City=晋中市|DeviceType=Pad|:0.000300:0.000300:25.073450
-2:City=安阳市|DeviceType=Phone|:0.000800:0.000800:78.880700
-2:City=阳泉市|OS=Android|:0.000300:0.000300:34.693123
-2:DeviceType=Pad|CarrierName=StarHub|:0.000100:0.000200:6.893897
-2:DeviceType=Phone|AppName=Star Gems|:0.000100:0.000400:7.203367
-2:City=昌吉回族自治州|CarrierName=UNICOM|:0.000000:0.000100:4.978700
-2:City=绵阳市|CarrierName=China Telecom|:0.000600:0.000700:60.345905
-2:City=保定市|OS=iOS|:0.001800:0.002000:184.972380
-2:Categorys=旅游与本地出行|OS=Android|:0.000100:0.000100:14.890952
-2:City=洛阳市|DeviceType=Phone|:0.001400:0.001500:139.123614
-2:DeviceType=Pad|AppName=《盗墓笔记全集》[盗墓系列小说精选30+]|:0.000400:0.000500:35.106550
-2:DeviceType=Phone|AppName=超高清壁纸.|:0.001200:0.001000:119.829594
-2:City=北海市|CarrierName=China Telecom|:0.000200:0.000100:19.431812
-2:City=佛山市|OS=Android|:0.003000:0.002700:295.984307
-2:Categorys=社交|AppName=限时免费大全|:0.000900:0.000000:86.572943
-2:Categorys=体育游戏|DeviceType=Phone|:0.000800:0.000600:76.404069
-2:City=金华市|OS=Android|:0.001300:0.001600:127.696012
-2:OS=Android|AppName=ASTRO 文件管理器|:0.000500:0.000200:53.769846
-2:Categorys=游戏|AppName=国标麻将13张|:0.000800:0.000000:82.235066
-2:City=台州市|CarrierName=UNICOM|:0.000300:0.000700:30.745285
-2:Categorys=通讯|DeviceType=Pad|:0.000100:0.000600:10.005871
-2:City=郑州市|DeviceType=Pad|:0.001900:0.002900:192.364626
-2:Categorys=参考|AppName=iOS7壁纸+|:0.010300:0.000100:1031.169027
-2:DeviceType=Phone|AppName=蜘蛛纸牌|:0.000800:0.000600:78.042874
-2:City=鄂尔多斯市|DeviceType=Pad|:0.000100:0.000100:13.620275
-2:Categorys=新闻杂志|OS=Android|:0.000400:0.000100:36.236512
-2:City=拉萨市|CarrierName=UNICOM|:0.000100:0.000200:10.395078
-2:City=湘西土家族苗族自治州|CarrierName=China Telecom|:0.000100:0.000200:14.533593
-2:City=绍兴市|DeviceType=Pad|:0.000600:0.000500:63.317754
-2:City=杭州市|CarrierName=UNICOM|:0.001800:0.003200:180.026191
-2:City=湖州市|CarrierName=China Telecom|:0.000800:0.000400:81.277552
-2:City=淄博市|OS=Android|:0.000500:0.000500:46.908320
-2:City=石家庄市|CarrierName=UNICOM|:0.002200:0.001200:222.937015
-2:City=十堰市|CarrierName=China Telecom|:0.000300:0.000100:30.993220
-2:City=日照市|CarrierName=UNICOM|:0.000300:0.000100:27.039990
-2:City=洛阳市|CarrierName=Other|:0.000600:0.000600:56.405534
-2:Categorys=社交|OS=Android|:0.007400:0.004000:735.281005
-2:City=淮安市|OS=Android|:0.000500:0.000500:48.580747
-2:DeviceType=Phone|AppName=LED 手电筒专业版 – Flashlight|:0.001100:0.000900:107.313675
-2:City=宜昌市|DeviceType=Phone|:0.002000:0.001800:195.753255
-2:City=淄博市|DeviceType=Pad|:0.000300:0.000200:28.696691
-2:City=鞍山市|DeviceType=Phone|:0.001500:0.001600:146.986887
-2:City=泰安市|OS=Android|:0.000400:0.000400:40.333234
-2:City=临汾市|DeviceType=Phone|:0.000700:0.000700:71.644757
-2:City=六安市|CarrierName=China Telecom|:0.000200:0.000200:23.615870
-2:Categorys=工具|DeviceType=Pad|:0.007500:0.011000:752.167821
-2:OS=iOS|AppName=和风物语|:0.000900:0.000600:86.023941
-2:OS=iOS|CarrierName=SK Telecom|:0.000800:0.003300:82.363009
-2:City=其他城市|CarrierName=dtac|:0.000200:0.000100:19.624618
-2:City=新余市|CarrierName=China Mobile|:0.000000:0.000200:3.999658
-2:OS=iOS|AppName=全能手电(iHandy Flashlight)|:0.001500:0.001000:153.394943
-2:City=通辽市|DeviceType=Pad|:0.000100:0.000100:12.011242
-2:City=沈阳市|CarrierName=Other|:0.001200:0.003300:123.161078
-2:DeviceType=Phone|AppName=手机铃声 (免费版)|:0.004300:0.003500:427.068307
-2:City=泸州市|OS=iOS|:0.000300:0.000300:34.850901
-2:City=通辽市|OS=Android|:0.000300:0.000300:31.406859
-2:City=开封市|OS=iOS|:0.000400:0.000400:38.325300
-2:Categorys=图书|OS=iOS|:0.029000:0.019000:2901.705793
-2:DeviceType=Phone|AppName=第一视角 for LOL(英雄联盟)|:0.000600:0.000800:57.138464
-2:City=郑州市|OS=Android|:0.007000:0.006300:697.926096
-2:OS=iOS|AppName=坏蛋是怎样炼成的全集|:0.000600:0.000400:60.519291
-2:City=泸州市|CarrierName=Other|:0.000200:0.000200:21.421729
-2:City=沧州市|OS=iOS|:0.001000:0.001000:104.540508
-2:City=泰州市|OS=iOS|:0.001800:0.001400:184.350512
-2:DeviceType=Phone|OS=Android|:0.328500:0.276500:32852.370435
-2:Categorys=商品指南|OS=iOS|:0.000300:0.000200:34.483429
-2:City=西宁市|CarrierName=China Telecom|:0.000600:0.000400:62.797696
-2:City=宣城市|OS=iOS|:0.000400:0.000400:35.672293
-2:City=张家口市|OS=Android|:0.000300:0.000300:31.843914
-2:City=泰安市|CarrierName=UNICOM|:0.000400:0.000200:41.975391
-2:City=黄山市|CarrierName=Other|:0.000400:0.000200:36.440548
-2:City=娄底市|CarrierName=UNICOM|:0.000100:0.000100:7.723838
-2:City=衢州市|DeviceType=Pad|:0.000200:0.000200:15.746903
-2:City=阳泉市|CarrierName=UNICOM|:0.000400:0.000100:41.488350
-2:City=信阳市|CarrierName=China Telecom|:0.000300:0.000300:26.906181
-2:City=长沙市|CarrierName=China Mobile|:0.002500:0.002300:252.925100
-2:City=福州市|CarrierName=UNICOM|:0.001900:0.001700:187.084035
-2:Categorys=通讯|AppName=与陌生人聊天  (随机聊天)|:0.001200:0.000000:120.752524
-2:City=黄石市|OS=iOS|:0.000500:0.000500:46.981712
-2:City=聊城市|CarrierName=Other|:0.000200:0.000200:22.386599
-2:OS=iOS|AppName=高清影视大全(可下载版) -- 海量正版免费高清影视在线观看、轻松下载|:0.001500:0.001000:152.615557
-2:City=肇庆市|DeviceType=Phone|:0.001300:0.001400:127.619379
-2:City=广州市|DeviceType=Phone|:0.016300:0.015600:1632.008732
-2:City=岳阳市|DeviceType=Phone|:0.001200:0.001100:116.351173
-2:City=四平市|OS=iOS|:0.000400:0.000400:38.772435
-2:DeviceType=Pad|AppName=铃声大全 for iOS7|:0.000100:0.001000:8.310661
-2:OS=iOS|CarrierName=DiGi|:0.000300:0.000800:27.182592
-2:OS=Android|CarrierName=Telkomsel|:0.003000:0.001600:300.325638
-2:OS=Android|CarrierName=SoftBank|:0.001600:0.006600:164.549090
-2:City=大庆市|CarrierName=China Mobile|:0.000100:0.000200:11.539264
-2:DeviceType=Pad|AppName=古印加-失落宝藏HD|:0.000800:0.000200:84.552660
-2:City=濮阳市|CarrierName=UNICOM|:0.000200:0.000100:21.121203
-2:Categorys=休闲游戏|OS=Android|:0.033600:0.011600:3359.069708
-2:City=承德市|CarrierName=UNICOM|:0.000300:0.000100:34.409847
-2:City=柳州市|DeviceType=Pad|:0.000300:0.000400:29.897062
-2:City=北京市|DeviceType=Phone|:0.035900:0.040600:3590.154968
-2:City=荆州市|DeviceType=Pad|:0.000300:0.000300:32.257233
-2:DeviceType=Pad|AppName=给力书城|:0.001000:0.000200:100.787192
-2:City=邯郸市|DeviceType=Phone|:0.002300:0.002300:232.862910
-2:City=德州市|DeviceType=Pad|:0.000100:0.000100:13.553437
-2:City=宁德市|CarrierName=UNICOM|:0.000100:0.000200:12.423187
-2:City=其他城市|CarrierName=Vinaphone|:0.001200:0.000400:120.269117
-2:City=盘锦市|CarrierName=Other|:0.000200:0.000200:21.749331
-2:City=安阳市|CarrierName=Other|:0.000300:0.000300:31.137283
-2:City=达州市|DeviceType=Phone|:0.000600:0.000600:63.046681
-2:Categorys=摄影与录像|OS=iOS|:0.013000:0.008500:1295.517289
-2:City=北京市|CarrierName=UNICOM|:0.023000:0.009300:2299.230586
-2:City=江门市|CarrierName=China Mobile|:0.000300:0.000200:28.132554
-2:Categorys=旅行|OS=iOS|:0.000600:0.000400:56.854898
-2:City=晋城市|CarrierName=China Telecom|:0.000100:0.000200:8.445159
-2:City=齐齐哈尔市|OS=Android|:0.000400:0.000500:41.496729
-2:City=连云港市|DeviceType=Pad|:0.000300:0.000200:29.673335
-2:City=西安市|DeviceType=Phone|:0.009800:0.009600:982.993828
-2:DeviceType=Pad|CarrierName=dtac|:0.000100:0.000000:6.093309
-2:DeviceType=Pad|AppName=忘忧围棋|:0.000900:0.000300:86.523309
-2:City=达州市|DeviceType=Pad|:0.000200:0.000200:17.340736
-2:OS=iOS|CarrierName=LG Telecom|:0.000100:0.001300:7.366245
-2:City=乌鲁木齐市|DeviceType=Pad|:0.000800:0.001200:83.754705
-2:City=白山市|DeviceType=Pad|:0.000200:0.000100:20.149265
-2:City=上饶市|CarrierName=China Mobile|:0.000700:0.000300:74.618689
-2:City=延边朝鲜族自治州|CarrierName=Other|:0.001000:0.000600:102.610215
-2:City=三明市|DeviceType=Phone|:0.000500:0.000500:49.127945
-2:City=乐山市|CarrierName=UNICOM|:0.000100:0.000100:5.991559
-2:City=齐齐哈尔市|CarrierName=China Mobile|:0.000200:0.000200:15.434606
-2:City=泰安市|CarrierName=China Telecom|:0.000100:0.000200:10.298266
-2:Categorys=娱乐|AppName=手相大師|:0.000500:0.000100:53.560883
-2:City=黄山市|CarrierName=China Mobile|:0.000100:0.000100:8.203367
-2:City=镇江市|DeviceType=Pad|:0.000400:0.000300:39.201162
-2:OS=iOS|AppName=一笔画|:0.000200:0.001300:18.504332
-2:Categorys=工具|AppName=手電筒|:0.001200:0.000100:116.575167
-2:OS=Android|AppName=Cymera - 美图美颜相机(Camera)|:0.001800:0.000600:183.755168
-2:Categorys=游戏|AppName=碰碰糖|:0.001700:0.000100:167.239907
-2:OS=Android|AppName=欢乐碰碰猫|:0.005000:0.002000:501.372968
-2:DeviceType=Phone|AppName=灵占天下－算命 八字 星座 占卜 运势 生肖|:0.001700:0.001500:169.272480
-2:DeviceType=Phone|AppName=宝石之旅|:0.002000:0.002000:197.130310
-2:DeviceType=Pad|AppName=大家来找茬(新版)|:0.000700:0.000200:67.428606
-2:DeviceType=Pad|AppName=大富翁4 Fun HD|:0.001600:0.000300:160.427262
-2:City=德州市|OS=Android|:0.000300:0.000300:26.456857
-2:City=商丘市|DeviceType=Phone|:0.000700:0.000700:72.637954
-2:City=达州市|CarrierName=UNICOM|:0.000100:0.000100:8.984898
-2:City=海口市|OS=iOS|:0.001600:0.001700:159.280560
-2:City=商丘市|CarrierName=Other|:0.000300:0.000300:31.556012
-2:City=大同市|OS=iOS|:0.000500:0.000500:54.457534
-2:OS=iOS|AppName=Tagged Mobile App|:0.000600:0.000400:58.473194
-2:OS=iOS|AppName=中国091绝密诡案组|:0.000500:0.000300:51.898548
-2:City=温州市|DeviceType=Phone|:0.005300:0.005200:527.904055
-2:City=中山市|DeviceType=Pad|:0.000300:0.000400:28.481665
-2:City=咸阳市|CarrierName=UNICOM|:0.000100:0.000100:9.480468
-2:City=榆林市|DeviceType=Phone|:0.000700:0.000600:66.975282
-2:OS=Android|AppName=Nearby Messenger (Random Chat)|:0.000700:0.000300:74.473959
-2:Categorys=游戏|AppName=捕鱼达人iPhone版|:0.000900:0.000100:92.508000
-2:City=信阳市|CarrierName=Other|:0.000600:0.000400:64.345566
-2:Categorys=休闲游戏|AppName=欢乐碰碰猫|:0.005000:0.000200:501.373521
-2:City=安庆市|CarrierName=Other|:0.000400:0.000300:39.650386
-2:City=济南市|DeviceType=Phone|:0.005500:0.005500:551.940035
-2:City=衡阳市|DeviceType=Pad|:0.000400:0.000300:37.166853
-2:City=黄冈市|CarrierName=China Mobile|:0.000100:0.000200:10.228811
-2:City=北京市|OS=Android|:0.014400:0.023300:1436.491332
-2:City=常州市|CarrierName=Other|:0.000900:0.001000:88.317848
-2:City=湘潭市|CarrierName=UNICOM|:0.000100:0.000100:13.498061
-2:Categorys=媒体与视频|DeviceType=Pad|:0.000300:0.000600:33.318541
-2:City=徐州市|OS=iOS|:0.002200:0.001800:223.567238
-2:City=宁波市|CarrierName=China Mobile|:0.001200:0.001200:118.813713
-2:DeviceType=Phone|AppName=蘑菇园|:0.000500:0.000400:50.387068
-2:City=临汾市|OS=iOS|:0.000500:0.000500:48.034643
-2:City=信阳市|DeviceType=Phone|:0.001100:0.001100:114.620651
-2:City=威海市|CarrierName=UNICOM|:0.000700:0.000200:70.336366
-2:City=马鞍山市|DeviceType=Pad|:0.000200:0.000200:19.671677
-2:DeviceType=Phone|AppName=Sudoku Fun|:0.000900:0.000700:87.446889
-2:City=延边朝鲜族自治州|CarrierName=UNICOM|:0.000700:0.000300:74.170772
-2:City=泰州市|DeviceType=Pad|:0.000500:0.000500:48.974320
-2:City=济南市|CarrierName=China Telecom|:0.000800:0.001700:80.748375
-2:DeviceType=Pad|CarrierName=Vinaphone|:0.000200:0.000300:15.188801
-2:City=常州市|CarrierName=China Telecom|:0.001900:0.000800:194.796208
-2:City=安阳市|OS=Android|:0.000500:0.000400:54.268231
-2:City=潮州市|CarrierName=China Telecom|:0.000200:0.000200:18.725315
-2:City=桂林市|OS=Android|:0.000700:0.000600:72.894156
-2:City=衡阳市|OS=Android|:0.000700:0.000600:70.350262
-2:City=湖州市|CarrierName=China Mobile|:0.000100:0.000200:8.681478
-2:City=三亚市|OS=Android|:0.000200:0.000300:23.430471
-2:City=武汉市|OS=iOS|:0.009400:0.008100:942.590779
-2:City=蚌埠市|CarrierName=China Telecom|:0.000300:0.000100:26.963933
-2:DeviceType=Pad|OS=iOS|:0.180500:0.128200:18054.701587
-2:City=龙岩市|OS=iOS|:0.000400:0.000400:37.312457
-2:City=安庆市|CarrierName=UNICOM|:0.000100:0.000200:5.630557
-2:City=九江市|CarrierName=China Telecom|:0.000600:0.000400:57.510801
-2:DeviceType=Phone|AppName=Blink!Blink!Blink!|:0.001000:0.000800:95.597621
-2:City=台州市|DeviceType=Pad|:0.000800:0.000800:75.430303
-2:City=安阳市|CarrierName=China Mobile|:0.000100:0.000200:7.329995
-2:City=绵阳市|DeviceType=Pad|:0.000400:0.000600:39.994669
-2:City=岳阳市|DeviceType=Pad|:0.000200:0.000300:24.812726
-2:City=信阳市|OS=Android|:0.000900:0.000600:89.182438
-2:City=济南市|CarrierName=China Mobile|:0.000500:0.001100:48.782277
-2:OS=Android|AppName=手電筒|:0.001200:0.000400:116.573192
-2:City=株洲市|CarrierName=China Telecom|:0.000500:0.000200:48.010320
-2:OS=iOS|AppName=▻数独|:0.003500:0.002300:349.246860
-2:Categorys=娱乐|DeviceType=Phone|:0.073100:0.082700:7309.938014
-2:City=海口市|DeviceType=Pad|:0.000500:0.000700:54.783236
-2:City=北京市|CarrierName=Other|:0.016100:0.015600:1610.559796
-2:OS=Android|CarrierName=SingTel|:0.000700:0.000600:70.282702
-2:Categorys=效率|OS=iOS|:0.002600:0.004000:259.261953
-2:DeviceType=Phone|AppName=Tagged Mobile App|:0.000600:0.000500:58.472511
-2:OS=iOS|AppName=PopStars 2|:0.003300:0.002100:325.425048
-2:OS=iOS|AppName=《盗墓笔记全集》[盗墓系列小说精选30+]|:0.002300:0.001500:233.347796
-2:City=赤峰市|CarrierName=UNICOM|:0.000300:0.000100:30.612255
-2:City=黄山市|DeviceType=Pad|:0.000100:0.000100:11.759574
-2:City=宁波市|DeviceType=Pad|:0.001600:0.001600:164.024476
-2:DeviceType=Pad|AppName=照片工坊-Fotolr|:0.000300:0.000400:29.910739
-2:City=南京市|DeviceType=Pad|:0.003300:0.003300:326.709692
-2:DeviceType=Phone|CarrierName=XL|:0.001700:0.001600:165.421926
-2:Categorys=摄影|AppName=Photo Grid -相片组合|:0.003400:0.000100:342.517516
-2:City=平顶山市|CarrierName=China Telecom|:0.000200:0.000200:21.279726
-2:City=嘉兴市|CarrierName=China Telecom|:0.001600:0.000800:158.430232
-2:Categorys=益智和解谜游戏|AppName=一笔画|:0.001900:0.000200:185.254545
-2:Categorys=音乐|AppName=手机音乐电台|:0.000600:0.000000:59.545171
-2:City=大理白族自治州|DeviceType=Pad|:0.000100:0.000500:12.183985
-2:City=忻州市|CarrierName=China Mobile|:0.000000:0.000100:4.136975
-2:City=绵阳市|CarrierName=Other|:0.000700:0.000800:73.178996
-2:DeviceType=Phone|AppName=中国091绝密诡案组|:0.000500:0.000400:51.897779
-2:City=马鞍山市|CarrierName=UNICOM|:0.000100:0.000100:7.644066
-2:City=北京市|CarrierName=Reliance|:0.000200:0.000000:20.279997
-2:City=兰州市|OS=iOS|:0.002300:0.002600:232.566417
-2:City=贵阳市|OS=iOS|:0.003700:0.004300:373.215271
-2:City=新乡市|CarrierName=Other|:0.000400:0.000500:43.106265
-2:City=潮州市|CarrierName=UNICOM|:0.000100:0.000100:6.375329
-2:City=北海市|DeviceType=Phone|:0.000500:0.000400:46.397584
-2:City=黄冈市|CarrierName=China Telecom|:0.000400:0.000200:37.046194
-2:City=拉萨市|CarrierName=China Mobile|:0.000300:0.000100:32.626554
-2:OS=iOS|CarrierName=Maxis|:0.000400:0.001100:39.348403
-2:City=金华市|CarrierName=China Mobile|:0.000200:0.000500:23.494980
-2:DeviceType=Pad|CarrierName=Other|:0.066200:0.063800:6616.459638
-2:Categorys=体育|DeviceType=Phone|:0.000100:0.000100:14.397139
-2:Categorys=参考|OS=iOS|:0.011900:0.007800:1193.604725
-2:City=乌鲁木齐市|CarrierName=China Telecom|:0.002000:0.001400:200.287288
-2:City=三亚市|CarrierName=China Mobile|:0.000100:0.000100:5.293902
-2:OS=iOS|AppName=会说话的熊猫保罗 iPhone版|:0.000600:0.000400:55.993585
-2:OS=iOS|CarrierName=MobiFone|:0.000100:0.000100:7.210246
-2:City=太原市|CarrierName=UNICOM|:0.002500:0.001100:252.440173
-2:City=益阳市|CarrierName=UNICOM|:0.000100:0.001000:5.244372
-2:City=盐城市|DeviceType=Phone|:0.001300:0.001400:131.970254
-2:City=郑州市|DeviceType=Phone|:0.012100:0.011100:1206.994934
-2:Categorys=财务|DeviceType=Phone|:0.000800:0.000700:76.116580
-2:City=榆林市|CarrierName=UNICOM|:0.000100:0.000100:8.058913
-2:City=新乡市|CarrierName=China Telecom|:0.000200:0.000400:17.221297
-2:DeviceType=Pad|CarrierName=UNICOM|:0.046700:0.038100:4668.588915
-2:City=郑州市|CarrierName=China Telecom|:0.002100:0.003400:206.673224
-2:City=韶关市|DeviceType=Pad|:0.000200:0.000100:21.553615
-2:DeviceType=Phone|AppName=Onet|:0.000500:0.001300:52.137740
-2:OS=iOS|AppName=古印加-失落宝藏HD|:0.001100:0.000700:105.387026
-2:DeviceType=Phone|AppName=PocketInvEditor|:0.000900:0.000700:89.389699
-2:City=永州市|OS=Android|:0.000400:0.000300:37.404433
-2:OS=iOS|CarrierName=China Telecom|:0.181200:0.134200:18116.332173
-2:City=安庆市|CarrierName=China Mobile|:0.000100:0.000100:14.369818
-2:City=佛山市|CarrierName=UNICOM|:0.002700:0.001100:266.012912
-2:City=厦门市|CarrierName=China Mobile|:0.001200:0.001000:121.190285
-2:OS=iOS|AppName=心动小狗 - QQ微信微博用户最爱的天天要玩的比酷跑好玩的带音乐支持的住爱情公寓看爸爸去哪儿时玩的美女很多的HD宠物养成游戏|:0.000700:0.000400:67.321208
-2:City=吉林市|CarrierName=UNICOM|:0.000800:0.000300:75.044752
-2:DeviceType=Phone|AppName=OPlayer Lite - 免费的万能播放器|:0.002800:0.002200:278.273407
-2:City=苏州市|CarrierName=Other|:0.002700:0.005800:273.306619
-2:City=重庆市|OS=iOS|:0.008200:0.007600:818.093289
-2:City=荆州市|DeviceType=Phone|:0.000900:0.000900:87.749144
-2:City=芜湖市|DeviceType=Phone|:0.000900:0.001000:85.699008
-2:DeviceType=Phone|AppName=高清影视大全(可下载版) -- 海量正版免费高清影视在线观看、轻松下载|:0.001100:0.001200:110.118101
-2:City=东莞市|OS=Android|:0.003200:0.002700:324.978692
-2:OS=iOS|AppName=最畅销书籍TOP100|:0.000800:0.000500:78.883268
-2:City=岳阳市|CarrierName=China Telecom|:0.000400:0.000300:40.134727
-2:City=盐城市|CarrierName=China Mobile|:0.000000:0.000300:3.288573
-2:City=海口市|DeviceType=Phone|:0.002600:0.002500:259.031134
-2:City=焦作市|DeviceType=Pad|:0.000200:0.000200:23.811187
-2:City=平顶山市|DeviceType=Pad|:0.000200:0.000200:20.171590
-2:City=晋城市|DeviceType=Phone|:0.000500:0.000500:47.288637
-2:DeviceType=Pad|AppName=摘下闪闪满天星 Lucky Stars HD - PopStar!|:0.002600:0.001000:255.340761
-2:City=长治市|CarrierName=China Telecom|:0.000100:0.000200:11.551618
-2:DeviceType=Phone|AppName=PopStars 2|:0.002400:0.002600:242.896006
-2:City=惠州市|DeviceType=Phone|:0.002000:0.001800:202.356294
-2:City=新余市|DeviceType=Pad|:0.000200:0.000300:20.474347
-2:City=南宁市|CarrierName=UNICOM|:0.001300:0.001000:131.917853
-2:DeviceType=Pad|AppName=限时免费大全|:0.000300:0.000200:34.318720
-2:City=新乡市|DeviceType=Phone|:0.001200:0.001200:122.548945
-2:City=德阳市|OS=iOS|:0.000700:0.000600:66.182885
-2:City=营口市|OS=Android|:0.000200:0.000300:24.409705
-2:City=运城市|CarrierName=Other|:0.000300:0.000300:27.085745
-2:City=揭阳市|CarrierName=China Telecom|:0.000400:0.000200:36.973770
-2:City=新乡市|CarrierName=UNICOM|:0.000700:0.000300:70.482433
-2:City=福州市|CarrierName=China Telecom|:0.004100:0.002400:412.484059
-2:DeviceType=Phone|AppName=大理石祖玛v1.5|:0.000400:0.000500:42.071328
-2:City=桂林市|CarrierName=UNICOM|:0.000100:0.000300:13.021371
-2:Categorys=生活|AppName=高清影视大全(可下载版) -- 海量正版免费高清影视在线观看、轻松下载|:0.001500:0.000000:152.618417
-2:City=苏州市|CarrierName=China Telecom|:0.007200:0.004700:717.788636
-2:City=伊春市|CarrierName=China Mobile|:0.000300:0.000200:28.195634
-2:City=泰州市|CarrierName=China Telecom|:0.001200:0.000600:118.154742
-2:City=韶关市|CarrierName=Other|:0.000300:0.000200:34.812204
-2:City=临汾市|CarrierName=China Mobile|:0.000100:0.000100:8.050230
-2:City=吉林市|CarrierName=China Mobile|:0.000500:0.000300:50.290968
-2:City=金华市|OS=iOS|:0.002300:0.001900:227.394391
-2:DeviceType=Phone|CarrierName=Telkomsel|:0.002900:0.002700:286.946666
-2:City=烟台市|CarrierName=UNICOM|:0.002900:0.000900:287.929522
-2:DeviceType=Pad|CarrierName=SK Telecom|:0.000100:0.001300:11.358964
-2:City=重庆市|OS=Android|:0.005700:0.006300:572.074876
-2:Categorys=效率|AppName=ASTRO 文件管理器|:0.000500:0.000000:53.775028
-2:City=合肥市|CarrierName=UNICOM|:0.001500:0.001600:149.325199
-2:City=忻州市|DeviceType=Phone|:0.000400:0.000400:40.573825
-2:City=乐山市|CarrierName=China Mobile|:0.000100:0.000100:7.690643
-2:City=昆明市|DeviceType=Pad|:0.001500:0.001800:149.017317
-2:City=大连市|OS=iOS|:0.004100:0.003200:406.165683
-2:City=洛阳市|OS=iOS|:0.001000:0.001000:99.379885
-2:City=晋城市|CarrierName=Other|:0.000200:0.000200:16.531859
-2:OS=Android|AppName=SOFTnet Waktu Solat|:0.000500:0.000200:53.555007
-2:City=荆门市|DeviceType=Pad|:0.000200:0.000400:24.236795
-2:City=滁州市|OS=Android|:0.000300:0.000300:26.436916
-2:City=宣城市|CarrierName=China Telecom|:0.000300:0.000200:28.940052
-2:City=永州市|CarrierName=UNICOM|:0.000100:0.000100:5.344402
-2:City=南平市|DeviceType=Phone|:0.000600:0.000600:57.093140
-2:City=辽阳市|CarrierName=Other|:0.000100:0.000200:14.201671
-2:City=泰州市|DeviceType=Phone|:0.002100:0.002100:212.967168
-2:OS=iOS|AppName=爱死祖玛 - 免费 可爱 祖玛 射击  春天 夏天 秋天 冬天|:0.000900:0.000600:93.971636
-2:City=西安市|OS=Android|:0.005000:0.005500:504.730684
-2:City=广州市|CarrierName=UNICOM|:0.004600:0.003600:460.797229
-2:DeviceType=Phone|AppName=果蔬连连看|:0.000600:0.001000:61.977141
-2:Categorys=娱乐|AppName=Luv TV - 網路電視劇|:0.000700:0.000100:67.735021
-2:City=黄山市|OS=iOS|:0.000300:0.000400:25.758280
-2:City=葫芦岛市|DeviceType=Phone|:0.000400:0.000500:43.852394
-2:City=阜阳市|DeviceType=Phone|:0.000500:0.000600:53.488449
-2:City=渭南市|CarrierName=China Telecom|:0.000300:0.000100:34.567049
-2:City=保定市|CarrierName=UNICOM|:0.001100:0.000700:112.746768
-2:Categorys=天气|OS=iOS|:0.000200:0.000100:17.127116
-2:DeviceType=Pad|AppName=泡沫射击 Bubble Worlds|:0.000600:0.000700:55.675272
-2:City=长沙市|OS=Android|:0.007300:0.006700:729.243248
-2:OS=iOS|AppName=大富翁4 Fun HD|:0.001600:0.001100:160.425613
-2:Categorys=工具|AppName=iPad计算器|:0.001000:0.000100:98.426047
-2:Categorys=体育|OS=iOS|:0.000100:0.000100:12.143997
-2:City=唐山市|CarrierName=China Mobile|:0.001000:0.000700:102.284373
-2:City=宜昌市|CarrierName=Other|:0.000300:0.000700:29.397107
-2:City=苏州市|DeviceType=Phone|:0.015700:0.015000:1567.529549
-2:Categorys=益智和解谜游戏|DeviceType=Pad|:0.003300:0.014500:330.212144
-2:City=其他城市|CarrierName=AIS|:0.000000:0.000000:3.013271
-2:City=许昌市|CarrierName=China Mobile|:0.000100:0.000100:6.470500
-2:City=广州市|DeviceType=Pad|:0.003400:0.004100:338.943698
-2:City=葫芦岛市|DeviceType=Pad|:0.000200:0.000100:20.047114
-2:Categorys=娱乐|OS=Android|:0.004200:0.035400:420.870772
-2:City=大连市|OS=Android|:0.001800:0.002700:180.722397
-2:City=郑州市|CarrierName=Other|:0.001800:0.004300:183.963779
-2:City=襄樊市|DeviceType=Pad|:0.000300:0.000200:25.505127
-2:City=永州市|CarrierName=China Mobile|:0.000100:0.000100:7.373690
-2:City=西安市|DeviceType=Pad|:0.002300:0.002500:227.243699
-2:Categorys=摄影|AppName=画中画相机|:0.001400:0.000000:138.641497
-2:City=徐州市|DeviceType=Phone|:0.002300:0.002500:229.147009
-2:City=蚌埠市|CarrierName=UNICOM|:0.000100:0.000100:6.181301
-2:DeviceType=Phone|AppName=一笔画|:0.002000:0.001600:200.007838
-2:City=长春市|CarrierName=UNICOM|:0.002800:0.001100:284.500768
-2:OS=Android|AppName=Marble Blast 3|:0.000500:0.000200:50.428653
-2:OS=iOS|AppName=超高清壁纸.|:0.001200:0.000800:119.829928
-2:City=青岛市|CarrierName=China Telecom|:0.002000:0.001800:196.412335
-2:City=扬州市|OS=Android|:0.000900:0.001200:90.022176
-2:City=江门市|CarrierName=UNICOM|:0.000200:0.000200:20.971096
-2:City=枣庄市|CarrierName=UNICOM|:0.000300:0.000100:33.475859
-2:City=苏州市|OS=Android|:0.006500:0.008600:652.765679
-2:City=濮阳市|CarrierName=Other|:0.000200:0.000200:24.477564
-2:Categorys=效率|DeviceType=Pad|:0.000700:0.001200:69.707392
-2:OS=Android|AppName=超亮手電筒|:0.002300:0.000800:230.794980
-2:City=太原市|CarrierName=China Mobile|:0.001400:0.000900:137.899104
-2:City=黄石市|DeviceType=Phone|:0.000700:0.000700:69.226926
-2:Categorys=图书|AppName=中国091绝密诡案组|:0.000500:0.000000:51.906492
-2:City=马鞍山市|CarrierName=China Telecom|:0.000300:0.000200:32.239295
-2:City=南阳市|OS=Android|:0.000600:0.000500:57.074869
-2:City=无锡市|DeviceType=Pad|:0.001800:0.001500:180.548672
-2:City=四平市|CarrierName=China Telecom|:0.000100:0.000200:7.976100
-2:DeviceType=Pad|AppName=灵占天下－算命 八字 星座 占卜 运势 生肖|:0.000200:0.000400:16.283576
-2:City=中山市|CarrierName=China Telecom|:0.000600:0.000500:56.042841
-2:City=益阳市|DeviceType=Pad|:0.004900:0.001100:491.357527
-2:City=渭南市|CarrierName=UNICOM|:0.000000:0.000100:4.287344
-2:DeviceType=Phone|AppName=搞笑妹子-看美图淘无节操笑话,美女姐的囧颜表情,内涵段子电影视频剧片快乐地播,我百思不顾得天机魔相狐兔宝风暴云度,陌跑漫行往来遇见约会泡你查找搜iOS7幽默文库性感酷壁纸铃声贴吧秀|:0.000600:0.000500:58.253845
-2:City=深圳市|OS=Android|:0.006600:0.007300:658.277910
-2:City=抚州市|DeviceType=Phone|:0.000600:0.000600:56.527516
-2:City=泰州市|CarrierName=Other|:0.000300:0.000800:32.036190
-2:City=平顶山市|CarrierName=Other|:0.000300:0.000300:32.771759
-2:Categorys=旅行|DeviceType=Pad|:0.000100:0.000100:9.153311
-2:City=呼和浩特市|DeviceType=Phone|:0.003700:0.003300:365.277288
-2:City=重庆市|CarrierName=China Mobile|:0.002700:0.002100:274.976534
-2:City=阳泉市|DeviceType=Pad|:0.000200:0.000200:19.864579
-2:City=揭阳市|CarrierName=UNICOM|:0.000200:0.000200:22.783604
-2:Categorys=休闲游戏|AppName=Hair Salon - Kids Games|:0.000600:0.000000:58.096244
-2:City=邵阳市|CarrierName=China Telecom|:0.000400:0.000200:35.232320
-2:City=漳州市|CarrierName=Other|:0.000500:0.000400:45.140646
-2:Categorys=交通运输|DeviceType=Phone|:0.000400:0.000300:41.452838
-2:City=忻州市|CarrierName=Other|:0.000100:0.000200:13.423732
-2:City=许昌市|OS=Android|:0.000400:0.000400:40.358862
-2:City=舟山市|CarrierName=China Mobile|:0.000100:0.000100:5.426242
-2:City=牡丹江市|CarrierName=China Telecom|:0.000100:0.000200:14.480382
-2:City=丽水市|CarrierName=Other|:0.000300:0.000300:31.212306
-2:City=绍兴市|OS=Android|:0.000800:0.001100:77.685646
-2:City=泰安市|CarrierName=Other|:0.000200:0.000300:23.671792
-2:City=银川市|CarrierName=China Mobile|:0.000600:0.000300:63.087439
-2:City=珠海市|DeviceType=Pad|:0.000300:0.000200:30.490598
-2:City=开封市|OS=Android|:0.000400:0.000400:38.863714
-2:City=厦门市|CarrierName=China Telecom|:0.002600:0.001600:260.710905
-2:City=周口市|CarrierName=UNICOM|:0.000300:0.000100:28.586044
-2:City=上饶市|CarrierName=UNICOM|:0.000100:0.000400:7.929553
-2:OS=Android|AppName=会说话的金杰 - Talking Ginger|:0.001300:0.000500:130.348508
-2:City=其他城市|CarrierName=StarHub|:0.000800:0.000200:77.699634
-2:City=南京市|OS=Android|:0.004400:0.007100:437.217184
-2:OS=iOS|AppName=第一视角 for LOL(英雄联盟)|:0.001000:0.000600:98.317315
-2:City=焦作市|CarrierName=China Mobile|:0.000100:0.000200:5.989797
-2:City=唐山市|DeviceType=Phone|:0.004200:0.003900:419.568107
-2:OS=iOS|CarrierName=3|:0.000300:0.001800:26.483421
-2:City=锦州市|CarrierName=Other|:0.000200:0.000200:20.196941
-2:City=济南市|DeviceType=Pad|:0.001400:0.001500:141.092729
-2:City=大理白族自治州|CarrierName=Other|:0.000100:0.000700:12.329907
-2:City=南昌市|OS=Android|:0.003900:0.003700:388.966949
-2:City=鄂尔多斯市|CarrierName=China Telecom|:0.000100:0.000100:11.967547
-2:City=无锡市|CarrierName=China Telecom|:0.003300:0.001700:332.858528
-2:City=荆门市|CarrierName=China Mobile|:0.001100:0.000300:105.970284
-2:Categorys=社交|AppName=Camfrog Video Chat|:0.002800:0.000000:275.479129
-2:City=黄石市|CarrierName=China Mobile|:0.000100:0.000100:9.108228
-2:City=南充市|CarrierName=UNICOM|:0.000100:0.000200:14.145363
-2:OS=Android|AppName=泡沫射击 Bubble Worlds|:0.003700:0.001300:372.963331
-2:City=信阳市|CarrierName=UNICOM|:0.000300:0.000200:33.269320
-2:DeviceType=Pad|AppName=消灭星星 PopStar! - 免费完整版|:0.001400:0.000900:138.571377
-2:City=石家庄市|OS=iOS|:0.003400:0.003500:341.068523
-2:City=银川市|CarrierName=Other|:0.000300:0.000600:27.461270
-2:City=沧州市|CarrierName=China Telecom|:0.000400:0.000500:35.170811
-2:City=大庆市|OS=Android|:0.000400:0.000600:44.422541
-2:OS=iOS|AppName=黄金矿工(免费)|:0.000800:0.000500:78.648882
-2:City=德阳市|DeviceType=Pad|:0.000300:0.000200:31.386244
-2:City=昆明市|OS=iOS|:0.004500:0.004600:451.999651
-2:City=驻马店市|DeviceType=Phone|:0.000900:0.000800:85.418972
-2:City=石家庄市|DeviceType=Pad|:0.001200:0.001400:116.089549
-2:DeviceType=Phone|AppName=Marble Blast 3|:0.000500:0.000400:50.424766
-2:Categorys=医药|DeviceType=Phone|:0.000500:0.000400:46.297761
-2:City=盐城市|OS=iOS|:0.001200:0.001000:122.473382
-2:City=开封市|CarrierName=China Mobile|:0.000100:0.000100:7.721492
-2:City=揭阳市|OS=iOS|:0.000500:0.000500:52.590013
-2:Categorys=旅行|DeviceType=Phone|:0.000500:0.000500:47.702263
-2:City=宝鸡市|CarrierName=Other|:0.000100:0.000200:13.459263
-2:City=营口市|DeviceType=Phone|:0.000500:0.000600:51.599547
-2:DeviceType=Phone|AppName=开心果蔬连连看|:0.000400:0.000700:40.851179
-2:City=嘉兴市|DeviceType=Pad|:0.000800:0.000600:83.413278
-2:OS=iOS|CarrierName=UNICOM|:0.129500:0.099200:12952.415073
-2:DeviceType=Phone|AppName=手相大師|:0.000500:0.000400:53.553728
-2:City=西宁市|OS=iOS|:0.000900:0.000900:91.571497
-2:DeviceType=Phone|AppName=扫雷Q|:0.000600:0.000500:63.273153
-2:City=厦门市|OS=iOS|:0.004000:0.003500:400.539045
-2:City=深圳市|OS=iOS|:0.009400:0.008700:940.129243
-2:DeviceType=Phone|CarrierName=Indosat|:0.022500:0.019900:2247.567130
-2:Categorys=图书|AppName=漫画大全(专业版)|:0.001200:0.000000:117.169914
-2:City=荆门市|CarrierName=Other|:0.000700:0.000600:69.584498
-2:DeviceType=Phone|AppName=ASTRO 文件管理器|:0.000500:0.000400:52.861000
-2:City=衡水市|OS=Android|:0.000300:0.000300:32.939206
-2:OS=iOS|AppName=国标麻将13张|:0.000800:0.000500:82.230412
-2:City=白山市|CarrierName=Other|:0.000200:0.000200:15.589937
-2:City=潍坊市|DeviceType=Pad|:0.000400:0.000400:37.766101
-2:City=大同市|CarrierName=UNICOM|:0.000300:0.000200:28.899459
-2:DeviceType=Phone|CarrierName=DiGi|:0.001300:0.001200:131.918695
-2:OS=Android|AppName=蘑菇园|:0.000500:0.000200:51.453778
-2:City=廊坊市|CarrierName=Other|:0.000800:0.001000:75.019414
-2:City=郴州市|CarrierName=Other|:0.000400:0.000300:42.762929
-2:City=保定市|DeviceType=Pad|:0.000700:0.000800:66.720556
-2:Categorys=工具|AppName=OPlayer Lite - 免费的万能播放器|:0.002800:0.000200:278.274939
-2:City=宿迁市|CarrierName=China Telecom|:0.000500:0.000300:53.439803
-2:City=宣城市|DeviceType=Pad|:0.000200:0.000200:15.005511
-2:DeviceType=Phone|AppName=MX Player|:0.000800:0.001000:84.985248
-2:Categorys=音乐与音频|OS=Android|:0.001000:0.000300:96.663932
-2:City=驻马店市|OS=Android|:0.000600:0.000500:55.897930
-2:City=长治市|OS=Android|:0.000400:0.000400:39.291758
-2:City=昆明市|OS=Android|:0.003900:0.003800:393.384891
-2:Categorys=益智和解谜游戏|AppName=Sudoku Fun|:0.000900:0.000100:90.696206
-2:Categorys=娱乐|AppName=会说话的金杰 - Talking Ginger|:0.001300:0.000100:132.201209
-2:City=海口市|CarrierName=UNICOM|:0.000700:0.000600:66.101122
-2:DeviceType=Pad|AppName=高清影视大全(可下载版) -- 海量正版免费高清影视在线观看、轻松下载|:0.000400:0.000300:42.498163
-2:City=德阳市|DeviceType=Phone|:0.000800:0.000900:76.267047
-2:City=潍坊市|CarrierName=Other|:0.000400:0.000600:43.783996
-2:City=渭南市|DeviceType=Phone|:0.000500:0.000500:45.008009
-2:City=宁德市|CarrierName=China Telecom|:0.000700:0.000300:70.227151
-2:Categorys=图书|AppName=给力书城|:0.001000:0.000000:100.788657
-2:DeviceType=Phone|AppName=懒人听书|:0.055500:0.064800:5550.137691
-2:City=张家口市|CarrierName=UNICOM|:0.000400:0.000100:35.950382
-2:DeviceType=Pad|AppName=RushPlayer Lite|:0.000400:0.000200:41.283216
-2:City=抚州市|OS=iOS|:0.000400:0.000400:36.899696
-2:OS=Android|AppName=Photo Grid -相片组合|:0.003400:0.001200:342.516763
-2:Categorys=图书|DeviceType=Phone|:0.021700:0.023300:2173.591372
-2:DeviceType=Pad|AppName=彩色连珠免费版|:0.000300:0.000900:25.208904
-2:City=衡水市|DeviceType=Pad|:0.000200:0.000200:16.533113
-2:City=沈阳市|DeviceType=Phone|:0.008900:0.008500:891.174099
-2:City=苏州市|CarrierName=China Mobile|:0.006000:0.002900:600.254612
-2:City=遵义市|CarrierName=Other|:0.000400:0.000400:41.791169
-2:City=辽阳市|DeviceType=Pad|:0.000200:0.000100:19.598779
-2:OS=iOS|AppName=铃声大全 for iOS7|:0.005200:0.003400:515.964796
-2:City=湛江市|CarrierName=China Mobile|:0.000100:0.000100:10.846577
-2:City=泉州市|CarrierName=China Mobile|:0.002100:0.001300:212.717520
-2:City=周口市|CarrierName=Other|:0.000300:0.000200:26.879071
-2:City=贵阳市|DeviceType=Pad|:0.001300:0.001700:134.028417
-2:City=承德市|OS=Android|:0.000300:0.000300:27.238634
-2:City=榆林市|CarrierName=China Telecom|:0.000400:0.000200:35.756150
-2:City=牡丹江市|OS=Android|:0.000200:0.000300:23.483552
-2:City=伊春市|CarrierName=China Telecom|:0.000300:0.000300:33.293905
-2:City=肇庆市|OS=iOS|:0.000600:0.000900:63.165670
-2:Categorys=图书|AppName=友阅-小说下载阅读器 网络图书聚合 找书看书分享书以书会友|:0.003300:0.000100:331.368882
-2:City=邢台市|OS=Android|:0.000700:0.000600:71.256599
-2:City=成都市|OS=iOS|:0.013200:0.011400:1315.053183
-2:City=丹东市|CarrierName=UNICOM|:0.000300:0.000100:34.998218
-2:OS=Android|AppName=Download Manager for Android|:0.000600:0.000200:57.738922
-2:City=沧州市|CarrierName=UNICOM|:0.000700:0.000300:68.877395
-2:DeviceType=Pad|CarrierName=NTT DoCoMo|:0.000800:0.004600:83.360070
-2:City=阜阳市|CarrierName=China Telecom|:0.000300:0.000200:27.387559
-2:City=包头市|DeviceType=Phone|:0.001000:0.001100:104.033373
-2:City=滁州市|CarrierName=China Mobile|:0.000100:0.000100:11.015808
-2:City=营口市|OS=iOS|:0.000500:0.000400:51.630213
-2:City=临沂市|CarrierName=China Mobile|:0.000600:0.000300:58.376680
-2:Categorys=工具|AppName=手电筒。|:0.011000:0.000600:1096.262127
-2:Categorys=工具|AppName=Smart Lock Free (App/Photo)|:0.000500:0.000000:48.572269
-2:City=驻马店市|CarrierName=China Telecom|:0.000100:0.000200:14.677218
-2:City=湘西土家族苗族自治州|CarrierName=Other|:0.000300:0.000200:27.445732
-2:City=吕梁市|CarrierName=China Telecom|:0.000100:0.000200:13.166668
-2:City=南宁市|DeviceType=Pad|:0.000900:0.001200:91.776270
-2:City=大连市|CarrierName=China Mobile|:0.001800:0.000900:176.050268
-2:City=杭州市|CarrierName=Other|:0.003700:0.005300:372.021443
-2:City=晋中市|CarrierName=China Mobile|:0.000500:0.000200:48.662511
-2:City=安庆市|OS=iOS|:0.000400:0.000500:38.573799
-2:City=孝感市|OS=Android|:0.000500:0.000400:47.317563
-2:DeviceType=Phone|AppName=忘忧围棋|:0.000500:0.001100:53.816025
-2:City=绍兴市|CarrierName=China Mobile|:0.000200:0.000400:21.175649
-2:DeviceType=Pad|AppName=手机铃声 (免费版)|:0.000100:0.000900:8.514781
-2:DeviceType=Pad|CarrierName=DiGi|:0.000200:0.000300:18.000568
-2:City=福州市|CarrierName=Other|:0.002400:0.002900:236.161966
-2:OS=Android|CarrierName=DiGi|:0.001200:0.000700:122.740566
-2:City=达州市|CarrierName=China Mobile|:0.000100:0.000100:8.107356
-2:OS=iOS|AppName=忘忧围棋|:0.001400:0.000900:140.334518
-2:City=成都市|DeviceType=Pad|:0.004900:0.004400:494.560371
-2:OS=iOS|AppName=大家来找茬(新版)|:0.001300:0.000800:125.857296
-2:City=长治市|CarrierName=UNICOM|:0.000400:0.000100:37.522619
-2:City=南昌市|CarrierName=UNICOM|:0.000900:0.001500:89.748281
-2:Categorys=休闲游戏|DeviceType=Phone|:0.030900:0.027000:3088.563984
-2:DeviceType=Pad|AppName=Pop Star for Android|:0.002700:0.011000:269.851670
-2:City=孝感市|DeviceType=Phone|:0.000700:0.000700:70.059546
-2:OS=iOS|AppName=PopStar! 高清免费版|:0.000600:0.000400:59.570797
-2:DeviceType=Phone|AppName=拼立得 - 杂志拼图|:0.007200:0.006400:719.767911
-2:OS=iOS|AppName=UberSocial for Twitter|:0.000100:0.000600:13.704756
-2:Categorys=街机和动作游戏|AppName=Daddy Was A Thief|:0.000900:0.000000:90.749821
-2:City=马鞍山市|DeviceType=Phone|:0.000600:0.000600:55.028715
-2:City=北京市|OS=iOS|:0.037100:0.028100:3707.645689
-2:DeviceType=Phone|AppName=潇湘书院精品书城|:0.000600:0.000900:57.519197
-2:City=南昌市|CarrierName=China Mobile|:0.003600:0.001200:356.982673
-2:Categorys=益智和解谜游戏|AppName=Pop Star Free|:0.002800:0.000200:275.290259
-2:City=孝感市|CarrierName=UNICOM|:0.000100:0.000200:5.484743
-2:City=西宁市|OS=Android|:0.000700:0.000700:72.092701
-2:City=其他城市|CarrierName=China Mobile|:0.013600:0.044800:1359.159632
-2:City=杭州市|CarrierName=China Mobile|:0.004300:0.002600:431.855843
-2:DeviceType=Phone|AppName=黄金矿工(免费)|:0.000300:0.000600:31.090104
-2:DeviceType=Phone|AppName=Pop Star Free|:0.002600:0.002200:263.381173
-2:City=肇庆市|OS=Android|:0.001100:0.000800:108.420676
-2:City=镇江市|CarrierName=China Telecom|:0.000800:0.000300:75.643889
-2:DeviceType=Pad|AppName=果蔬连连看|:0.000600:0.000200:58.535260
-2:City=蚌埠市|OS=iOS|:0.000400:0.000300:35.624395
-2:City=株洲市|DeviceType=Pad|:0.000300:0.000200:26.509958
-2:City=兰州市|DeviceType=Pad|:0.000900:0.001000:87.162006
-2:City=鞍山市|CarrierName=China Mobile|:0.000500:0.000300:52.981300
-2:City=包头市|CarrierName=China Telecom|:0.000300:0.000300:26.398596
-2:City=泰安市|CarrierName=China Mobile|:0.000200:0.000100:18.821427
-2:City=淮安市|DeviceType=Pad|:0.000300:0.000300:25.184168
-2:City=荆州市|CarrierName=China Telecom|:0.000500:0.000300:48.492523
-2:City=焦作市|DeviceType=Phone|:0.000800:0.000800:83.191170
-2:City=娄底市|OS=iOS|:0.000300:0.000300:28.811762
-2:City=盐城市|CarrierName=UNICOM|:0.000400:0.000300:35.180764
-2:City=乌鲁木齐市|CarrierName=Other|:0.000900:0.001700:92.650425
-2:DeviceType=Phone|AppName=Flappy Bird|:0.001400:0.001500:143.447839
-2:City=新余市|CarrierName=China Telecom|:0.001000:0.000400:98.847317
-2:City=运城市|DeviceType=Pad|:0.000200:0.000200:21.414331
-2:City=昆明市|CarrierName=UNICOM|:0.001000:0.001500:100.988282
-2:City=银川市|DeviceType=Pad|:0.000300:0.000400:26.880470
-2:City=连云港市|CarrierName=China Mobile|:0.000200:0.000200:15.380451
-2:City=湘潭市|OS=Android|:0.000300:0.000300:34.422824
-2:Categorys=摄影|AppName=玩图-全能美化|:0.010400:0.000300:1043.899801
-2:City=邯郸市|OS=iOS|:0.001400:0.001600:140.407274
-2:City=聊城市|OS=iOS|:0.000400:0.000400:41.869621
-2:DeviceType=Phone|CarrierName=Reliance|:0.000100:0.000200:9.127890
-2:City=上饶市|OS=iOS|:0.000800:0.001100:79.786549
-2:City=昆明市|CarrierName=China Telecom|:0.003300:0.002100:331.300875
-2:City=湘潭市|CarrierName=China Telecom|:0.000300:0.000200:26.772092
-2:City=秦皇岛市|OS=Android|:0.000500:0.000700:52.473244
-2:Categorys=音乐|DeviceType=Phone|:0.007800:0.007700:779.049010
-2:City=唐山市|CarrierName=Other|:0.000500:0.001500:47.076125
-2:DeviceType=Pad|AppName=完美钢琴|:0.000100:0.000200:5.877945
-2:City=呼和浩特市|CarrierName=UNICOM|:0.001500:0.000800:149.815600
-2:City=武汉市|DeviceType=Pad|:0.003300:0.003100:334.900480
-2:City=珠海市|CarrierName=China Telecom|:0.000400:0.000200:42.891025
-2:City=东营市|DeviceType=Pad|:0.000200:0.000200:24.526489
-2:DeviceType=Pad|AppName=友阅-小说下载阅读器 网络图书聚合 找书看书分享书以书会友|:0.000500:0.000600:50.731648
-2:City=葫芦岛市|CarrierName=Other|:0.000100:0.000200:13.902112
-2:City=湘潭市|DeviceType=Pad|:0.000200:0.000200:21.003696
-2:City=洛阳市|CarrierName=China Telecom|:0.000300:0.000500:29.781453
-2:Categorys=工具|AppName=Battery Watch ★★★ Funny Voices|:0.000600:0.000000:59.175253
-2:DeviceType=Phone|AppName=Christmas Pop Star|:0.003000:0.002500:295.726230
-2:DeviceType=Phone|OS=iOS|:0.475500:0.527500:47554.489969
-2:City=保定市|CarrierName=China Telecom|:0.000800:0.000900:83.604587
-2:City=湖州市|CarrierName=UNICOM|:0.000200:0.000300:23.249700
-2:DeviceType=Phone|AppName=3D摩托|:0.002500:0.002100:252.738929
-2:City=阜阳市|CarrierName=UNICOM|:0.000100:0.000100:5.068315
-2:City=湘潭市|OS=iOS|:0.000400:0.000400:37.075153
-2:City=许昌市|OS=iOS|:0.000500:0.000500:45.713596
-2:City=承德市|DeviceType=Pad|:0.000200:0.000200:18.966941
-2:City=滨州市|OS=Android|:0.000200:0.000200:24.084257
-2:DeviceType=Pad|AppName=会说话的金杰 - Talking Ginger|:0.000100:0.000300:5.957485
-2:Categorys=游戏|AppName=欢乐碰碰猫|:0.000700:0.000300:69.283032
-2:City=周口市|CarrierName=China Telecom|:0.000100:0.000200:11.493824
-2:City=沈阳市|CarrierName=UNICOM|:0.004800:0.002000:481.168669
-2:OS=Android|CarrierName=LG Telecom|:0.002400:0.001100:238.068083
-2:OS=Android|CarrierName=Maxis|:0.001700:0.000900:166.286875
-2:City=合肥市|DeviceType=Pad|:0.001000:0.001900:104.067094
-2:City=北京市|CarrierName=China Mobile|:0.004700:0.007800:474.789784
-2:Categorys=社交|AppName=Nearby Messenger (Random Chat)|:0.000700:0.000000:74.477628
-2:City=秦皇岛市|DeviceType=Pad|:0.000300:0.000300:34.936539
-2:City=韶关市|DeviceType=Phone|:0.000500:0.000500:45.510543
-2:Categorys=图书|AppName=潇湘书院精品书城|:0.001100:0.000000:114.950452
-2:City=南平市|CarrierName=UNICOM|:0.000100:0.000100:7.632546
-2:City=武汉市|OS=Android|:0.005400:0.006700:538.259635
-2:City=宿迁市|CarrierName=China Mobile|:0.000500:0.000200:45.026932
-2:Categorys=生活|OS=iOS|:0.004400:0.002900:442.751913
-2:City=汕头市|OS=Android|:0.001100:0.001100:107.312520
-2:Categorys=游戏|AppName=古印加-失落宝藏HD|:0.001100:0.000100:105.390657
-2:City=天津市|OS=iOS|:0.010300:0.007900:1026.283771
-2:City=佛山市|CarrierName=China Telecom|:0.001200:0.001400:124.929236
-2:City=十堰市|OS=Android|:0.000200:0.000300:22.557200
-2:OS=Android|AppName=钻石之星|:0.006800:0.002300:682.420015
-2:City=商丘市|CarrierName=China Telecom|:0.000200:0.000200:16.079496
-2:City=湖州市|DeviceType=Phone|:0.001200:0.001300:122.875947
-2:City=台州市|OS=iOS|:0.002300:0.002000:230.285040
-2:City=安庆市|DeviceType=Phone|:0.000700:0.000700:71.489254
-2:City=重庆市|CarrierName=China Telecom|:0.005300:0.003400:533.634192
-2:City=新乡市|DeviceType=Pad|:0.000300:0.000300:28.910140
-2:City=重庆市|CarrierName=Other|:0.002800:0.004200:283.120152
-2:DeviceType=Phone|AppName=Garden Mania|:0.002200:0.001700:216.859960
-2:City=贵阳市|CarrierName=Other|:0.003000:0.002400:295.359059
-2:City=娄底市|CarrierName=Other|:0.000200:0.000200:22.577757
-2:City=廊坊市|CarrierName=UNICOM|:0.001000:0.000600:103.438859
-2:City=南通市|CarrierName=UNICOM|:0.000200:0.000600:15.069250
-2:OS=Android|AppName=松鼠泡泡龙|:0.001300:0.000400:126.938517
-2:City=聊城市|OS=Android|:0.000400:0.000400:37.245877
-2:City=邵阳市|OS=Android|:0.000400:0.000300:37.137343
-2:City=鞍山市|OS=iOS|:0.001300:0.001100:126.983240
-2:Categorys=游戏|AppName=PopStar! 高清免费版|:0.000600:0.000000:59.577221
-2:City=衢州市|OS=iOS|:0.000400:0.000400:43.261720
-2:City=郑州市|OS=iOS|:0.007000:0.007600:701.433163
-2:City=娄底市|CarrierName=China Telecom|:0.000300:0.000100:25.940095
-2:City=抚州市|DeviceType=Pad|:0.000200:0.000200:18.897907
-2:City=潍坊市|OS=iOS|:0.001100:0.001100:111.608508
-2:City=上饶市|OS=Android|:0.001300:0.000900:128.681693
-2:DeviceType=Phone|CarrierName=LG Telecom|:0.002400:0.001900:239.802423
-2:City=南充市|OS=Android|:0.000600:0.000600:63.112313
-2:City=营口市|DeviceType=Pad|:0.000200:0.000200:24.440907
-2:City=运城市|OS=iOS|:0.000500:0.000600:53.776713
-2:City=湖州市|CarrierName=Other|:0.000500:0.000500:46.907271
-2:City=蚌埠市|CarrierName=China Mobile|:0.000100:0.000100:8.395001
-2:City=呼和浩特市|CarrierName=China Mobile|:0.001400:0.000600:141.160109
-2:City=怀化市|OS=Android|:0.000300:0.000300:25.870949
-2:City=南宁市|OS=iOS|:0.002600:0.003000:260.280989
-2:OS=iOS|AppName=通用TXT小说阅读器|:0.001100:0.000700:106.833364
-2:City=乐山市|CarrierName=Other|:0.000200:0.000200:24.873206
-2:City=大理白族自治州|CarrierName=China Mobile|:0.001900:0.000300:188.246691
-2:City=葫芦岛市|CarrierName=China Telecom|:0.000100:0.000200:8.890203
-2:Categorys=工具|OS=Android|:0.016800:0.019300:1677.214767
-2:City=台州市|OS=Android|:0.001400:0.001700:144.756893
-2:City=临沂市|CarrierName=Other|:0.000500:0.000600:47.585048
-2:City=长治市|DeviceType=Phone|:0.000600:0.000600:58.413348
-2:Categorys=游戏|AppName=摘下闪闪满天星 Lucky Stars HD - PopStar!|:0.004900:0.000300:490.260555
-2:Categorys=休闲游戏|AppName=捕鱼达人|:0.000800:0.000000:81.557980
-2:City=漳州市|DeviceType=Pad|:0.000300:0.000300:27.123256
-2:City=赣州市|DeviceType=Pad|:0.000300:0.000400:32.532673
-2:City=枣庄市|OS=iOS|:0.000300:0.000300:32.574101
-2:Categorys=社交|AppName=UberSocial for Twitter|:0.000800:0.000000:84.365460
-2:City=拉萨市|CarrierName=Other|:0.000200:0.000300:15.661410
-2:City=承德市|CarrierName=China Telecom|:0.000100:0.000200:12.358749
-2:Categorys=生活|DeviceType=Phone|:0.003900:0.003600:387.505775
-2:City=丽水市|OS=iOS|:0.000500:0.000500:53.468121
-2:DeviceType=Phone|AppName=Daddy Was A Thief|:0.000900:0.000700:90.744573
-2:City=台州市|CarrierName=China Mobile|:0.000200:0.000600:18.254614
-2:City=焦作市|CarrierName=UNICOM|:0.000500:0.000200:51.469981
-2:OS=Android|AppName=PicsArt - Photo Studio|:0.005600:0.001900:564.257089
-2:City=嘉兴市|OS=Android|:0.000900:0.001400:87.348733
-2:DeviceType=Phone|AppName=欢乐碰碰猫|:0.005300:0.004600:526.687948
-2:City=南宁市|OS=Android|:0.002900:0.002500:293.745117
-2:City=拉萨市|DeviceType=Phone|:0.000800:0.000700:76.856993
-2:City=三明市|CarrierName=UNICOM|:0.000100:0.000100:8.551683
-2:City=莆田市|CarrierName=Other|:0.000400:0.000700:43.699294
-2:OS=Android|AppName=宝石之旅|:0.002400:0.000800:243.286097
-2:Categorys=社交|AppName=Tagged Mobile App|:0.000600:0.000000:58.480536
-2:City=承德市|DeviceType=Phone|:0.000500:0.000600:52.695247
-2:City=宜宾市|DeviceType=Pad|:0.000200:0.000200:20.034911
-2:City=黄冈市|CarrierName=Other|:0.000400:0.000300:43.574292
-2:DeviceType=Pad|AppName=懒人听书|:0.025100:0.015800:2510.580359
-2:Categorys=工具|AppName=电视直播 HD|:0.002700:0.000100:265.359857
-2:Categorys=通讯|OS=Android|:0.002900:0.001000:288.214137
-2:City=武汉市|DeviceType=Phone|:0.011500:0.011700:1145.949895
-2:City=绍兴市|DeviceType=Phone|:0.001900:0.002000:187.484716
-2:City=绍兴市|CarrierName=UNICOM|:0.000200:0.000500:16.274591
-2:City=辽阳市|CarrierName=China Telecom|:0.000200:0.000100:15.751020
-2:City=抚顺市|DeviceType=Pad|:0.000300:0.000200:26.428851
-2:City=济宁市|DeviceType=Pad|:0.000300:0.000300:33.701572
-2:City=鄂尔多斯市|OS=iOS|:0.000400:0.000300:36.160405
-2:City=拉萨市|OS=iOS|:0.000600:0.000500:55.519431
-2:City=其他城市|CarrierName=SK Telecom|:0.006100:0.001800:610.886269
-2:City=东营市|CarrierName=China Telecom|:0.000100:0.000200:10.035944
-2:City=其他城市|CarrierName=SingTel|:0.001200:0.000400:121.660691
-2:DeviceType=Pad|AppName=宝石之旅|:0.000500:0.000500:46.154912
-2:OS=iOS|AppName=懒人听书|:0.080600:0.052900:8060.718027
-2:City=菏泽市|CarrierName=UNICOM|:0.000400:0.000100:42.213844
-2:City=桂林市|OS=iOS|:0.000700:0.000800:69.090316
-2:City=吕梁市|DeviceType=Phone|:0.000600:0.000600:58.495089
-2:City=黄石市|DeviceType=Pad|:0.000200:0.000200:19.461824
-2:Categorys=休闲游戏|AppName=钻石之星|:0.006800:0.000200:682.420384
-2:City=遵义市|CarrierName=China Telecom|:0.000700:0.000300:69.635389
-2:DeviceType=Pad|CarrierName=Celcom|:0.000400:0.000400:37.552462
-2:City=吕梁市|OS=Android|:0.000400:0.000300:35.227468
-2:City=昌吉回族自治州|DeviceType=Pad|:0.000100:0.000200:11.734144
-2:City=菏泽市|OS=Android|:0.000400:0.000300:35.942184
-2:City=重庆市|DeviceType=Phone|:0.010700:0.011000:1074.299554
-2:City=南平市|CarrierName=China Telecom|:0.000400:0.000200:43.330777
-2:OS=iOS|AppName=消除星星|:0.010300:0.006800:1030.273459
-2:City=潍坊市|CarrierName=China Telecom|:0.000200:0.000500:24.515243
-2:City=宁德市|OS=iOS|:0.000800:0.000700:75.061659
-2:DeviceType=Phone|AppName=手电筒 - Tiny Flashlight Ⓡ|:0.002200:0.001800:223.786790
-2:OS=Android|AppName=Gay Chat & Dating - Jack'd|:0.000500:0.000200:49.343512
-2:City=渭南市|CarrierName=Other|:0.000200:0.000200:18.722001
-2:OS=iOS|CarrierName=StarHub|:0.000300:0.000400:32.992040
-2:Categorys=工具|AppName=智能应用锁 免费版|:0.000700:0.000000:71.420258
-2:City=六安市|CarrierName=China Mobile|:0.000100:0.000100:10.910547
-2:Categorys=工具|AppName=手电筒 - Tiny Flashlight Ⓡ|:0.002200:0.000100:223.788694
-2:City=威海市|OS=iOS|:0.000600:0.000600:62.619340
-2:Categorys=赛车游戏|OS=Android|:0.005400:0.001900:537.987072
-2:OS=Android|AppName=PocketInvEditor|:0.000900:0.000300:89.391892
-2:City=平顶山市|DeviceType=Phone|:0.000700:0.000700:68.006582
-2:City=黄冈市|DeviceType=Phone|:0.000800:0.000800:80.187690
-2:Categorys=社交|AppName=Tagged - Meet New People|:0.001200:0.000000:120.738161
-2:City=秦皇岛市|OS=iOS|:0.000900:0.000800:91.223510
-2:City=赣州市|DeviceType=Phone|:0.001800:0.001600:176.127592
-2:DeviceType=Pad|AppName=和风物语|:0.000500:0.000200:49.422637
-2:Categorys=工具|AppName=hao网址大全|:0.008200:0.000500:822.892493
-2:City=娄底市|DeviceType=Pad|:0.000100:0.000100:12.475918
-2:City=牡丹江市|OS=iOS|:0.000400:0.000400:44.503204
-2:City=上海市|OS=Android|:0.012400:0.022600:1240.244955
-2:City=廊坊市|CarrierName=China Telecom|:0.000800:0.000800:80.054810
-2:OS=Android|CarrierName=XL|:0.001700:0.000900:174.292029
-2:City=邢台市|CarrierName=Other|:0.000400:0.000400:38.025275
-2:DeviceType=Phone|CarrierName=Other|:0.237900:0.240200:23789.147624
-2:City=宁波市|CarrierName=UNICOM|:0.001600:0.001400:159.932571
-2:City=濮阳市|OS=Android|:0.000300:0.000300:30.144582
-2:OS=iOS|AppName=K歌达人-最专业的手机KTV|:0.000600:0.000400:64.675804
-2:DeviceType=Phone|AppName=摘下闪闪满天星 Lucky Stars HD - PopStar!|:0.002300:0.003900:234.920005
-2:Categorys=娱乐|AppName=彩色连珠免费版|:0.004600:0.000500:460.777185
-2:City=揭阳市|DeviceType=Pad|:0.000100:0.000200:9.516118
-2:City=襄樊市|DeviceType=Phone|:0.000800:0.000800:80.745657
-2:City=龙岩市|CarrierName=Other|:0.000200:0.000200:22.202291
-2:City=中山市|CarrierName=China Mobile|:0.001000:0.000300:99.881570
-2:City=赤峰市|OS=iOS|:0.000400:0.000300:40.714906
-2:Categorys=游戏|AppName=宠物连连看2.5版|:0.000700:0.000000:69.996378
-2:City=长治市|DeviceType=Pad|:0.000200:0.000200:23.019576
-2:DeviceType=Pad|AppName=PopStar! 高清免费版|:0.000300:0.000100:30.887379
-2:DeviceType=Phone|AppName=画中画相机|:0.001600:0.001300:163.308525
-2:City=襄樊市|CarrierName=Other|:0.000400:0.000300:37.200358
-2:Categorys=游戏|AppName=一笔画|:0.000200:0.000100:18.487361
-2:DeviceType=Pad|AppName=▻蜘蛛纸牌|:0.001000:0.000300:96.945463
-2:City=南昌市|OS=iOS|:0.004200:0.004400:415.625543
-2:City=宁德市|CarrierName=China Mobile|:0.000000:0.000200:3.951899
-2:City=抚州市|CarrierName=China Telecom|:0.000300:0.000200:27.788963
-2:City=广州市|CarrierName=China Telecom|:0.005200:0.004800:518.950530
-2:City=舟山市|DeviceType=Pad|:0.000300:0.000200:29.161195
-2:City=九江市|OS=iOS|:0.000700:0.000800:69.552498
-2:OS=Android|CarrierName=True Move|:0.000700:0.000900:72.550711
-2:City=株洲市|DeviceType=Phone|:0.000700:0.000800:70.482127
-2:City=濮阳市|OS=iOS|:0.000300:0.000400:34.883427
-2:City=长沙市|DeviceType=Pad|:0.002200:0.003100:222.517205
-2:DeviceType=Phone|CarrierName=NTT DoCoMo|:0.020900:0.017100:2085.983100
-2:DeviceType=Pad|AppName=Manga Rock ~ 最佳漫画阅读器|:0.000400:0.000100:37.412736
-2:City=合肥市|DeviceType=Phone|:0.007900:0.007100:791.256079
-2:Categorys=休闲游戏|AppName=Marble Blast 2|:0.001200:0.000000:122.037080
-2:DeviceType=Pad|CarrierName=SoftBank|:0.000500:0.003100:54.779739
-2:Categorys=休闲游戏|AppName=消灭星星Pop Star|:0.001000:0.000000:100.382741
-2:City=景德镇市|OS=Android|:0.000300:0.000300:25.009376
-2:City=哈尔滨市|DeviceType=Pad|:0.001500:0.001700:151.074542
-2:City=永州市|DeviceType=Phone|:0.000600:0.000600:55.378288
-2:City=德阳市|OS=Android|:0.000400:0.000500:41.469454
-2:City=无锡市|CarrierName=Other|:0.001300:0.002100:132.842004
-2:City=唐山市|OS=iOS|:0.002300:0.002700:230.321899
-2:City=郴州市|OS=Android|:0.000500:0.000400:52.416784
-2:City=荆州市|CarrierName=Other|:0.000300:0.000400:34.781822
-2:City=怀化市|DeviceType=Pad|:0.000100:0.000100:14.813213
-2:DeviceType=Pad|AppName=Jewels Legend|:0.000200:0.000500:24.577969
-2:City=厦门市|DeviceType=Phone|:0.005200:0.005000:523.642370
-2:City=杭州市|DeviceType=Phone|:0.013900:0.013700:1392.885287
-2:City=滨州市|CarrierName=UNICOM|:0.000300:0.000100:25.505955
-2:City=怀化市|CarrierName=Other|:0.000200:0.000200:20.991370
-2:City=其他城市|CarrierName=M1|:0.000700:0.000200:65.196711
-2:City=邢台市|DeviceType=Phone|:0.001100:0.001100:112.631942
-2:City=许昌市|DeviceType=Phone|:0.000700:0.000700:67.906217
-2:City=保定市|CarrierName=China Mobile|:0.000900:0.000600:93.669292
-2:City=三亚市|CarrierName=UNICOM|:0.000100:0.000100:7.507671
-2:City=石家庄市|OS=Android|:0.003000:0.002900:303.096757
-2:City=杭州市|DeviceType=Pad|:0.003500:0.003700:346.525150
-2:City=衡水市|CarrierName=UNICOM|:0.000400:0.000100:40.432977
-2:City=沈阳市|DeviceType=Pad|:0.001900:0.002300:186.411048
-2:City=长春市|CarrierName=Other|:0.001100:0.001900:113.949008
-2:City=保定市|CarrierName=Other|:0.000800:0.001100:76.400253
-2:OS=Android|CarrierName=KDDI/au|:0.007900:0.009100:792.972139
-2:City=黄冈市|DeviceType=Pad|:0.000200:0.000200:19.257396
-2:City=荆州市|OS=iOS|:0.000700:0.000700:73.471412
-2:City=深圳市|CarrierName=China Telecom|:0.004100:0.003900:413.161982
-2:DeviceType=Phone|AppName=和风物语|:0.000400:0.000700:36.608049
-2:Categorys=图书|AppName=遮神辰东全集－含完美世界小说、遮天、神墓、长生界等辰东作品全集|:0.000800:0.000000:84.470535
-2:City=长沙市|DeviceType=Phone|:0.012600:0.011700:1261.161259
-2:City=襄樊市|OS=Android|:0.000500:0.000500:47.827027
-2:City=乐山市|CarrierName=China Telecom|:0.000400:0.000200:40.001407
-2:City=马鞍山市|OS=Android|:0.000300:0.000300:28.417542
-2:City=包头市|OS=iOS|:0.000900:0.000800:88.007625
-2:City=包头市|DeviceType=Pad|:0.000300:0.000300:34.280833
-2:City=新乡市|CarrierName=China Mobile|:0.000200:0.000200:20.658751
-2:City=济宁市|CarrierName=UNICOM|:0.000700:0.000200:71.390141
-2:City=新余市|OS=Android|:0.000500:0.000700:54.844268
-2:City=昆明市|CarrierName=China Mobile|:0.003000:0.001300:304.309773
-2:DeviceType=Phone|AppName=Plume for Twitter|:0.000600:0.000500:58.058971
-2:City=上海市|CarrierName=Other|:0.009000:0.015100:900.037774
-2:City=德阳市|CarrierName=Other|:0.000300:0.000300:33.336080
-2:City=孝感市|CarrierName=Other|:0.000400:0.000300:37.786072
-2:City=唐山市|OS=Android|:0.002600:0.002200:261.444425
-2:City=拉萨市|CarrierName=China Telecom|:0.000300:0.000200:30.799908
-2:City=南通市|CarrierName=China Telecom|:0.002200:0.000800:222.214604
-2:City=阜阳市|DeviceType=Pad|:0.000200:0.000100:16.343268
-2:OS=iOS|AppName=宠物连连看2.5版|:0.000700:0.000500:69.990911
-2:OS=Android|AppName=Kamus Inggris (Kamusku)|:0.000800:0.000300:83.057883
-2:City=温州市|CarrierName=China Telecom|:0.003700:0.001600:368.297948
-2:City=张家口市|DeviceType=Pad|:0.000200:0.000200:20.272821
-2:City=其他城市|CarrierName=NTT DoCoMo|:0.021700:0.006400:2169.338258
-2:City=三明市|CarrierName=Other|:0.000200:0.000200:21.368494
-2:City=丽水市|CarrierName=UNICOM|:0.000100:0.000200:11.318676
-2:OS=iOS|AppName=hao网址大全|:0.008200:0.005400:822.892023
-2:City=宜宾市|CarrierName=Other|:0.000400:0.000300:35.112473
-2:City=黄冈市|OS=Android|:0.000600:0.000500:57.676346
-2:City=江门市|OS=iOS|:0.000500:0.000600:53.999402
-2:City=伊春市|CarrierName=Other|:0.000700:0.000400:71.643900
-2:City=郑州市|CarrierName=UNICOM|:0.005100:0.002500:505.321150
-2:City=六安市|DeviceType=Phone|:0.000500:0.000500:49.767185
-2:DeviceType=Phone|AppName=捕鱼达人|:0.000800:0.000700:81.552490
-2:City=威海市|CarrierName=Other|:0.000300:0.000300:29.637097
-2:OS=Android|CarrierName=dtac|:0.000100:0.000100:9.465945
-2:City=龙岩市|CarrierName=UNICOM|:0.000100:0.000100:9.439462
-2:City=莆田市|OS=Android|:0.001000:0.001100:99.307000
-2:Categorys=效率|OS=Android|:0.003500:0.002100:354.715498
-2:City=邵阳市|DeviceType=Phone|:0.000600:0.000600:55.208565
-2:OS=Android|CarrierName=China Telecom|:0.064500:0.111400:6446.270686
-2:City=德州市|CarrierName=Other|:0.000200:0.000200:15.884720
-2:City=宝鸡市|DeviceType=Pad|:0.000200:0.000100:16.198585
-2:City=南充市|CarrierName=Other|:0.000500:0.000400:47.980175
-2:DeviceType=Pad|AppName=Hair Salon - Kids Games|:0.000100:0.000100:10.328234
-2:OS=Android|CarrierName=KT|:0.003200:0.001900:316.897371
-2:DeviceType=Phone|AppName=视频下载及管理工具 iBolt|:0.001000:0.001100:97.813722
-2:City=邵阳市|DeviceType=Pad|:0.000200:0.000100:15.951532
-2:Categorys=导航|OS=iOS|:0.000300:0.000200:32.051545
-2:City=芜湖市|CarrierName=UNICOM|:0.000100:0.000200:10.691463
-2:City=永州市|CarrierName=China Telecom|:0.000300:0.000200:25.310893
-2:City=成都市|CarrierName=China Telecom|:0.008500:0.005100:849.522835
-2:City=东莞市|DeviceType=Phone|:0.005100:0.004700:510.282844
-2:City=临沂市|CarrierName=China Telecom|:0.000200:0.000500:24.305182
-2:DeviceType=Pad|AppName=欢乐碰碰猫|:0.000400:0.001100:43.970025
-2:City=台州市|CarrierName=Other|:0.001300:0.001100:126.704970
-2:City=天津市|CarrierName=UNICOM|:0.008400:0.002600:837.187434
-2:City=江门市|CarrierName=Other|:0.000200:0.000300:18.618170
-2:City=茂名市|DeviceType=Phone|:0.000900:0.000800:93.750844
-2:City=惠州市|OS=iOS|:0.001100:0.001300:111.039944
-2:City=临汾市|CarrierName=UNICOM|:0.000400:0.000200:44.033343
-2:City=十堰市|CarrierName=China Mobile|:0.000000:0.000100:2.813732
-2:City=泸州市|CarrierName=China Mobile|:0.000100:0.000100:5.488442
-2:City=宁波市|CarrierName=Other|:0.001400:0.002300:144.344936
-2:City=徐州市|OS=Android|:0.001000:0.001500:97.881618
-2:Categorys=休闲游戏|AppName=蘑菇园|:0.000500:0.000000:51.458670
-2:City=衡水市|CarrierName=China Telecom|:0.000100:0.000200:11.983416
-2:City=大连市|CarrierName=Other|:0.001000:0.001800:96.731674
-2:City=大同市|CarrierName=Other|:0.000300:0.000300:32.335471
-2:DeviceType=Pad|AppName=一生必读的历史书|:0.000500:0.000100:52.351883
-2:DeviceType=Phone|AppName=闹钟 (Alarm Clock) Xtreme 免费版|:0.002100:0.001700:205.303960
-2:City=芜湖市|CarrierName=Other|:0.000400:0.000400:36.734143
-2:City=汕头市|DeviceType=Pad|:0.000300:0.000500:25.142526
-2:City=福州市|OS=Android|:0.003600:0.004400:355.704348
-2:DeviceType=Phone|AppName=Photo Grid -相片组合|:0.003400:0.002800:342.516190
-2:City=辽阳市|CarrierName=UNICOM|:0.000300:0.000100:29.530494
-2:City=连云港市|OS=iOS|:0.000700:0.000600:71.252296
-2:City=西宁市|DeviceType=Phone|:0.001300:0.001300:133.562049
-2:City=襄樊市|CarrierName=UNICOM|:0.000200:0.000200:16.531071
-2:OS=Android|AppName=手相大師|:0.000500:0.000200:53.557388
-2:Categorys=益智和解谜游戏|OS=Android|:0.074200:0.025500:7424.218388
-2:City=济南市|OS=iOS|:0.004000:0.003800:401.491828
-2:City=舟山市|CarrierName=China Telecom|:0.000500:0.000200:50.943356
-2:DeviceType=Phone|AppName=电视连续剧|:0.000400:0.001100:42.523280
-2:City=连云港市|CarrierName=Other|:0.000300:0.000300:26.821709
-2:City=东营市|OS=iOS|:0.000500:0.000400:48.112350
-2:City=抚顺市|CarrierName=UNICOM|:0.000400:0.000100:41.383599
-2:City=商丘市|CarrierName=UNICOM|:0.000300:0.000200:34.833599
-2:Categorys=工具|AppName=全能手电(iHandy Flashlight)|:0.001500:0.000100:153.397461
-2:DeviceType=Pad|CarrierName=M1|:0.000100:0.000100:6.748219
-2:City=其他城市|CarrierName=Maxis|:0.002100:0.000600:205.630542
-2:City=金华市|CarrierName=UNICOM|:0.000300:0.000600:33.647417
-2:Categorys=图书|AppName=有声小说大全(海量+更新)|:0.001000:0.000000:99.329994
-2:City=日照市|DeviceType=Pad|:0.000100:0.000100:12.569126
-2:City=延边朝鲜族自治州|OS=Android|:0.001300:0.000800:132.536054
-2:Categorys=游戏|DeviceType=Pad|:0.028400:0.011700:2842.741055
-2:City=廊坊市|OS=iOS|:0.002100:0.001800:205.056661
-2:City=孝感市|CarrierName=China Telecom|:0.000400:0.000200:36.279722
-2:City=益阳市|DeviceType=Phone|:0.000400:0.004200:35.383598
-2:City=重庆市|CarrierName=UNICOM|:0.003000:0.002500:298.436965
-2:City=赣州市|CarrierName=Other|:0.000400:0.000600:44.255694
-2:City=银川市|DeviceType=Phone|:0.001600:0.001500:159.996560
-2:DeviceType=Phone|AppName=怪物闹钟( AlarmMon , alarm clock)|:0.000700:0.000600:68.415374
-2:City=舟山市|CarrierName=UNICOM|:0.000100:0.000200:5.348562
-2:Categorys=社交|AppName=Gay Chat & Dating - Jack'd|:0.000500:0.000000:49.349049
-2:City=长春市|CarrierName=China Mobile|:0.000500:0.000900:54.027488
-2:DeviceType=Phone|AppName=▻蜘蛛纸牌|:0.000400:0.001100:41.350909
-2:City=衢州市|DeviceType=Phone|:0.000600:0.000600:61.783902
-2:OS=iOS|AppName=友阅-小说下载阅读器 网络图书聚合 找书看书分享书以书会友|:0.003300:0.002200:331.367638
-2:Categorys=商业|OS=iOS|:0.000200:0.000100:15.650607
-2:City=柳州市|CarrierName=Other|:0.000300:0.000600:26.159905
-2:City=锦州市|CarrierName=China Telecom|:0.000100:0.000200:11.048462
-2:City=商丘市|CarrierName=China Mobile|:0.000100:0.000100:7.612314
-2:City=南平市|CarrierName=Other|:0.000300:0.000200:27.040702
-2:City=丽水市|DeviceType=Phone|:0.000800:0.000800:76.052280
-2:City=开封市|DeviceType=Pad|:0.000200:0.000200:18.210003
-2:OS=Android|AppName=PVSTAR+ (YouTube Music Player)|:0.000500:0.000200:52.771867
-2:City=吉林市|OS=Android|:0.000700:0.000800:68.585015
-2:DeviceType=Phone|AppName=abc黑道小说合集珍藏版|:0.000800:0.000700:83.074102
-2:City=温州市|CarrierName=UNICOM|:0.000500:0.001200:53.730131
-2:City=嘉兴市|OS=iOS|:0.002200:0.001700:221.649975
-2:City=南阳市|DeviceType=Phone|:0.000900:0.000900:87.963303
-2:City=衡阳市|CarrierName=UNICOM|:0.000400:0.000300:35.431748
-2:City=泰安市|OS=iOS|:0.000500:0.000500:54.412297
-2:City=咸宁市|DeviceType=Pad|:0.000100:0.000100:12.844336
-2:City=荆门市|OS=Android|:0.000800:0.000900:84.932929
-2:City=徐州市|CarrierName=China Telecom|:0.001900:0.000800:188.393432
-2:City=哈尔滨市|CarrierName=China Telecom|:0.001300:0.001900:127.090831
-2:OS=Android|CarrierName=M1|:0.000300:0.000300:34.259166
-2:DeviceType=Phone|CarrierName=Smart|:0.000200:0.000200:22.670616
-2:Categorys=游戏|AppName=▻蜘蛛纸牌|:0.001400:0.000100:138.292113
-2:DeviceType=Phone|CarrierName=China Telecom|:0.172000:0.194100:17195.054152
-2:City=平顶山市|OS=iOS|:0.000500:0.000500:47.110526
-2:DeviceType=Phone|AppName=全能手电(iHandy Flashlight)|:0.001500:0.001200:153.394683
-2:City=杭州市|OS=iOS|:0.012600:0.009500:1261.514961
-2:DeviceType=Phone|AppName=彩色连珠免费版|:0.004400:0.003700:435.577722
-2:City=扬州市|CarrierName=Other|:0.000700:0.000800:74.006456
-2:City=遵义市|CarrierName=UNICOM|:0.000200:0.000200:15.216843
-2:City=莆田市|CarrierName=China Telecom|:0.000900:0.000600:89.415007
-2:City=荆门市|CarrierName=UNICOM|:0.000100:0.000400:7.097344
-2:City=荆州市|CarrierName=China Mobile|:0.000200:0.000200:22.180123
-2:Categorys=益智和解谜游戏|AppName=Christmas Pop Star|:0.003100:0.000200:312.506790
-2:City=延边朝鲜族自治州|OS=iOS|:0.000500:0.001000:54.121609
-2:OS=iOS|AppName=Echofon for Twitter|:0.000600:0.000400:56.808212
-2:City=绵阳市|CarrierName=China Mobile|:0.001300:0.000400:132.896849
-2:Categorys=休闲游戏|AppName=泡沫射击 Bubble Worlds|:0.003700:0.000100:372.964006
-2:OS=Android|CarrierName=MobiFone|:0.000100:0.000100:14.291982
-2:City=通辽市|CarrierName=China Telecom|:0.000100:0.000200:11.334195
-2:City=怀化市|DeviceType=Phone|:0.000400:0.000400:41.612280
-2:City=哈尔滨市|CarrierName=UNICOM|:0.003400:0.001400:337.391967
-2:City=益阳市|CarrierName=China Mobile|:0.004600:0.000800:458.071638
-2:City=岳阳市|CarrierName=Other|:0.000800:0.000400:76.367070
-2:DeviceType=Pad|AppName=电视直播 HD|:0.002700:0.000500:265.359398
-2:City=株洲市|OS=Android|:0.000400:0.000400:41.239539
-2:City=景德镇市|CarrierName=China Telecom|:0.000300:0.000100:27.312165
-2:City=合肥市|OS=iOS|:0.004400:0.004900:441.231491
-2:City=安阳市|OS=iOS|:0.000400:0.000500:44.746639
-2:City=盐城市|CarrierName=China Telecom|:0.001000:0.000400:100.584254
-2:City=株洲市|CarrierName=Other|:0.000300:0.000300:34.196159
-2:Categorys=工具|AppName=手机铃声 (免费版)|:0.004400:0.000200:435.536320
-2:City=太原市|OS=Android|:0.002300:0.002700:230.410070
-2:Categorys=游戏|AppName=▻数独|:0.003500:0.000200:349.247955
-2:City=成都市|CarrierName=China Mobile|:0.004300:0.003200:432.236617
-2:DeviceType=Phone|AppName=会说话的熊猫保罗 iPhone版|:0.000600:0.000500:55.992872
-2:City=大同市|DeviceType=Pad|:0.000300:0.000200:25.724403
-2:City=黄冈市|OS=iOS|:0.000400:0.000500:41.769634
-2:City=湘西土家族苗族自治州|OS=iOS|:0.000300:0.000400:31.673268
-2:City=日照市|OS=iOS|:0.000300:0.000300:29.954320
-2:City=信阳市|CarrierName=China Mobile|:0.000100:0.000200:9.512518
-2:City=永州市|OS=iOS|:0.000300:0.000400:33.078484
-2:OS=iOS|AppName=RushPlayer Lite|:0.000900:0.000600:93.317546
-2:City=菏泽市|DeviceType=Pad|:0.000100:0.000200:14.140123
-2:Categorys=媒体与视频|DeviceType=Phone|:0.002600:0.002300:257.677700
-2:OS=Android|AppName=Christmas Pop Star|:0.003100:0.001100:312.506108
-2:City=温州市|OS=iOS|:0.004500:0.003600:450.894444
-2:City=大连市|CarrierName=UNICOM|:0.002600:0.001100:255.895177
-2:City=惠州市|CarrierName=Other|:0.000300:0.000700:34.212461
-2:City=淮安市|CarrierName=China Telecom|:0.000600:0.000300:59.068641
-2:City=咸阳市|CarrierName=Other|:0.000200:0.000200:22.364927
-2:City=乌鲁木齐市|OS=iOS|:0.002800:0.003100:279.762304
-2:OS=iOS|AppName=TuneIn Radio|:0.000800:0.000600:81.126795
-2:City=镇江市|OS=Android|:0.000400:0.000600:38.663898
-2:City=温州市|OS=Android|:0.002100:0.003000:212.654850
-2:City=南通市|CarrierName=China Mobile|:0.000100:0.000500:9.580870
-2:City=盐城市|OS=Android|:0.000600:0.000800:57.991473
-2:City=南阳市|CarrierName=UNICOM|:0.000500:0.000200:48.558901
-2:City=孝感市|CarrierName=China Mobile|:0.000100:0.000100:9.693813
-2:City=宜宾市|OS=iOS|:0.000400:0.000500:39.677089
-2:City=宝鸡市|CarrierName=UNICOM|:0.000100:0.000100:8.204100
-2:Categorys=娱乐|AppName=灵占天下－算命 八字 星座 占卜 运势 生肖|:0.001900:0.000200:185.548852
-2:DeviceType=Pad|CarrierName=Maxis|:0.000200:0.000400:24.222892
-2:City=黄山市|OS=Android|:0.000400:0.000300:38.827776
-2:City=漳州市|CarrierName=UNICOM|:0.000100:0.000300:14.082890
-2:City=上海市|OS=iOS|:0.037300:0.027200:3734.215104
-2:City=永州市|CarrierName=Other|:0.000300:0.000200:32.495837
-2:City=桂林市|CarrierName=China Telecom|:0.000500:0.000300:53.067774
-2:DeviceType=Pad|CarrierName=China Telecom|:0.073700:0.051500:7367.548697
-2:City=驻马店市|OS=iOS|:0.000400:0.000500:44.651925
-2:City=达州市|OS=iOS|:0.000400:0.000400:36.315831
-2:DeviceType=Pad|AppName=拼立得 - 杂志拼图|:0.000800:0.001600:75.967729
-2:City=鞍山市|CarrierName=China Telecom|:0.000200:0.000500:20.178576
-2:City=洛阳市|OS=Android|:0.000900:0.000800:85.563517
-2:Categorys=游戏|AppName=Flappy Bird|:0.001800:0.000100:183.775933
-2:Categorys=健康健美|OS=iOS|:0.000400:0.000300:40.778292
-2:City=鞍山市|OS=Android|:0.000700:0.000900:69.967905
-2:City=汕头市|CarrierName=Other|:0.000300:0.000700:33.162859
-2:OS=Android|CarrierName=Other|:0.192000:0.137900:19196.589143
-2:City=福州市|DeviceType=Phone|:0.007400:0.007600:743.402114
-2:DeviceType=Pad|AppName=PicsArt - Photo Studio|:0.000500:0.001100:53.496774
-2:City=太原市|CarrierName=China Telecom|:0.001100:0.001500:110.259370
-2:City=丹东市|DeviceType=Pad|:0.000200:0.000100:21.286097
-2:Categorys=通讯|DeviceType=Phone|:0.002800:0.002300:278.241469
-2:City=潍坊市|DeviceType=Phone|:0.001600:0.001600:162.793204
-2:City=渭南市|DeviceType=Pad|:0.000100:0.000100:12.663177
-2:Categorys=教育|OS=iOS|:0.004900:0.003500:493.766986
-2:City=南阳市|CarrierName=China Mobile|:0.000100:0.000200:10.706762
-2:City=通辽市|CarrierName=China Mobile|:0.000300:0.000100:29.407647
-2:DeviceType=Phone|AppName=Manga Rock ~ 最佳漫画阅读器|:0.000300:0.000500:26.447890
-2:Categorys=财务|OS=Android|:0.000600:0.000300:59.372210
-2:City=武汉市|CarrierName=China Telecom|:0.006200:0.003600:615.610872
-2:DeviceType=Pad|AppName=Pop Star Free|:0.000100:0.000500:11.933009
-2:City=黄山市|DeviceType=Phone|:0.000500:0.000500:52.825048
-2:City=马鞍山市|CarrierName=China Mobile|:0.000100:0.000100:10.688553
-2:City=汕头市|OS=iOS|:0.001300:0.001300:129.436038
-2:City=嘉兴市|CarrierName=UNICOM|:0.000600:0.000600:58.211038
-2:DeviceType=Pad|AppName=大理石祖玛v1.5|:0.000200:0.000100:15.877134
-2:City=湛江市|OS=Android|:0.000300:0.000300:31.190743
-2:City=佛山市|DeviceType=Pad|:0.000700:0.001200:72.905876
-2:City=湖州市|OS=iOS|:0.001000:0.000900:102.326046
-2:City=滨州市|CarrierName=China Telecom|:0.000100:0.000100:12.648934
-2:OS=Android|AppName=Dragon Gem|:0.000700:0.000200:71.897224
-2:City=怀化市|CarrierName=UNICOM|:0.000100:0.000100:7.307146
-2:City=通辽市|OS=iOS|:0.000400:0.000400:39.971385
-2:City=沧州市|DeviceType=Pad|:0.000300:0.000400:32.745761
-2:City=常州市|CarrierName=UNICOM|:0.000200:0.000600:17.508210
-2:OS=iOS|AppName=手机音乐电台|:0.000600:0.000400:59.537926
-2:City=临沂市|OS=iOS|:0.000900:0.001100:92.895694
-2:City=天津市|DeviceType=Pad|:0.004600:0.003000:459.220986
-2:City=烟台市|OS=iOS|:0.002500:0.002600:245.480538
-2:City=潍坊市|CarrierName=UNICOM|:0.000900:0.000400:85.922430
-2:City=衢州市|CarrierName=UNICOM|:0.000100:0.000100:7.146041
-2:Categorys=休闲游戏|AppName=疯狂桌球 Pool Mania|:0.000700:0.000000:71.181430
-2:City=周口市|OS=Android|:0.000400:0.000300:41.051332
-2:City=六安市|OS=iOS|:0.000300:0.000300:27.484488
-2:City=信阳市|OS=iOS|:0.000400:0.000700:44.835638
-2:DeviceType=Pad|AppName=钢琴 HD|:0.000500:0.000100:50.229789
-2:City=武汉市|CarrierName=UNICOM|:0.003000:0.002700:300.758474
-2:City=渭南市|OS=iOS|:0.000300:0.000300:28.691883
-2:City=长治市|CarrierName=China Mobile|:0.000100:0.000100:7.550982
-2:Categorys=纸牌游戏|AppName=蜘蛛纸牌|:0.000600:0.000000:58.569780
-2:City=莆田市|OS=iOS|:0.001400:0.001300:140.271301
-2:City=牡丹江市|DeviceType=Pad|:0.000200:0.000100:19.607221
-2:OS=Android|AppName=手电筒 - Tiny Flashlight Ⓡ|:0.002200:0.000800:223.787666
-2:City=厦门市|CarrierName=Other|:0.001300:0.001900:127.006994
-2:City=泸州市|CarrierName=China Telecom|:0.000300:0.000200:31.933341
-2:City=青岛市|OS=Android|:0.002900:0.003400:292.360628
-2:DeviceType=Pad|CarrierName=SingTel|:0.000100:0.000300:10.733809
-2:OS=iOS|AppName=一生必读的60部名著|:0.000600:0.000400:57.569006
-2:City=潮州市|OS=iOS|:0.000400:0.000400:36.993844
-2:City=邯郸市|CarrierName=Other|:0.000700:0.000900:69.509564
-2:OS=iOS|CarrierName=KT|:0.001000:0.002300:101.331731
-2:City=岳阳市|OS=iOS|:0.000500:0.000800:50.887034
-2:City=新乡市|OS=iOS|:0.000800:0.000800:76.435724
-2:City=三亚市|DeviceType=Pad|:0.000200:0.000100:16.611086
-2:DeviceType=Pad|AppName=爱死祖玛 - 免费 可爱 祖玛 射击  春天 夏天 秋天 冬天|:0.000500:0.000200:53.718424
-2:City=益阳市|CarrierName=China Telecom|:0.000200:0.001300:23.584435
-2:City=赣州市|OS=Android|:0.001100:0.000900:106.945435
-2:City=济南市|CarrierName=Other|:0.001200:0.002100:123.258271
-2:OS=iOS|CarrierName=XL|:0.000200:0.001100:22.157302
-2:DeviceType=Phone|AppName=SOFTnet Waktu Solat|:0.000500:0.000400:52.669014
-2:Categorys=图书|AppName=搞笑妹子-看美图淘无节操笑话,美女姐的囧颜表情,内涵段子电影视频剧片快乐地播,我百思不顾得天机魔相狐兔宝风暴云度,陌跑漫行往来遇见约会泡你查找搜iOS7幽默文库性感酷壁纸铃声贴吧秀|:0.000600:0.000000:58.261608
-2:City=绍兴市|CarrierName=Other|:0.000600:0.000800:64.019500
-2:City=泰安市|DeviceType=Phone|:0.000800:0.000700:75.346953
-2:DeviceType=Phone|AppName=K歌达人-最专业的手机KTV|:0.000600:0.000500:64.675186
-2:DeviceType=Pad|CarrierName=Vietel|:0.000100:0.000300:5.753647
-2:City=濮阳市|CarrierName=China Mobile|:0.000100:0.000100:5.379862
-2:City=白山市|CarrierName=UNICOM|:0.000400:0.000100:39.594247
-2:City=哈尔滨市|CarrierName=China Mobile|:0.001900:0.001200:185.491282
-2:DeviceType=Pad|AppName=视频下载及管理工具 iBolt|:0.000400:0.000300:41.951662
-2:Categorys=摄影|DeviceType=Phone|:0.026100:0.021900:2606.192059
-2:Categorys=游戏|AppName=扫雷Q|:0.000600:0.000000:63.279831
-2:OS=iOS|AppName=麻将二人行|:0.000800:0.000500:81.676366
-2:Categorys=图书|AppName=abc黑道小说合集珍藏版|:0.000800:0.000000:83.079545
-2:City=绵阳市|CarrierName=UNICOM|:0.000100:0.000500:9.033768
-2:DeviceType=Phone|AppName=疯狂桌球 Pool Mania|:0.000700:0.000600:71.175139
-2:City=茂名市|DeviceType=Pad|:0.000100:0.000200:8.247334
-2:Categorys=工具|OS=iOS|:0.039300:0.036800:3934.274462
-2:City=苏州市|DeviceType=Pad|:0.003300:0.004000:325.963762
-2:City=成都市|OS=Android|:0.007800:0.009500:775.999598
-2:City=平顶山市|CarrierName=China Mobile|:0.000100:0.000100:7.384865
-2:City=晋城市|OS=iOS|:0.000300:0.000300:33.945615
-2:OS=iOS|AppName=绝世唐门,斗罗大陆等唐家三少作品系列全集|:0.000500:0.000400:54.338610
-2:City=三亚市|CarrierName=Other|:0.000200:0.000200:17.547680
-2:City=四平市|DeviceType=Phone|:0.000500:0.000500:51.987589
-2:City=珠海市|OS=iOS|:0.000700:0.000600:66.081864
-2:Categorys=音乐|AppName=中国好声音(1-2) [开心听歌特别版]|:0.000700:0.000000:73.508747
-2:City=连云港市|CarrierName=UNICOM|:0.000100:0.000200:8.614373
-2:City=龙岩市|DeviceType=Pad|:0.000100:0.000100:14.236673
-2:City=秦皇岛市|CarrierName=Other|:0.000300:0.000400:29.839584
-2:OS=Android|CarrierName=SK Telecom|:0.005300:0.002800:528.526765
-2:City=苏州市|CarrierName=UNICOM|:0.003000:0.003400:302.144233
-2:City=苏州市|OS=iOS|:0.012400:0.010300:1240.727636
-2:OS=Android|AppName=主驾驶|:0.000500:0.000200:54.252879
-2:City=无锡市|CarrierName=China Mobile|:0.001800:0.001100:176.478912
-2:DeviceType=Phone|CarrierName=SK Telecom|:0.006000:0.004800:599.563829
-2:City=宁德市|OS=Android|:0.000500:0.000600:51.949062
-2:DeviceType=Phone|AppName=Hair Salon - Kids Games|:0.000500:0.000500:47.760371
-2:City=宜昌市|OS=iOS|:0.001300:0.001200:125.676415
-2:City=上海市|CarrierName=UNICOM|:0.008300:0.009000:830.645102
-2:DeviceType=Phone|AppName=消灭星星 PopStar! - 免费完整版|:0.003300:0.003700:325.440613
-2:City=吉林市|DeviceType=Pad|:0.000500:0.000400:46.429263
-2:City=濮阳市|DeviceType=Pad|:0.000100:0.000100:14.534274
-2:City=泉州市|OS=Android|:0.003500:0.003800:347.853490
-2:City=上海市|CarrierName=China Mobile|:0.006300:0.007600:633.644093
-2:City=其他城市|OS=iOS|:0.118500:0.161000:11853.774899
-2:City=大连市|CarrierName=China Telecom|:0.000600:0.001400:58.215604
-2:DeviceType=Phone|AppName=Echofon for Twitter|:0.000600:0.000500:56.807508
-2:City=阳泉市|CarrierName=China Telecom|:0.000100:0.000200:9.396194
-2:Categorys=益智和解谜游戏|DeviceType=Phone|:0.070900:0.059700:7094.007120
-2:City=珠海市|CarrierName=UNICOM|:0.000200:0.000200:24.818106
-2:Categorys=游戏|AppName=心动小狗 - QQ微信微博用户最爱的天天要玩的比酷跑好玩的带音乐支持的住爱情公寓看爸爸去哪儿时玩的美女很多的HD宠物养成游戏|:0.000700:0.000000:67.326892
-2:OS=Android|AppName=Marble Blast 2|:0.001200:0.000400:122.035017
-2:City=无锡市|OS=iOS|:0.005100:0.003800:505.737656
-2:City=衡阳市|CarrierName=China Telecom|:0.000500:0.000300:49.744697
-2:City=其他城市|CarrierName=KDDI/au|:0.020000:0.005900:1997.140798
-2:City=三明市|OS=iOS|:0.000400:0.000400:37.550528
-2:City=上饶市|DeviceType=Phone|:0.001800:0.001600:175.348836
-2:OS=Android|AppName=UberSocial for Twitter|:0.000700:0.000300:70.678062
-2:City=伊春市|DeviceType=Pad|:0.000200:0.000300:24.574361
-2:City=其他城市|CarrierName=XL|:0.002000:0.000600:196.435693
-2:City=无锡市|DeviceType=Phone|:0.005200:0.005500:518.794524
-2:City=阜阳市|OS=Android|:0.000300:0.000300:32.716897
-2:City=泉州市|DeviceType=Pad|:0.001100:0.001800:112.213310
-2:City=张家口市|DeviceType=Phone|:0.000500:0.000600:54.208814
-2:City=茂名市|OS=Android|:0.000600:0.000500:59.293562
-2:City=南京市|CarrierName=Other|:0.002500:0.004800:246.597176
-2:City=威海市|CarrierName=China Telecom|:0.000100:0.000300:8.321229
-2:City=东莞市|OS=iOS|:0.002600:0.003200:264.433443
-2:City=宝鸡市|OS=iOS|:0.000400:0.000400:35.153880
-2:City=四平市|CarrierName=China Mobile|:0.000100:0.000100:9.172958
-2:DeviceType=Phone|AppName=泡沫射击 Bubble Worlds|:0.003200:0.003000:317.287987
-2:City=宜宾市|CarrierName=China Telecom|:0.000400:0.000200:35.912779
-2:DeviceType=Pad|AppName=果蔬连连看HD|:0.000800:0.000200:83.278321
-2:Categorys=摄影与录像|AppName=照片工坊-Fotolr|:0.001900:0.000000:186.723138
-2:City=扬州市|CarrierName=China Mobile|:0.000300:0.000400:30.795323
-2:OS=Android|AppName=Jewels Legend|:0.002500:0.000800:246.063966
-2:City=岳阳市|CarrierName=UNICOM|:0.000200:0.000300:17.320882
-2:City=江门市|OS=Android|:0.000500:0.000500:47.737602
-2:City=南昌市|CarrierName=Other|:0.001200:0.002400:122.205435
-2:DeviceType=Phone|AppName=TuneIn Radio|:0.000700:0.000700:67.960166
-2:City=牡丹江市|CarrierName=UNICOM|:0.000400:0.000100:35.371912
-2:OS=Android|AppName=Camfrog Video Chat|:0.002800:0.000900:275.478137
-2:OS=iOS|AppName=abc黑道小说合集珍藏版|:0.000800:0.000500:83.074583
-2:OS=iOS|AppName=扫雷Q|:0.000600:0.000400:63.273784
-2:City=东莞市|CarrierName=China Telecom|:0.001500:0.001400:145.358223
-2:City=江门市|CarrierName=China Telecom|:0.000300:0.000200:34.024143
-2:DeviceType=Phone|AppName=触摸玄幻热-含绝世唐门、莽荒纪、大主宰、斗罗大陆＋唐家三少作品全集|:0.001200:0.001100:124.254733
-2:City=达州市|CarrierName=China Telecom|:0.000300:0.000200:29.304876
-2:City=西宁市|CarrierName=Other|:0.000300:0.000500:27.768379
-2:Categorys=工具|AppName=OPlayerHD Lite - 免费的万能播放器。快速，网络流播放，Samba播放，FTP播放，下载管理，MKV硬件解码高清电影，无需转换，多媒体多格式播放，多音轨切换，外置内嵌字幕支持。|:0.001900:0.000100:188.985778
-2:City=滁州市|OS=iOS|:0.000400:0.000300:37.172742
-2:City=北京市|CarrierName=China Telecom|:0.007400:0.012600:739.288164
-2:City=乌鲁木齐市|OS=Android|:0.002800:0.002500:280.673437
-2:City=南平市|OS=iOS|:0.000400:0.000400:44.019639
-2:City=珠海市|DeviceType=Phone|:0.000700:0.000800:70.981695
-2:City=惠州市|DeviceType=Pad|:0.000300:0.000500:29.576513
-2:City=益阳市|OS=iOS|:0.005000:0.002900:503.048087
-2:DeviceType=Phone|AppName=智能应用锁 免费版|:0.000700:0.000600:71.414290
-2:City=辽阳市|DeviceType=Phone|:0.000400:0.000500:41.215345
-2:OS=Android|AppName=Battery Watch ★★★ Funny Voices|:0.000600:0.000200:59.171362
-2:Categorys=图书|AppName=绝世唐门,斗罗大陆等唐家三少作品系列全集|:0.000500:0.000000:54.346196
-2:City=驻马店市|DeviceType=Pad|:0.000200:0.000200:15.132863
-2:City=孝感市|DeviceType=Pad|:0.000200:0.000200:19.137073
-2:OS=iOS|CarrierName=Other|:0.112100:0.166100:11209.018125
-2:City=大庆市|OS=iOS|:0.000900:0.000700:85.913808
-2:City=莆田市|CarrierName=UNICOM|:0.000100:0.000400:11.054592
-2:City=青岛市|DeviceType=Phone|:0.005700:0.005900:565.063783
-2:City=绵阳市|OS=Android|:0.001500:0.001200:148.923055
-2:City=其他城市|CarrierName=UNICOM|:0.005100:0.053500:513.626818
-2:DeviceType=Pad|AppName=Christmas Pop Star|:0.000200:0.000600:16.794893
-2:City=惠州市|CarrierName=China Telecom|:0.000500:0.000600:53.253710
-2:City=鄂尔多斯市|CarrierName=China Mobile|:0.000000:0.000100:2.960456
-2:City=包头市|CarrierName=China Mobile|:0.000200:0.000200:21.166654
-2:Categorys=摄影|DeviceType=Pad|:0.001200:0.005300:116.660187
-2:City=兰州市|DeviceType=Phone|:0.003800:0.003700:380.956816
-2:Categorys=媒体与视频|AppName=PVSTAR+ (YouTube Music Player)|:0.000500:0.000000:52.777208
-2:Categorys=游戏|AppName=麻将二人行|:0.000800:0.000000:81.681051
-2:City=阳泉市|CarrierName=Other|:0.000200:0.000200:21.621260
-2:City=盘锦市|CarrierName=China Telecom|:0.000100:0.000100:8.971057
-2:DeviceType=Phone|AppName=UberSocial for Twitter|:0.000800:0.000700:82.982127
-2:City=包头市|OS=Android|:0.000500:0.000600:50.306731
-2:DeviceType=Phone|CarrierName=Celcom|:0.001700:0.001600:165.042830
-2:City=长春市|OS=iOS|:0.004100:0.003400:406.206316
-2:City=大连市|DeviceType=Phone|:0.004200:0.004600:419.294467
-2:DeviceType=Pad|AppName=Camfrog Video Chat|:0.000200:0.000500:24.394871
-2:City=平顶山市|CarrierName=UNICOM|:0.000300:0.000200:26.758923
-2:OS=Android|AppName=Skater Boy|:0.000900:0.000300:92.148737
-2:City=开封市|CarrierName=UNICOM|:0.000300:0.000100:32.599908
-2:DeviceType=Pad|AppName=心动小狗 - QQ微信微博用户最爱的天天要玩的比酷跑好玩的带音乐支持的住爱情公寓看爸爸去哪儿时玩的美女很多的HD宠物养成游戏|:0.000400:0.000100:39.028849
-2:City=汕头市|CarrierName=China Mobile|:0.001100:0.000400:109.515927
-2:OS=iOS|AppName=触摸玄幻热-含绝世唐门、莽荒纪、大主宰、斗罗大陆＋唐家三少作品全集|:0.001400:0.000900:140.151581
-2:Categorys=健康与健身|OS=Android|:0.001400:0.000500:139.895443
-2:DeviceType=Phone|AppName=消灭星星Pop Star|:0.001000:0.000800:100.378280
-2:City=南通市|DeviceType=Pad|:0.000900:0.000700:89.901047
-2:City=威海市|DeviceType=Pad|:0.000300:0.000200:33.038230
-2:City=桂林市|DeviceType=Phone|:0.001100:0.001100:110.669173
-2:City=枣庄市|DeviceType=Phone|:0.000500:0.000500:46.163335
-2:Categorys=街机和动作游戏|OS=Android|:0.004500:0.001600:453.533149
-2:City=沈阳市|OS=Android|:0.003900:0.004900:394.816678
-2:OS=iOS|CarrierName=SoftBank|:0.013000:0.008000:1298.802014
-2:City=银川市|CarrierName=UNICOM|:0.000300:0.000300:32.015162
-2:City=六安市|DeviceType=Pad|:0.000100:0.000100:12.166287
-2:City=常州市|DeviceType=Pad|:0.001000:0.000700:101.791313
-2:City=镇江市|DeviceType=Phone|:0.000900:0.001000:90.964061
-2:Categorys=娱乐|OS=iOS|:0.098700:0.067500:9868.037181
-2:City=咸宁市|OS=iOS|:0.000300:0.000300:25.731684
-2:City=嘉兴市|DeviceType=Phone|:0.002300:0.002400:225.584798
-2:City=菏泽市|CarrierName=Other|:0.000200:0.000200:21.220476
-2:City=宣城市|CarrierName=UNICOM|:0.000000:0.000100:3.271327
-2:City=绍兴市|OS=iOS|:0.001700:0.001400:173.117365
-2:City=泉州市|DeviceType=Phone|:0.007300:0.006700:732.719828
-2:Categorys=医药|OS=Android|:0.000500:0.000200:46.301995
-2:City=新余市|CarrierName=Other|:0.000400:0.000500:43.921060
-2:OS=iOS|CarrierName=dtac|:0.000100:0.000100:10.146320
-2:OS=iOS|AppName=碰碰糖|:0.001700:0.001100:167.237618
-2:City=沧州市|CarrierName=Other|:0.000400:0.000600:42.394291
-2:City=常州市|CarrierName=China Mobile|:0.000400:0.000500:35.576076
-2:DeviceType=Pad|AppName=hao网址大全|:0.000100:0.001600:8.357605
-2:DeviceType=Phone|AppName=大家来找茬(新版)|:0.000600:0.001000:58.432741
-2:Categorys=游戏|AppName=Onet|:0.001700:0.000100:165.968420
-2:City=济南市|OS=Android|:0.002900:0.003100:291.540946
-2:Categorys=休闲游戏|AppName=Blink!Blink!Blink!|:0.001000:0.000000:96.243516
-2:OS=Android|CarrierName=3|:0.003100:0.001500:311.781881
-2:City=湘潭市|CarrierName=Other|:0.000300:0.000200:29.588057
-2:City=晋中市|CarrierName=Other|:0.000300:0.000400:28.669537
-2:Categorys=交通运输|OS=Android|:0.000400:0.000100:41.457567
-2:City=呼和浩特市|DeviceType=Pad|:0.000500:0.000900:53.216509
-2:DeviceType=Pad|CarrierName=KT|:0.000100:0.000900:11.815994
-2:City=成都市|CarrierName=UNICOM|:0.002900:0.003800:286.656097
-2:DeviceType=Phone|AppName=iOS7壁纸+|:0.010300:0.008300:1031.168572
-2:DeviceType=Phone|AppName=小月历 - 女性日记|:0.000500:0.000400:53.954853
-2:City=张家口市|CarrierName=China Mobile|:0.000000:0.000100:3.179384
-2:City=其他城市|CarrierName=Telkomsel|:0.003400:0.001000:341.791853
-2:City=常德市|CarrierName=Other|:0.000300:0.000300:33.334627
-2:City=宣城市|OS=Android|:0.000400:0.000300:38.614291
-2:City=佛山市|OS=iOS|:0.002900:0.003200:290.726371
-2:City=长沙市|CarrierName=China Telecom|:0.003400:0.003600:344.023224
-2:DeviceType=Phone|AppName=通用TXT小说阅读器|:0.001100:0.000900:106.832990
-2:City=宜昌市|OS=Android|:0.001000:0.001000:101.830234
-2:City=蚌埠市|DeviceType=Pad|:0.000200:0.000100:16.076781
-2:City=沈阳市|OS=iOS|:0.006800:0.005900:682.768446
-2:City=肇庆市|CarrierName=China Telecom|:0.000200:0.000400:21.760989
-2:City=焦作市|OS=iOS|:0.000600:0.000600:56.744230
-2:Categorys=赛车游戏|AppName=主驾驶|:0.000500:0.000000:54.258028
-2:City=临沂市|OS=Android|:0.001200:0.000900:116.393489
-2:City=东营市|OS=Android|:0.000300:0.000300:26.410249
-2:Categorys=图书|AppName=《盗墓笔记全集》[盗墓系列小说精选30+]|:0.002300:0.000100:233.349563
-2:City=石家庄市|DeviceType=Phone|:0.005300:0.005100:528.075814
-2:City=泸州市|DeviceType=Pad|:0.000200:0.000100:17.557080
-2:City=丹东市|OS=iOS|:0.000400:0.000400:43.587092
-2:City=丽水市|CarrierName=China Mobile|:0.000100:0.000100:11.028369
-2:City=十堰市|DeviceType=Phone|:0.000400:0.000400:39.469430
-2:Categorys=音乐|AppName=TuneIn Radio|:0.000800:0.000000:81.132386
-2:City=聊城市|DeviceType=Pad|:0.000100:0.000200:14.934152
-2:City=茂名市|OS=iOS|:0.000400:0.000600:42.682545
-2:City=十堰市|CarrierName=UNICOM|:0.000000:0.000100:3.849935
-2:City=烟台市|CarrierName=Other|:0.001600:0.001500:164.404106
-2:OS=Android|AppName=Pop Star Free|:0.002800:0.000900:275.289484
-2:City=汕头市|CarrierName=China Telecom|:0.000700:0.000600:68.089057
-2:OS=iOS|AppName=OPlayerHD Lite - 免费的万能播放器。快速，网络流播放，Samba播放，FTP播放，下载管理，MKV硬件解码高清电影，无需转换，多媒体多格式播放，多音轨切换，外置内嵌字幕支持。|:0.001900:0.001200:188.983734
-2:City=齐齐哈尔市|CarrierName=UNICOM|:0.000500:0.000200:46.191889
-2:City=锦州市|CarrierName=UNICOM|:0.000500:0.000100:45.040944
-2:OS=iOS|AppName=果蔬连连看HD|:0.000800:0.000500:83.275145
-2:City=柳州市|CarrierName=UNICOM|:0.000200:0.000400:17.300328
-2:City=其他城市|CarrierName=LG Telecom|:0.002500:0.000700:245.372289
-2:City=阳泉市|OS=iOS|:0.000400:0.000400:40.145934
-2:City=牡丹江市|CarrierName=Other|:0.000200:0.000200:17.413333
-2:City=昌吉回族自治州|OS=Android|:0.000400:0.000300:41.678131
-2:City=丹东市|DeviceType=Phone|:0.000400:0.000500:43.439578
-2:Categorys=赛车游戏|AppName=3D摩托|:0.002600:0.000000:255.693037
-2:DeviceType=Phone|AppName=《盗墓笔记全集》[盗墓系列小说精选30+]|:0.002000:0.001900:198.241754
-2:City=黄石市|CarrierName=Other|:0.000300:0.000300:31.889462
-2:City=滨州市|DeviceType=Pad|:0.000100:0.000100:12.251504
-2:City=宿迁市|DeviceType=Pad|:0.000200:0.000300:20.495567
-2:City=江门市|DeviceType=Phone|:0.000800:0.000800:79.642432
-2:OS=Android|AppName=TuneIn Radio|:0.000100:0.000300:9.498238
-2:City=唐山市|CarrierName=China Telecom|:0.001600:0.001200:160.559012
-2:City=湘西土家族苗族自治州|CarrierName=China Mobile|:0.000200:0.000100:19.671488
-2:City=天津市|DeviceType=Phone|:0.009900:0.011400:987.867856
-2:City=开封市|CarrierName=China Telecom|:0.000100:0.000200:11.013474
-2:City=益阳市|OS=Android|:0.000200:0.002400:23.697906
-2:DeviceType=Phone|CarrierName=UNICOM|:0.134900:0.143400:13485.455356
-2:City=郑州市|CarrierName=China Mobile|:0.005000:0.002100:503.402169
-2:City=徐州市|DeviceType=Pad|:0.000900:0.000700:92.301604
-2:Categorys=生活|DeviceType=Pad|:0.000600:0.000900:55.247196
-2:City=景德镇市|DeviceType=Pad|:0.000200:0.000100:18.408958
-2:City=怀化市|CarrierName=China Telecom|:0.000300:0.000100:25.897222
-2:City=盘锦市|CarrierName=UNICOM|:0.000300:0.000100:28.541144
-2:City=衡水市|CarrierName=Other|:0.000200:0.000200:17.938420
-2:City=揭阳市|DeviceType=Phone|:0.000900:0.000800:85.976736
-2:City=宜宾市|DeviceType=Phone|:0.000600:0.000700:62.766443
-2:City=茂名市|CarrierName=China Telecom|:0.000400:0.000300:38.531061
-2:City=宁德市|CarrierName=Other|:0.000400:0.000400:40.500907
-2:City=运城市|OS=Android|:0.000600:0.000500:58.793526
-2:Categorys=社交|DeviceType=Pad|:0.001300:0.002300:132.221686
-2:City=衡阳市|CarrierName=Other|:0.000600:0.000400:56.072646
-2:City=岳阳市|OS=Android|:0.000900:0.000600:90.277931
-2:City=乐山市|DeviceType=Phone|:0.000500:0.000600:54.640569
-2:City=昌吉回族自治州|CarrierName=China Mobile|:0.000300:0.000100:30.770850
-2:City=泰州市|OS=Android|:0.000800:0.001200:77.591765
-2:OS=Android|AppName=Tagged - Meet New People|:0.001200:0.000400:120.735897
-2:City=驻马店市|CarrierName=Other|:0.000200:0.000300:21.135370
-2:City=南昌市|CarrierName=China Telecom|:0.002400:0.002000:235.650225
-2:City=秦皇岛市|CarrierName=UNICOM|:0.000800:0.000300:81.482521
-2:City=西宁市|DeviceType=Pad|:0.000300:0.000300:30.102397
-2:City=咸宁市|CarrierName=UNICOM|:0.000000:0.000100:4.416563
-2:City=晋城市|CarrierName=China Mobile|:0.000100:0.000100:8.491831
-2:City=沈阳市|CarrierName=China Mobile|:0.003300:0.001600:331.539632
-2:City=大同市|DeviceType=Phone|:0.000700:0.000700:67.990620
-2:City=潮州市|CarrierName=China Mobile|:0.000300:0.000100:33.098237
-2:City=洛阳市|CarrierName=UNICOM|:0.000800:0.000300:84.459145
-2:City=大同市|OS=Android|:0.000400:0.000400:39.256471
-2:OS=iOS|AppName=潇湘书院精品书城|:0.001100:0.000800:114.946865
-2:City=德阳市|CarrierName=UNICOM|:0.000100:0.000200:12.791509
-2:Categorys=工具|AppName=应用锁AppLock|:0.002000:0.000100:200.174815
-2:City=桂林市|CarrierName=China Mobile|:0.000400:0.000200:37.157513
-2:Categorys=效率|AppName=超亮手電筒|:0.002300:0.000000:230.796187
-2:DeviceType=Phone|AppName=限时免费大全|:0.000500:0.000700:52.252921
-2:City=宿迁市|DeviceType=Phone|:0.001100:0.001000:105.134305
-2:City=泰州市|CarrierName=China Mobile|:0.001000:0.000400:103.485614
-2:City=扬州市|DeviceType=Pad|:0.000600:0.000500:63.864978
-2:Categorys=休闲游戏|AppName=松鼠泡泡龙|:0.001300:0.000000:126.940500
-2:Categorys=教育|DeviceType=Phone|:0.003200:0.004300:315.801251
-2:OS=Android|AppName=Pop Star for Android|:0.056300:0.019400:5626.893126
-2:Categorys=游戏|AppName=果蔬连连看|:0.000900:0.000100:90.223107
-2:DeviceType=Pad|CarrierName=Telkomsel|:0.000500:0.000700:54.844971
-2:City=嘉兴市|CarrierName=China Mobile|:0.000200:0.000500:23.274389
-2:OS=Android|AppName=与陌生人聊天  (随机聊天)|:0.001200:0.000400:120.750189
-2:City=保定市|OS=Android|:0.001800:0.001700:181.446259
-2:City=无锡市|CarrierName=UNICOM|:0.000600:0.001300:57.167368
-2:City=锦州市|CarrierName=China Mobile|:0.000100:0.000100:5.546847
-2:DeviceType=Phone|CarrierName=SingTel|:0.001100:0.001000:110.941118
-2:City=南通市|OS=iOS|:0.002300:0.001700:225.998806
-2:City=珠海市|CarrierName=Other|:0.000300:0.000300:25.875007
-2:City=惠州市|OS=Android|:0.001200:0.001100:120.890377
-2:City=合肥市|CarrierName=China Telecom|:0.002300:0.002200:225.096953
-2:City=西安市|CarrierName=China Telecom|:0.004500:0.003000:446.742858
-2:Categorys=游戏|AppName=大家来找茬(新版)|:0.001300:0.000100:125.860337
-2:City=晋城市|CarrierName=UNICOM|:0.000300:0.000100:27.879567
-2:City=驻马店市|CarrierName=UNICOM|:0.000200:0.000200:24.690342
-2:OS=Android|AppName=一笔画|:0.001900:0.000700:185.253313
-2:City=海口市|OS=Android|:0.001500:0.001400:154.533585
-2:City=三明市|CarrierName=China Telecom|:0.000300:0.000200:34.796344
-2:OS=iOS|AppName=中国好声音(1-2) [开心听歌特别版]|:0.000700:0.000500:73.502879
-2:City=淮安市|DeviceType=Phone|:0.000900:0.000900:94.763756
-2:City=其他城市|OS=Android|:0.176100:0.133700:17607.301697
-2:City=永州市|DeviceType=Pad|:0.000200:0.000100:15.104061
-2:City=大庆市|CarrierName=Other|:0.000700:0.000400:65.679131
-2:City=洛阳市|DeviceType=Pad|:0.000500:0.000400:45.820049
-2:City=德州市|DeviceType=Phone|:0.000500:0.000500:45.257014
-2:City=赣州市|OS=iOS|:0.001000:0.001100:101.713921
-2:City=临沂市|CarrierName=UNICOM|:0.000800:0.000400:79.031550
-2:DeviceType=Pad|CarrierName=Smart|:0.000000:0.000100:4.499403
-2:City=其他城市|CarrierName=True Move|:0.001900:0.000600:189.120267
-2:City=杭州市|CarrierName=China Telecom|:0.007600:0.004300:755.506107
-2:City=丽水市|OS=Android|:0.000400:0.000400:41.631043
-2:City=茂名市|CarrierName=China Mobile|:0.000500:0.000200:48.975916
-2:Categorys=摄影|OS=Android|:0.027200:0.009400:2722.849707
-2:City=周口市|DeviceType=Phone|:0.000600:0.000600:59.619394
-2:DeviceType=Phone|AppName=手电筒。|:0.011000:0.008800:1096.261739
-2:Categorys=医疗|DeviceType=Pad|:0.000100:0.000000:5.543072
-2:City=临沂市|DeviceType=Phone|:0.001800:0.001700:176.873064
-2:City=常德市|CarrierName=UNICOM|:0.000200:0.000200:21.424547
-2:City=昆明市|DeviceType=Phone|:0.007000:0.006700:696.367310
-2:City=遵义市|DeviceType=Phone|:0.000900:0.001000:94.019322
-2:City=其他城市|CarrierName=Celcom|:0.002000:0.000600:202.594557
-2:DeviceType=Phone|AppName=碰碰糖|:0.000800:0.001300:76.476493
-2:City=周口市|OS=iOS|:0.000300:0.000400:33.706976
-2:City=其他城市|CarrierName=Indosat|:0.025200:0.007400:2520.916534
-2:Categorys=效率|DeviceType=Phone|:0.005400:0.004900:544.270851
-2:City=贵阳市|CarrierName=UNICOM|:0.001500:0.001400:145.791685
-2:City=宜宾市|CarrierName=China Mobile|:0.000100:0.000100:6.109891
-2:City=南宁市|CarrierName=China Mobile|:0.001000:0.000800:103.974588
-2:Categorys=天气|DeviceType=Phone|:0.000200:0.000100:16.323111
-2:City=青岛市|CarrierName=China Mobile|:0.000400:0.001100:41.722169
+2:Categorys=天气|DeviceType=Pad|:0.00000801302054:0.0000334634376:1.10476793038
+2:Categorys=纸牌游戏|OS=iOS|:0:0.000767859523:1.0
+2:Categorys=商业|DeviceType=Pad|:0.00000615030292:0.0000305773744:1.00818705606
+2:Categorys=体育游戏|OS=Android|:0.000764038174:0.000262758905:76.4066343324
+3:DeviceType=Pad|Categorys=效率|OS=iOS|:0.000688009758:0.000787210094:68.8010911977
+3:DeviceType=Phone|Categorys=游戏|OS=iOS|:0.0315624876:0.0316472451:3156.24876079
+3:DeviceType=Phone|Categorys=教育|OS=iOS|:0.00277950816:0.00280450899:277.950816153
+3:DeviceType=Pad|Categorys=图书与工具书|OS=iOS|:0:0.000326046294:1.0
+2:Categorys=摄影|DeviceType=Phone|:0.0260619205:0.0218935790:2606.19205547
+2:Categorys=图书|OS=Android|:0:0.00997920072:1.0
+3:DeviceType=Pad|Categorys=通讯|OS=iOS|:0:0.000369532570:1.0
+2:Categorys=医药|OS=iOS|:0:0.000303753145:1.0
+3:DeviceType=Phone|Categorys=媒体与视频|OS=Android|:0.00257677684:0.000804672211:257.67860175
+3:DeviceType=Pad|Categorys=休闲游戏|OS=Android|:0.00270505663:0.00225753907:270.505713618
+2:Categorys=体育游戏|DeviceType=Pad|:0:0.000149310015:1.0
+3:DeviceType=Pad|Categorys=赛车游戏|OS=iOS|:0:0.000689779185:1.0
+3:DeviceType=Phone|Categorys=纸牌游戏|OS=iOS|:0:0.000617411734:1.0
+2:Categorys=商务|OS=iOS|:0:0.000408764304:1.0
+2:Categorys=商业|OS=Android|:0:0.0000538107064:1.0
+2:Categorys=赛车游戏|DeviceType=Pad|:0.0000360395365:0.00105134535:3.73109877918
+2:Categorys=参考|OS=iOS|:0.0119360468:0.00783114381:1193.60472938
+2:Categorys=生活时尚|DeviceType=Phone|:0.00152389833:0.00122531880:152.389958987
+2:Categorys=教育|OS=Android|:0.000378503267:0.00182827462:37.8586323049
+2:Categorys=益智和解谜游戏|OS=iOS|:0:0.0487096965:1.0
+3:DeviceType=Pad|Categorys=休闲游戏|OS=iOS|:0:0.00430682848:1.0
+2:Categorys=天气|DeviceType=Phone|:0.000163223609:0.000137685997:16.3231107329
+2:Categorys=导航|DeviceType=Pad|:0:0.0000626322270:1.0
+2:Categorys=商务|DeviceType=Pad|:0:0.000121753698:1.0
+2:Categorys=纸牌游戏|DeviceType=Phone|:0.00117035358:0.000941044569:117.035521958
+2:Categorys=音乐|OS=iOS|:0.00957482589:0.00628196586:957.482650496
+2:Categorys=商务|DeviceType=Phone|:0.000623029021:0.000500958075:62.3032101902
+3:DeviceType=Phone|Categorys=新闻杂志|OS=iOS|:0:0.000191131815:1.0
+3:DeviceType=Phone|Categorys=工具|OS=Android|:0.0165706168:0.0155172094:1657.0616796
+3:DeviceType=Pad|Categorys=旅行|OS=iOS|:0.0000915161264:0.0000728951284:9.15387431091
+2:Categorys=纸牌游戏|OS=Android|:0.00117035358:0.000402494057:117.037197079
+3:DeviceType=Pad|Categorys=健康与健身|OS=Android|:0:0.0000940188765:1.0
+2:Categorys=旅游与本地出行|OS=iOS|:0:0.0000976034601:1.0
+3:DeviceType=Phone|Categorys=健康与健身|OS=Android|:0.00139893904:0.000386842587:139.895774775
+2:Categorys=街机和动作游戏|DeviceType=Phone|:0.00437658129:0.00364671385:437.658161126
+3:DeviceType=Pad|Categorys=媒体与视频|OS=iOS|:0:0.000373097280:1.0
+2:Categorys=图书|DeviceType=Pad|:0.00728114402:0.00567057705:728.114435374
+3:DeviceType=Pad|Categorys=教育|OS=iOS|:0.00215816083:0.000681612606:215.817167528
+2:Categorys=休闲游戏|OS=iOS|:0:0.0220385844:1.0
+2:Categorys=旅行|DeviceType=Phone|:0.000477022449:0.000457144019:47.7022631539
+3:DeviceType=Pad|Categorys=天气|OS=iOS|:0.00000801302054:0.0000219550909:1.02242064729
+3:DeviceType=Pad|Categorys=商品指南|OS=Android|:0:0.0000231742192:1.0
+3:DeviceType=Phone|Categorys=健康与健身|OS=iOS|:0:0.000738000373:1.0
+3:DeviceType=Phone|Categorys=个性化|OS=iOS|:0:0.000237105889:1.0
+3:DeviceType=Phone|Categorys=商品指南|OS=Android|:0:0.0000953507981:1.0
+3:DeviceType=Pad|Categorys=通讯|OS=Android|:0.0000997197063:0.000193700357:9.98376699448
+2:Categorys=参考|OS=Android|:0:0.00410490299:1.0
+3:DeviceType=Phone|Categorys=健康健美|OS=iOS|:0.000407768419:0.000215115338:40.7795789581
+2:Categorys=旅游与本地出行|DeviceType=Phone|:0.000148764918:0.000119617200:14.877781992
+2:Categorys=健康与健身|OS=iOS|:0:0.000917832595:1.0
+3:DeviceType=Pad|Categorys=图书与工具书|OS=Android|:0.0000150017846:0.000170905865:1.75575746617
+3:DeviceType=Phone|Categorys=健康健美|OS=Android|:0:0.000112758445:1.0
+2:Categorys=益智和解谜游戏|DeviceType=Phone|:0.0709400712:0.0596958089:7094.00711869
+3:DeviceType=Phone|Categorys=商业|OS=iOS|:0.000150317977:0.0000825437316:15.0385580426
+2:Categorys=新闻|OS=iOS|:0.000198034037:0.000129928531:19.8063896508
+2:Categorys=媒体与视频|OS=iOS|:0:0.00190918582:1.0
+3:DeviceType=Pad|Categorys=纸牌游戏|OS=Android|:0:0.0000786562713:1.0
+3:DeviceType=Phone|Categorys=旅游与本地出行|OS=iOS|:0:0.0000784798779:1.0
+3:DeviceType=Phone|Categorys=生活时尚|OS=Android|:0.00152389833:0.000421397041:152.391550291
+3:DeviceType=Pad|Categorys=生活时尚|OS=iOS|:0:0.000195386504:1.0
+2:Categorys=商品指南|DeviceType=Pad|:0:0.0000673849213:1.0
+2:Categorys=效率|OS=Android|:0.00354715267:0.00211151645:354.715498675
+2:Categorys=赛车游戏|OS=iOS|:0:0.00352968706:1.0
+3:DeviceType=Phone|Categorys=摄影与录像|OS=iOS|:0.0113311066:0.00683440937:1133.11073157
+3:DeviceType=Phone|Categorys=生活|OS=iOS|:0.00387505767:0.00233570563:387.505970277
+2:Categorys=媒体与视频|OS=Android|:0.00290993651:0.00100075069:290.994390668
+2:Categorys=音乐与音频|DeviceType=Pad|:0.00000331096865:0.000188898424:1.03676265847
+2:Categorys=生活|OS=Android|:0:0.00152265916:1.0
+3:DeviceType=Pad|Categorys=音乐|OS=Android|:0:0.000643497927:1.0
+2:Categorys=生活时尚|OS=Android|:0.00152389833:0.000524080955:152.391245483
+2:Categorys=导航|OS=iOS|:0.000320497002:0.000210275492:32.0515452046
+2:Categorys=旅游与本地出行|DeviceType=Pad|:0:0.0000290719665:1.0
+3:DeviceType=Phone|Categorys=教育|OS=Android|:0.000378503267:0.00147005822:37.8576091427
+3:DeviceType=Pad|Categorys=街机和动作游戏|OS=Android|:0.000158745464:0.000304806938:15.881777262
+2:Categorys=音乐|OS=Android|:0:0.00329286003:1.0
+3:DeviceType=Phone|Categorys=图书|OS=Android|:0:0.00802396200:1.0
+2:Categorys=天气|OS=Android|:0:0.0000588896610:1.0
+2:Categorys=健康健美|OS=Android|:0:0.000140234856:1.0
+3:DeviceType=Pad|Categorys=参考|OS=iOS|:0.000325770732:0.00153037930:32.586581134
+3:DeviceType=Phone|Categorys=娱乐|OS=Android|:0.00414703350:0.0284514714:414.704230748
+3:DeviceType=Phone|Categorys=摄影|OS=iOS|:0:0.0143642002:1.0
+2:Categorys=娱乐|DeviceType=Pad|:0.0297896901:0.0201068077:2978.96902804
+2:Categorys=旅游与本地出行|OS=Android|:0.000148764918:0.0000511614579:14.8909524544
+3:DeviceType=Phone|Categorys=财务|OS=Android|:0.000593701937:0.000243812439:59.3731186649
+2:DeviceType=Pad|OS=Android|:0.0148751770:0.0672072720:1487.51790577
+2:Categorys=音乐|DeviceType=Phone|:0.00779049010:0.00769881689:779.049010012
+2:Categorys=音乐与音频|DeviceType=Phone|:0.000963306083:0.000777226423:96.3308019794
+3:DeviceType=Phone|Categorys=摄影|OS=Android|:0.0260619205:0.00752937881:2606.19214756
+2:Categorys=体育游戏|DeviceType=Phone|:0.000764038174:0.000614339108:76.4040686089
+2:Categorys=医疗|OS=iOS|:0.000153890965:0.000100966618:15.3929387707
+2:Categorys=个性化|DeviceType=Phone|:0.000449453276:0.000361391268:44.9457546382
+3:DeviceType=Pad|Categorys=导航|OS=Android|:0:0.0000215397292:1.0
+2:Categorys=商业|DeviceType=Phone|:0.000150317977:0.000125811231:15.0326817967
+2:Categorys=通讯|DeviceType=Pad|:0.0000997197063:0.000563232927:10.0058706268
+3:DeviceType=Phone|Categorys=参考|OS=iOS|:0.0116102760:0.00629677688:1161.02769131
+3:DeviceType=Pad|Categorys=个性化|OS=iOS|:0:0.0000576266163:1.0
+3:DeviceType=Pad|Categorys=天气|OS=Android|:0:0.0000115083467:1.0
+3:DeviceType=Phone|Categorys=商务|OS=Android|:0.000623029021:0.000172283532:62.3071025646
+2:Categorys=新闻杂志|OS=Android|:0.000362305722:0.000124599867:36.2365122494
+2:Categorys=教育|DeviceType=Pad|:0.00215816083:0.00103889804:215.816706258
+3:DeviceType=Phone|Categorys=天气|OS=Android|:0:0.0000473513274:1.0
+3:DeviceType=Pad|Categorys=益智和解谜游戏|OS=iOS|:0:0.00951895569:1.0
+3:DeviceType=Pad|Categorys=工具|OS=iOS|:0.00732014675:0.00719476648:732.014674716
+2:Categorys=社交|OS=iOS|:0.00422700173:0.00759741999:422.700405725
+3:DeviceType=Phone|Categorys=体育|OS=Android|:0.0000225384068:0.0000398081022:2.29521257185
+2:DeviceType=Phone|OS=iOS|:0.475544900:0.527542911:47554.4900088
+2:Categorys=体育|DeviceType=Phone|:0.000143958059:0.000115752156:14.397139195
+3:DeviceType=Phone|Categorys=音乐|OS=iOS|:0.00779049010:0.00505113152:779.049089596
+3:DeviceType=Phone|Categorys=商业|OS=Android|:0:0.0000432674994:1.0
+2:Categorys=摄影|OS=Android|:0.0272284963:0.00936409999:2722.8497094
+3:DeviceType=Phone|Categorys=社交|OS=iOS|:0.00335302510:0.00610884689:335.302813886
+3:DeviceType=Phone|Categorys=赛车游戏|OS=Android|:0.00534382718:0.00148767137:534.3832052
+2:Categorys=生活|DeviceType=Phone|:0.00387505767:0.00356002806:387.505775441
+2:Categorys=益智和解谜游戏|OS=Android|:0.0742421836:0.0255324871:7424.21838984
+3:DeviceType=Pad|Categorys=新闻|OS=Android|:0:0.0000133093274:1.0
+3:DeviceType=Pad|Categorys=教育|OS=Android|:0:0.000357285434:1.0
+2:Categorys=纸牌游戏|DeviceType=Pad|:0:0.000228713063:1.0
+2:Categorys=财务|DeviceType=Phone|:0.000761165491:0.000708946518:76.1165800598
+3:DeviceType=Pad|Categorys=医疗|OS=Android|:0:0.0000103425920:1.0
+3:DeviceType=Pad|Categorys=新闻杂志|OS=iOS|:0:0.0000464529995:1.0
+2:Categorys=通讯|OS=iOS|:0:0.00189094475:1.0
+2:Categorys=社交|OS=Android|:0.00735280863:0.00398239041:735.281005467
+3:DeviceType=Phone|Categorys=街机和动作游戏|OS=iOS|:0:0.00239257948:1.0
+3:DeviceType=Phone|Categorys=效率|OS=iOS|:0.00190460732:0.00323899201:190.461177409
+3:DeviceType=Phone|Categorys=商品指南|OS=iOS|:0.000344817138:0.000181905837:34.4849504857
+2:Categorys=游戏|DeviceType=Pad|:0.0284274099:0.0117233573:2842.74105222
+3:DeviceType=Phone|Categorys=导航|OS=iOS|:0.000320497002:0.000169075921:32.0531823693
+3:DeviceType=Phone|Categorys=个性化|OS=Android|:0.000449453276:0.000124285379:44.9511500409
+2:Categorys=天气|OS=iOS|:0.000171236629:0.000112346968:17.1271160444
+3:DeviceType=Pad|Categorys=娱乐|OS=Android|:0.0000616650047:0.00691489371:6.24563624461
+2:Categorys=工具|DeviceType=Pad|:0.00752167755:0.0109660953:752.167821035
+3:DeviceType=Pad|Categorys=导航|OS=iOS|:0:0.0000410924978:1.0
+2:Categorys=街机和动作游戏|OS=Android|:0.00453532675:0.00155973553:453.533148733
+2:Categorys=交通运输|OS=iOS|:0:0.000271965679:1.0
+2:Categorys=体育|OS=iOS|:0.000121419652:0.0000944497188:12.1439967474
+2:Categorys=娱乐|OS=Android|:0.00420869850:0.0353843829:420.870772328
+2:Categorys=生活|OS=iOS|:0.00442751780:0.00290485864:442.751913604
+2:Categorys=交通运输|DeviceType=Phone|:0.000414523747:0.000333305531:41.4528377798
+3:DeviceType=Phone|Categorys=新闻|OS=Android|:0:0.0000547614994:1.0
+3:DeviceType=Pad|Categorys=商务|OS=iOS|:0:0.0000798816170:1.0
+2:Categorys=导航|OS=Android|:0:0.000110221510:1.0
+3:DeviceType=Phone|Categorys=通讯|OS=iOS|:0:0.00152044931:1.0
+2:Categorys=图书|OS=iOS|:0.0290170577:0.0190378570:2901.70579143
+3:DeviceType=Phone|Categorys=摄影与录像|OS=Android|:0:0.00358243803:1.0
+2:Categorys=商业|OS=iOS|:0.000156468280:0.000102657574:15.650606985
+2:Categorys=图书与工具书|DeviceType=Phone|:0.00252796506:0.00204471981:252.796578102
+3:DeviceType=Pad|Categorys=益智和解谜游戏|OS=Android|:0.00330211241:0.00498961461:330.211414097
+2:Categorys=娱乐|OS=iOS|:0.0986803718:0.0675046871:9868.03718578
+3:DeviceType=Pad|Categorys=商务|OS=Android|:0:0.0000418720810:1.0
+3:DeviceType=Phone|Categorys=天气|OS=iOS|:0.000163223609:0.0000903346696:16.3284683911
+3:DeviceType=Pad|Categorys=旅游与本地出行|OS=iOS|:0:0.0000190738822:1.0
+2:DeviceType=Phone|OS=Android|:0.328523704:0.276525693:32852.3703863
+2:Categorys=工具|DeviceType=Phone|:0.0485932147:0.0451202230:4859.32146498
+2:Categorys=益智和解谜游戏|DeviceType=Pad|:0.00330211241:0.0145085703:330.212145446
+3:DeviceType=Pad|Categorys=健康健美|OS=Android|:0:0.0000274050030:1.0
+2:Categorys=医药|OS=Android|:0.000462973461:0.000159220316:46.3019947734
+2:Categorys=健康健美|DeviceType=Phone|:0.000407768419:0.000327873783:40.7773126873
+3:DeviceType=Phone|Categorys=体育游戏|OS=iOS|:0:0.000403062922:1.0
+2:Categorys=效率|DeviceType=Pad|:0.000697061327:0.00119984727:69.7073922909
+2:Categorys=医疗|DeviceType=Phone|:0.0000986478099:0.000123738893:9.86686482628
+2:Categorys=工具|OS=iOS|:0.0393427446:0.0368165271:3934.27445662
+3:DeviceType=Pad|Categorys=游戏|OS=Android|:0:0.00403175735:1.0
+3:DeviceType=Phone|Categorys=体育|OS=iOS|:0.000121419652:0.0000759440538:12.1477402837
+2:Categorys=音乐与音频|OS=Android|:0.000966617051:0.000332427418:96.6639316912
+3:DeviceType=Phone|Categorys=新闻杂志|OS=Android|:0.000362305722:0.000100186841:36.2377949108
+3:DeviceType=Pad|Categorys=旅游与本地出行|OS=Android|:0:0.00000999808430:1.0
+3:DeviceType=Phone|Categorys=医疗|OS=iOS|:0.0000986478099:0.0000811840874:9.86636934237
+2:Categorys=休闲游戏|DeviceType=Pad|:0.00270505663:0.00656436755:270.506301775
+3:DeviceType=Pad|Categorys=参考|OS=Android|:0:0.000802189143:1.0
+3:DeviceType=Pad|Categorys=效率|OS=Android|:0.00000905156898:0.000412637176:1.3326358805
+2:Categorys=休闲游戏|DeviceType=Phone|:0.0308856398:0.0270092244:3088.56398347
+2:Categorys=生活时尚|OS=iOS|:0:0.000999817375:1.0
+2:Categorys=新闻|OS=Android|:0:0.0000681055062:1.0
+2:Categorys=通讯|DeviceType=Phone|:0.00278241419:0.00231743338:278.241469052
+3:DeviceType=Phone|Categorys=医药|OS=Android|:0.000462973461:0.000128024057:46.302998607
+2:Categorys=旅行|DeviceType=Pad|:0.0000915161264:0.000111105055:9.15331082724
+3:DeviceType=Phone|Categorys=商务|OS=iOS|:0:0.000328674543:1.0
+2:Categorys=摄影与录像|DeviceType=Phone|:0.0113311066:0.0104168474:1133.11066538
+2:Categorys=健康与健身|DeviceType=Phone|:0.00139893904:0.00112484296:139.894041331
+3:DeviceType=Pad|Categorys=纸牌游戏|OS=iOS|:0:0.000150056792:1.0
+2:Categorys=工具|OS=Android|:0.0167721476:0.0192983651:1677.21476562
+2:Categorys=摄影与录像|DeviceType=Pad|:0.00162406585:0.00253172820:162.406980761
+2:Categorys=个性化|OS=Android|:0.000449453276:0.000154570615:44.9501160176
+3:DeviceType=Phone|Categorys=交通运输|OS=Android|:0.000414523747:0.000114626467:41.4586877506
+3:DeviceType=Pad|Categorys=商业|OS=iOS|:0.00000615030292:0.0000200615682:0.926879438223
+2:Categorys=健康与健身|OS=Android|:0.00139893904:0.000481106445:139.895442742
+2:Categorys=游戏|OS=iOS|:0.0599898975:0.0393588868:5998.98975662
+2:Categorys=体育|DeviceType=Pad|:0:0.0000281325996:1.0
+3:DeviceType=Phone|Categorys=参考|OS=Android|:0:0.00330062361:1.0
+2:Categorys=商品指南|OS=iOS|:0.000344817138:0.000226231737:34.4834287738
+3:DeviceType=Phone|Categorys=赛车游戏|OS=iOS|:0:0.00283811055:1.0
+3:DeviceType=Pad|Categorys=旅行|OS=Android|:0:0.0000382099266:1.0
+3:DeviceType=Phone|Categorys=效率|OS=Android|:0.00353810110:0.00169780408:353.810493061
+3:DeviceType=Pad|Categorys=医疗|OS=iOS|:0.0000552431547:0.0000197311179:5.56159093246
+3:DeviceType=Pad|Categorys=社交|OS=iOS|:0.000873976625:0.00148470447:87.3986305385
+2:Categorys=导航|DeviceType=Phone|:0.000320497002:0.000257701577:32.0502990626
+2:Categorys=音乐|DeviceType=Pad|:0.00178433579:0.00187113347:178.433585123
+3:DeviceType=Pad|Categorys=音乐与音频|OS=Android|:0.00000331096865:0.0000649636951:1.00513174261
+3:DeviceType=Pad|Categorys=社交|OS=Android|:0.000448233696:0.000778247466:44.8253754028
+2:Categorys=财务|OS=iOS|:0.000287997105:0.000578475614:28.8040878002
+3:DeviceType=Phone|Categorys=财务|OS=iOS|:0.000167463554:0.000465134079:16.7585792059
+2:Categorys=摄影与录像|OS=iOS|:0.0129551724:0.00849978388:1295.51728665
+3:DeviceType=Pad|Categorys=体育游戏|OS=iOS|:0:0.0000979610938:1.0
+2:Categorys=新闻|DeviceType=Phone|:0.000198034037:0.000159232952:19.8043729262
+2:Categorys=旅行|OS=iOS|:0.000568538576:0.000373013564:56.8548976782
+2:Categorys=图书与工具书|OS=iOS|:0:0.00166841999:1.0
+2:Categorys=赛车游戏|OS=Android|:0.00537986672:0.00185017966:537.987071406
+2:Categorys=社交|DeviceType=Phone|:0.0102576000:0.00931096198:1025.76000604
+3:DeviceType=Pad|Categorys=游戏|OS=iOS|:0.0284274099:0.00769159995:2842.74108388
+3:DeviceType=Pad|Categorys=健康与健身|OS=iOS|:0:0.000179364858:1.0
+2:Categorys=体育|OS=Android|:0.0000225384068:0.0000495083402:2.31874022046
+3:DeviceType=Pad|Categorys=医药|OS=Android|:0:0.0000311151833:1.0
+2:Categorys=参考|DeviceType=Pad|:0.000325770732:0.00233256844:32.5884316898
+3:DeviceType=Pad|Categorys=新闻|OS=iOS|:0:0.0000253909184:1.0
+3:DeviceType=Phone|Categorys=通讯|OS=Android|:0.00278241419:0.000796984074:278.242333947
+2:Categorys=新闻|DeviceType=Pad|:0:0.0000387002458:1.0
+3:DeviceType=Pad|Categorys=音乐|OS=iOS|:0.00178433579:0.00122763554:178.433851609
+3:DeviceType=Phone|Categorys=音乐与音频|OS=iOS|:0:0.000509931973:1.0
+3:DeviceType=Phone|Categorys=图书|OS=iOS|:0.0217359137:0.0153077431:2173.59138984
+2:Categorys=图书与工具书|DeviceType=Pad|:0.0000150017846:0.000496952159:1.78635705557
+3:DeviceType=Phone|Categorys=生活时尚|OS=iOS|:0:0.000803921759:1.0
+2:Categorys=游戏|DeviceType=Phone|:0.0315624876:0.0482359931:3156.2487798
+3:DeviceType=Pad|Categorys=商业|OS=Android|:0:0.0000105158062:1.0
+2:Categorys=通讯|OS=Android|:0.00288213390:0.000991189147:288.214136884
+2:Categorys=商品指南|DeviceType=Phone|:0.000344817138:0.000277256635:34.4822705169
+2:Categorys=新闻杂志|DeviceType=Phone|:0.000362305722:0.000291318656:36.2311019705
+3:DeviceType=Pad|Categorys=摄影与录像|OS=iOS|:0.00162406585:0.00166104641:162.406586689
+2:Categorys=商品指南|OS=Android|:0:0.000118585401:1.0
+2:Categorys=医药|DeviceType=Phone|:0.000462973461:0.000372262424:46.297760745
+3:DeviceType=Pad|Categorys=图书|OS=Android|:0:0.00195015729:1.0
+2:Categorys=生活|DeviceType=Pad|:0.000552460131:0.000865235238:55.2471957659
+3:DeviceType=Phone|Categorys=图书与工具书|OS=iOS|:0:0.00134152414:1.0
+3:DeviceType=Phone|Categorys=街机和动作游戏|OS=Android|:0.00437658129:0.00125413437:437.658710641
+3:DeviceType=Pad|Categorys=生活时尚|OS=Android|:0:0.000102417050:1.0
+3:DeviceType=Pad|Categorys=生活|OS=Android|:0:0.000297561393:1.0
+3:DeviceType=Pad|Categorys=体育|OS=iOS|:0:0.0000184575712:1.0
+3:DeviceType=Pad|Categorys=个性化|OS=Android|:0:0.0000302065285:1.0
+3:DeviceType=Pad|Categorys=媒体与视频|OS=Android|:0.000333159670:0.000195568894:33.3185266781
+2:Categorys=社交|DeviceType=Pad|:0.00132221032:0.00226295194:132.221685438
+3:DeviceType=Phone|Categorys=医药|OS=iOS|:0:0.000244238367:1.0
+2:Categorys=摄影与录像|OS=Android|:0:0.00445538852:1.0
+3:DeviceType=Phone|Categorys=图书与工具书|OS=Android|:0.00252796506:0.000703195672:252.79753638
+3:DeviceType=Phone|Categorys=音乐与音频|OS=Android|:0.000963306083:0.000267294450:96.3333179123
+3:DeviceType=Phone|Categorys=体育游戏|OS=Android|:0.000764038174:0.000211276186:76.4072426541
+2:Categorys=健康健美|OS=iOS|:0.000407768419:0.000267533563:40.7782921418
+2:Categorys=游戏|OS=Android|:0:0.0206310107:1.0
+3:DeviceType=Phone|Categorys=音乐|OS=Android|:0:0.00264768537:1.0
+2:Categorys=赛车游戏|DeviceType=Phone|:0.00534382718:0.00432578192:534.382751406
+3:DeviceType=Phone|Categorys=益智和解谜游戏|OS=iOS|:0:0.0391659376:1.0
+3:DeviceType=Phone|Categorys=旅游与本地出行|OS=Android|:0.000148764918:0.0000411373221:14.8940734186
+2:Categorys=摄影|DeviceType=Pad|:0.00116657574:0.00532105246:116.660186868
+3:DeviceType=Pad|Categorys=医药|OS=iOS|:0:0.0000593601057:1.0
+3:DeviceType=Phone|Categorys=导航|OS=Android|:0:0.0000886256556:1.0
+3:DeviceType=Phone|Categorys=娱乐|OS=iOS|:0.0689523466:0.0542783995:6895.23465881
+2:Categorys=音乐与音频|OS=iOS|:0:0.000634189633:1.0
+3:DeviceType=Phone|Categorys=益智和解谜游戏|OS=Android|:0.0709400712:0.0205298713:7094.00715393
+2:Categorys=教育|OS=iOS|:0.00493766899:0.00348789764:493.766986543
+2:Categorys=媒体与视频|DeviceType=Phone|:0.00257677684:0.00233978859:257.677700432
+3:DeviceType=Pad|Categorys=生活|OS=iOS|:0.000552460131:0.000567673845:55.2460195851
+3:DeviceType=Pad|Categorys=摄影|OS=iOS|:0:0.00349109950:1.0
+2:Categorys=财务|OS=Android|:0.000593701937:0.000303223428:59.3722096607
+3:DeviceType=Phone|Categorys=旅行|OS=iOS|:0.000477022449:0.000299928495:47.7036895848
+3:DeviceType=Pad|Categorys=摄影|OS=Android|:0.00116657574:0.00182995296:116.658137307
+2:Categorys=街机和动作游戏|OS=iOS|:0:0.00297559122:1.0
+2:Categorys=健康与健身|DeviceType=Pad|:0:0.000273383735:1.0
+2:Categorys=健康健美|DeviceType=Pad|:0:0.0000796869987:1.0
+3:DeviceType=Phone|Categorys=新闻|OS=iOS|:0.000198034037:0.000104471453:19.8090386945
+3:DeviceType=Phone|Categorys=休闲游戏|OS=iOS|:0:0.0177205338:1.0
+2:Categorys=街机和动作游戏|DeviceType=Pad|:0.000158745464:0.000886303499:15.8957567923
+3:DeviceType=Pad|Categorys=新闻杂志|OS=Android|:0:0.0000243495792:1.0
+3:DeviceType=Phone|Categorys=旅行|OS=Android|:0:0.000157215524:1.0
+3:DeviceType=Pad|Categorys=摄影与录像|OS=Android|:0:0.000870681794:1.0
+3:DeviceType=Phone|Categorys=休闲游戏|OS=Android|:0.0308856398:0.00928869061:3088.56405956
+3:DeviceType=Pad|Categorys=体育|OS=Android|:0:0.00000967502843:1.0
+3:DeviceType=Pad|Categorys=图书|OS=iOS|:0.00728114402:0.00372041976:728.114565848
+2:Categorys=教育|DeviceType=Phone|:0.00315801143:0.00427456721:315.801250947
+3:DeviceType=Pad|Categorys=交通运输|OS=Android|:0:0.0000278590102:1.0
+2:Categorys=生活时尚|DeviceType=Pad|:0:0.000297803554:1.0
+3:DeviceType=Pad|Categorys=财务|OS=iOS|:0.000120533551:0.000113046973:12.0535151305
+2:Categorys=财务|DeviceType=Pad|:0.000120533551:0.000172303560:12.0570993195
+3:DeviceType=Pad|Categorys=街机和动作游戏|OS=iOS|:0:0.000581496561:1.0
+3:DeviceType=Phone|Categorys=纸牌游戏|OS=Android|:0.00117035358:0.000323632835:117.03759396
+2:Categorys=图书与工具书|OS=Android|:0.00254296685:0.000874546857:254.297531447
+2:Categorys=医药|DeviceType=Pad|:0:0.0000904752890:1.0
+2:Categorys=摄影|OS=iOS|:0:0.0178643963:1.0
+3:DeviceType=Pad|Categorys=体育游戏|OS=Android|:0:0.0000513489212:1.0
+3:DeviceType=Phone|Categorys=社交|OS=Android|:0.00690457493:0.00320211509:690.457701818
+2:DeviceType=Pad|OS=iOS|:0.180547016:0.128214921:18054.7016037
+2:Categorys=媒体与视频|DeviceType=Pad|:0.000333159670:0.000568666174:33.3185409344
+3:DeviceType=Pad|Categorys=赛车游戏|OS=Android|:0.0000360395365:0.000361566165:3.71470926184
+3:DeviceType=Phone|Categorys=交通运输|OS=iOS|:0:0.000218679064:1.0
+2:Categorys=个性化|DeviceType=Pad|:0:0.0000878331448:1.0
+2:Categorys=交通运输|DeviceType=Pad|:0:0.0000810071397:1.0
+3:DeviceType=Phone|Categorys=媒体与视频|OS=iOS|:0:0.00153511638:1.0
+2:Categorys=商务|OS=Android|:0.000623029021:0.000214264717:62.3063565778
+3:DeviceType=Pad|Categorys=音乐与音频|OS=iOS|:0:0.000123934729:1.0
+3:DeviceType=Phone|Categorys=游戏|OS=Android|:0:0.0165887480:1.0
+3:DeviceType=Pad|Categorys=娱乐|OS=iOS|:0.0297280251:0.0131919140:2972.80256156
+2:Categorys=交通运输|OS=Android|:0.000414523747:0.000142558068:41.4575666194
+2:Categorys=图书|DeviceType=Phone|:0.0217359137:0.0233317051:2173.59136914
+2:Categorys=休闲游戏|OS=Android|:0.0335906964:0.0115521120:3359.06969264
+3:DeviceType=Phone|Categorys=生活|OS=Android|:0:0.00122432243:1.0
+2:Categorys=娱乐|DeviceType=Phone|:0.0730993801:0.0827298709:7309.93800931
+2:Categorys=参考|DeviceType=Phone|:0.0116102760:0.00959740049:1161.0276138
+2:Categorys=个性化|OS=iOS|:0:0.000294882661:1.0
+3:DeviceType=Phone|Categorys=工具|OS=iOS|:0.0320225979:0.0296030136:3202.25979583
+2:Categorys=新闻杂志|DeviceType=Pad|:0:0.0000708025787:1.0
+2:Categorys=效率|OS=iOS|:0.00259261708:0.00402825330:259.261952858
+3:DeviceType=Pad|Categorys=交通运输|OS=iOS|:0:0.0000531481295:1.0
+2:Categorys=医疗|DeviceType=Pad|:0.0000552431547:0.0000300737099:5.54307168454
+2:Categorys=体育游戏|OS=iOS|:0:0.000501279269:1.0
+3:DeviceType=Pad|Categorys=健康健美|OS=iOS|:0:0.0000522819957:1.0
+2:Categorys=新闻杂志|OS=iOS|:0:0.000237705855:1.0
+2:Categorys=医疗|OS=Android|:0:0.0000529243469:1.0
+2:Categorys=效率|DeviceType=Phone|:0.00544270843:0.00493679609:544.270851691
+3:DeviceType=Pad|Categorys=财务|OS=Android|:0:0.0000592565872:1.0
+3:DeviceType=Pad|Categorys=工具|OS=Android|:0.000201530801:0.00377132882:20.1752972221
+3:DeviceType=Pad|Categorys=商品指南|OS=iOS|:0:0.0000442107021:1.0
+3:DeviceType=Phone|Categorys=医疗|OS=Android|:0:0.0000425548056:1.0
+2:Categorys=旅行|OS=Android|:0:0.000195525012:1.0

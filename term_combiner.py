@@ -7,7 +7,7 @@ import math
 import random
 
 # single dim list
-table_name = 'RTBLocation'
+table_name = 'RTBApp'
 dim_list_name = './dim_list_' + table_name + '.txt'
 # dim_list_name = './dim_list_'+table_name+'_noappname.txt'
 
