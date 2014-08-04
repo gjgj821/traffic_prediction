@@ -101,6 +101,8 @@ def get_termmap(dim_dict_combine):
 	tm = {}
 	for key in dim_dict_combine:
 		r = random.randint(0, len(dim_dict_combine[key]) - 1)
+		if not random.randint(0, 5):
+			continue
 		tm[key] = dim_dict_combine[key][r]
 	return tm
 
