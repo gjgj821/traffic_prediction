@@ -10,7 +10,7 @@ import uuid
 
 
 ## 放大流量，10为将流量比例放大10倍，并且10分之一以上的流量都考虑相关性
-REQUEST_UP = 1000000000
+REQUEST_UP = 1
 ## 以support为x轴，流量比例为y轴，对于半径为1的集合过滤
 EFFECT_RADIO = 0
 
