@@ -24,7 +24,7 @@ if __name__ == '__main__':
 
 	# 只读取日表信息
 	m2 = TermManage('RTBLocation', train_time, where='`Type` = 1')
-	m2.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName')#.add_dim('City')
+	m2.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName').add_dim('City')
 	# 不再进行OS和DeviceType的聚合查询
 	for i in range(2, MAX_DIM + 1):
 		term_map_list = m2.union_dim(2, ['OS', 'CarrierName'])

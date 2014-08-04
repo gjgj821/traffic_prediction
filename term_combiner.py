@@ -127,3 +127,67 @@ def get_termmap_single_dim(key, dim_dict_combine):
 #load_dim()
 #print dim_dict
 #dim_combine()
+
+def test_combine():
+	"""
+	test termmap
+	:return:
+	"""
+	dim_dict_combine = {}
+	for key in dim_dict:
+		v=len(dim_dict[key])
+		if v < 10:
+			#all combination
+			for i in range(1,1 << v):
+				t_com=[]
+				for shift in range(0,v):
+					b=(i >> shift) & 1
+					if b==1:
+						t_com.append(dim_dict[key][shift])
+				if not key in dim_dict_combine:
+					dim_dict_combine[key] = []
+				dim_dict_combine[key].append(t_com)
+				print t_com
+		else:
+			#2 50
+			for i in range(0,50):
+				t_com=[]
+				for j in range(0,2):
+					r = random.randint(1, v - 1)
+					if t_com.count(dim_dict[key][r]) !=0:
+						j-=1
+						continue
+					t_com.append(dim_dict[key][r])
+				if not key in dim_dict_combine:
+					dim_dict_combine[key] = []
+				dim_dict_combine[key].append(t_com)
+				print t_com
+			#3 30
+			for i in range(0,30):
+				t_com=[]
+				for j in range(0,3):
+					r = random.randint(1, v - 1)
+					if t_com.count(dim_dict[key][r]) !=0:
+						j-=1
+						continue
+					t_com.append(dim_dict[key][r])
+				if not key in dim_dict_combine:
+					dim_dict_combine[key] = []
+				dim_dict_combine[key].append(t_com)
+				print t_com
+	return dim_dict_combine
+
+def get_termmap_x(dim_dict_combine,count):
+	tm={}
+	for key in dim_dict:
+		if count <= 0:
+			break
+		r = random.randint(0, len(dim_dict_combine[key]) - 1)
+		tm[key] = dim_dict_combine[key][r]
+		count-=1
+	print tm
+	return tm
+
+if __name__ == '__main__':
+    load_dim()
+    dim_dict_combine=test_combine()

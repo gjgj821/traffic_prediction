@@ -35,17 +35,37 @@ if __name__ == '__main__':
 	result_term = []
 
 	load_dim()
-	dim_dict_combine = dim_combine()
-
+	#dim_dict_combine = dim_combine()
+	dim_dict_combine = test_combine()
+	'''
 	for i in range(0, 200):
-		#term_map = get_termmap(dim_dict_combine)
+		# term_map = get_termmap(dim_dict_combine)
 		#term_map = get_termmap_single_dim('Categorys', dim_dict_combine)
-		term_map = get_termmap_dim_single()
+		#term_map = get_termmap_dim_single()
 		result_term.append(term_map)
 		result.append(
 			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
 			                      p=False))
-	# result.append(manage.estimate_test(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False), p=False))
+		# result.append(manage.estimate_test(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False), p=False))
+	'''
+	for i in range(0, 200):
+		term_map=get_termmap_x(dim_dict_combine,2)
+		result_term.append(term_map)
+		result.append(
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			                      p=False))
+	for i in range(0, 100):
+		term_map=get_termmap_x(dim_dict_combine,3)
+		result_term.append(term_map)
+		result.append(
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			                      p=False))
+	for i in range(0, 50):
+		term_map=get_termmap_x(dim_dict_combine,4)
+		result_term.append(term_map)
+		result.append(
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			                      p=False))
 
 	# x_list, y1_list = zip(*result)
 	x_list, y1_list, y2_list = zip(*result)
@@ -69,7 +89,7 @@ if __name__ == '__main__':
 	plt.plot(x_list, y2_list, 'ob')
 
 	plt.plot([0, total / 2], [0, total / 2], 'r')
-	#plt.plot([0, 1], [0, 1], 'r')
+	# plt.plot([0, 1], [0, 1], 'r')
 	plt.grid(True)
 	# 修正最大值
 	#max_value = round(max(max(x_list), max(y1_list), max(y2_list)), 2)
