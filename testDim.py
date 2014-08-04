@@ -13,7 +13,7 @@ DIM_FILE = 'dim_list'
 
 if __name__ == '__main__':
 	test_time = '2014-06-10'
-	test_table = 'RTBApp'
+	test_table = 'RTBLocation'
 	# 实际中
 	total = get_sum(test_time, {}, test_table, is_train=False)
 	manage = TermTestManage(total)
@@ -57,9 +57,9 @@ if __name__ == '__main__':
 		# print list
 		for item in list:
 			rate = (y2_list[item[0]] - item[1]) / Decimal(item[1])
-			if abs(rate) > 0.4:
-				print result_term[item[0]]
-				print result[item[0]]
+			#if abs(rate) > 0.4:
+			#	print result_term[item[0]]
+			#	print result[item[0]]
 			sum_rate += rate
 		if len(list) > 0:
 			diff = sum_rate / len(list)

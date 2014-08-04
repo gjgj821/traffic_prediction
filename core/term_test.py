@@ -63,7 +63,7 @@ class TermTestManage(object):
 		if not term_map:
 			self.ratio, self.ratio_fix = [1, 1]
 		else:
-			self.ratio, self.ratio_fix = self.parse_term_map(term_map, fix)
+			self.ratio, self.ratio_fix = self.parse_term_map2(term_map, fix)
 		self.ok = True
 		return self.ratio_fix if fix else self.ratio
 
@@ -156,6 +156,34 @@ class TermTestManage(object):
 		#print ratio_list
 		return ratio, Decimal(reduce(lambda x, y: x * y, ratio_list))
 
+	def parse_term_map2(self, term_map, fix=True):
+		if not fix:
+			return self.parse_term_map(term_map, fix)
+		ratio, _ = self.parse_term_map(term_map, False)
+		fix_dim = []
+		fix_list = []
+		ratio_list = []
+		for dim, value in term_map.items():
+			reverse = False
+			# # 取反符号
+			if dim[:1] == '!':
+				dim = dim[1:]
+				reverse = True
+			fix_dim.append(dim)
+			if reverse:
+				value = ['!%s' % v for v in value]
+				value[0:0] = 0
+			fix_list.append(value)
+		for item in itertools.product(*fix_list):
+			term_map_tmp = {}
+			for i in range(0, len(item)):
+				if item[i] is 0:
+					continue
+				term_map_tmp[fix_dim[i]] = item[i]
+			ratio = self.term_fix(term_map_tmp)
+			ratio_list.append(ratio)
+		return ratio, Decimal(reduce(lambda x, y: x + y, ratio_list))
+
 	def parse_or(self, dim, ll):
 		"""
 		求并集
@@ -193,7 +221,7 @@ class TermTestManage(object):
 		同一维度中，修正影响度最高的条件组合
 		"""
 		## 对影响度进行排序
-		fix_wait_list = sorted(fix_wait_list, key=lambda x: 1/x.ratio4)
+		fix_wait_list = sorted(fix_wait_list, key=lambda x: x.ratio4, reverse=True)
 		for term in fix_wait_list:
 			need = True
 			for key, value in term.term_map.items():
@@ -212,7 +240,7 @@ class TermTestManage(object):
 		遍历所有组合
 		"""
 		## 对影响度进行排序
-		fix_wait_list = sorted(fix_wait_list, key=lambda x: 1/x.ratio4)
+		fix_wait_list = sorted(fix_wait_list, key=lambda x: x.ratio4, reverse=True)
 		ratio_plus_list = []
 		for term in fix_wait_list:
 			ratio_list_tmp = ratio_list[:]
@@ -265,6 +293,41 @@ class TermTestManage(object):
 			index = len(fix_dim) - 1
 		if ratio_list[index] > 1:
 			ratio_list[index] = 1
+
+	def term_fix(self, term_map):
+		"""
+		单一组合的优化计算
+		"""
+		fix_list = []
+		fix_dim = []
+		fix_wait_list = []
+		ratio_list = []
+		reverse = False
+		for dim, value in term_map.items():
+			# # 取反符号
+			if value[:1] == '!':
+				reverse = True
+				value = value[1:]
+			index = self.dim_map_list.index(dim)
+			fix_dim.append(dim)
+			fix_list.append([0, value])
+			ratio_list.append(abs(self.parse_or(index, [value])))
+		for item in itertools.product(*fix_list):
+			term_map_tmp = {}
+			for i in range(0, len(item)):
+				if item[i] is 0:
+					continue
+				term_map_tmp[fix_dim[i]] = item[i]
+			term = self.get_term(term_map_tmp)
+			if not term:
+				continue
+			fix_wait_list.append(term)
+		if fix_wait_list:
+			ratio_list = self.fix(fix_wait_list, ratio_list, fix_dim)
+		ratio = Decimal(reduce(lambda x, y: x * y, ratio_list))
+		if reverse:
+			ratio *= -1
+		return ratio
 
 
 class TermTest(object):
