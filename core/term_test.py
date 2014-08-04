@@ -6,6 +6,7 @@ from term import Term, TermManage, ACCURACY_F
 __author__ = 'GaoJie'
 getcontext().prec = ACCURACY_F
 
+
 class TermTestManage(object):
 	def __init__(self, total=0):
 		self.total = total
@@ -50,7 +51,7 @@ class TermTestManage(object):
 		if result_map:
 			self.dim_map_list.append(dim)
 			self.dim_list.append(result_map)
-		print self.dim_list
+		# print self.dim_list
 		return self
 
 	def analyze(self, term_map=None, fix=True):

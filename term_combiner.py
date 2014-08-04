@@ -107,6 +107,8 @@ def get_termmap_dim_single():
 	tm = {}
 	for key in dim_dict:
 		r = random.randint(0, len(dim_dict[key]) - 1)
+		if dim_dict[key][r] == 'other':
+			continue
 		tm[key] = [dim_dict[key][r]]
 	return tm
 

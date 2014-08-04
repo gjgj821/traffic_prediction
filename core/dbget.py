@@ -7,7 +7,7 @@ from mysql.connector.connection import MySQLConnection
 from mysql.connector.conversion import MySQLConverter
 
 # 日期的统计周期
-STAT_CYCLE = 7
+STAT_CYCLE = 0
 
 STAT_DB_HOST = '192.168.168.144'
 STAT_DB_PORT = '3306'
@@ -46,7 +46,7 @@ def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datet
 				reverse = True
 			if type(value) is list:
 				op = ' not in ' if reverse else ' in '
-				where += " and %s %s ('%s')" % (key, op, "','".join([mysqlConverterUTF8.escape(v) for v in value]))
+				where += " and %s %s ('%s')" % (key, op, "','".join([mysqlConverterUTF8.escape(v if v != 'other' else '' ) for v in value ]))
 			else:
 				op = ' != ' if reverse else ' = '
 				where += " and %s %s '%s'" % (key, op, mysqlConverterUTF8.escape(value))
@@ -64,11 +64,11 @@ def get_group(date_time, field, table, sum_field='Requests', date_field='Datetim
 	获取单维度条件及其总量
 	"""
 	cursor = mysqlConnectStat.cursor()
-	select = '`%s`,sum(`%s`),count(`%s`)' % (field, sum_field, field)
+	select = 'IF(`%s`="", "other",`%s`) as %s,sum(`%s`),count(`%s`)' % (field, field, field, sum_field, field)
 	time_stamp = int(time.mktime(time.strptime(date_time, '%Y-%m-%d'))) - (STAT_CYCLE * 86400 if is_train else 0)
 	if not where:
 		where = '1'
-	where += ' and `%s` between %s and %s and %s <> ""' % (date_field, time_stamp, time_stamp + 86400 - 1, field)
+	where += ' and `%s` between %s and %s' % (date_field, time_stamp, time_stamp + 86400 - 1)
 	sql = 'select %s from `%s` where %s group by `%s`' % (select, table, where, field)
 	cursor.execute(sql)
 	result = cursor.fetchall()
