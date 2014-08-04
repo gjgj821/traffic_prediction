@@ -110,6 +110,7 @@ def get_termmap_dim_single():
 	for key in dim_dict:
 		r = random.randint(0, len(dim_dict[key]) - 1)
 		tm[key] = [dim_dict[key][r]]
+	print tm
 	return tm
 
 

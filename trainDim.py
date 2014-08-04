@@ -5,7 +5,7 @@ from core.term import TermManage
 __author__ = 'GaoJie'
 
 # 最大维度，最多几个定向条件的组合 #
-MAX_DIM = 3
+MAX_DIM = 2
 TERM_FILE = 'term_list.txt'
 DIM_FILE = 'dim_list'
 
@@ -23,13 +23,13 @@ if __name__ == '__main__':
 	#term_map_all = dict(term_map_all, **term_map_list)
 
 	# 只读取日表信息
-	#m2 = TermManage('RTBLocation', train_time, where='`Type` = 1')
-	#m2.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName').add_dim('City')
+	m2 = TermManage('RTBLocation', train_time, where='`Type` = 1')
+	m2.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName')#.add_dim('City')
 	# 不再进行OS和DeviceType的聚合查询
-	#term_map_list = m2.union_dim(2, ['OS', 'CarrierName', 'City'])
-	#term_map_all = dict(term_map_all, **term_map_list)
-	#term_map_list = m2.union_dim(2, ['DeviceType', 'CarrierName', 'City'])
-	#term_map_all = dict(term_map_all, **term_map_list)
+	term_map_list = m2.union_dim(2, ['OS', 'CarrierName'])
+	term_map_all = dict(term_map_all, **term_map_list)
+	term_map_list = m2.union_dim(2, ['DeviceType', 'CarrierName'])
+	term_map_all = dict(term_map_all, **term_map_list)
 
 	type_list = [value.get_line(relative=False) for key, value in term_map_all.items()]
 	output = open(TERM_FILE, 'w')
@@ -40,7 +40,7 @@ if __name__ == '__main__':
 	output = open(filename, 'w')
 	output.writelines(m1.export_dim(['OS', 'DeviceType', 'Categorys', 'AppName'], relative=False))
 	output.close()
-	#filename = DIM_FILE + '_RTBLocation' + '.txt'
-	#output = open(filename, 'w')
-	#output.writelines(m2.export_dim(['OS', 'DeviceType', 'CarrierName', 'City'], relative=False))
-	#output.close()
+	filename = DIM_FILE + '_RTBLocation' + '.txt'
+	output = open(filename, 'w')
+	output.writelines(m2.export_dim(['OS', 'DeviceType', 'CarrierName', 'City'], relative=False))
+	output.close()
