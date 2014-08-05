@@ -12,21 +12,36 @@ class TermTestManage(object):
 		self.total = total
 		self.ratio = None
 		self.ratio_fix = None
-		self.term_map = {}
+		# 只训练2，3维数据
+		self.term_map = [{}, {}]
 		self.dim_list = []
 		self.dim_map_list = []
 		self.need_map = []
 		self.ok = False
 		return
 
-	def load(self, term_list):
+	def get_term(self, term_map):
+		dim_key, term_key = TermTest.get_key(term_map, self.dim_map_list)
+		this_sum = TermTest.get_sum(term_map)
+		if this_sum > 3:
+			return None
+		this_map = self.term_map[TermTest.get_sum(term_map) - 2]
+		if dim_key not in this_map:
+			return None
+		return this_map[dim_key][term_key] if term_key in this_map[dim_key] else None
+
+	def load(self, lines):
 		"""
-		加载词组
+		加载词组，先加载全部dim再加载term
 		"""
-		for line in term_list:
+		for line in lines:
 			line = line.strip()
 			term = TermTest.parse(line.decode('utf-8'), self)
-			self.term_map[term.string] = term
+			dim_key, term_key = TermTest.get_key(term.term_map, self.dim_map_list)
+			this_map = self.term_map[term.sum - 2]
+			if dim_key not in this_map:
+				this_map[dim_key] = {}
+			this_map[dim_key][term_key] = term
 		return self
 
 	def load_dim(self, lines):
@@ -211,10 +226,6 @@ class TermTestManage(object):
 		#print ratio_dim
 		return Decimal(reduce(lambda x, y: x * y, ratio_dim))
 
-	def get_term(self, term_map):
-		string = Term.get_string(term_map)
-		return self.term_map[string] if string in self.term_map else None
-
 	@classmethod
 	def fix(cls, fix_wait_list, ratio_list, fix_dim):
 		"""
@@ -332,13 +343,13 @@ class TermTestManage(object):
 
 class TermTest(object):
 	def __init__(self, term_map, manage, ratio, ratio3, ratio4):
-		self.sum = len(term_map.keys())
+		self.sum = self.get_sum(term_map)
 		self.term_map = term_map
 		self.manage = manage
 		self.ratio = Decimal(ratio)
 		self.ratio3 = Decimal(ratio3)
 		self.ratio4 = Decimal(ratio4)
-		self.string = self.get_string(self.term_map)
+		#self.string = self.get_string(self.term_map)
 
 	def fix(self):
 		"""
@@ -364,5 +375,19 @@ class TermTest(object):
 	def get_string(term_map):
 		return Term.get_string(term_map)
 
+	@staticmethod
+	def get_sum(term_map):
+		return len(term_map.keys())
+
+	@staticmethod
+	def get_key(term_map, dim_list):
+		dim_key = 0
+		term_key = u''
+		for dim, value in term_map.items():
+			index = dim_list.index(dim)
+			dim_key |= 1 << index
+			term_key += value + u'|'
+		return dim_key, term_key
+
 	def __str__(self):
-		return self.string
+		return self.get_string(self.term_map)
