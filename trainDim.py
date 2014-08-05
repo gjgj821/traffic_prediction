@@ -14,7 +14,7 @@ if __name__ == '__main__':
 	term_map_all = {}
 
 	m1 = TermManage('RTBApp', train_time)
-	m1.add_dim('OS').add_dim('Categorys').add_dim('DeviceType')#.add_dim('AppName')
+	m1.add_dim('OS').add_dim('Categorys').add_dim('DeviceType').add_dim('AppName')
 	for i in range(2, MAX_DIM + 1):
 		term_map_list = m1.union_dim(i, ['OS', 'DeviceType', 'Categorys'])
 		if term_map_list:
@@ -27,11 +27,11 @@ if __name__ == '__main__':
 	m2.add_dim('OS').add_dim('DeviceType').add_dim('CarrierName').add_dim('City')
 	# 不再进行OS和DeviceType的聚合查询
 	for i in range(2, MAX_DIM + 1):
-		term_map_list = m2.union_dim(2, ['OS', 'CarrierName'])
+		term_map_list = m2.union_dim(2, ['OS','DeviceType', 'CarrierName','City'])
 		if term_map_list:
 			term_map_all = dict(term_map_all, **term_map_list)
 	for i in range(2, MAX_DIM + 1):
-		term_map_list = m2.union_dim(2, ['DeviceType', 'CarrierName'])
+		term_map_list = m2.union_dim(2, ['OS','DeviceType', 'CarrierName','City'])
 		if term_map_list:
 			term_map_all = dict(term_map_all, **term_map_list)
 
