@@ -13,22 +13,21 @@ DIM_FILE = 'dim_list'
 
 if __name__ == '__main__':
 	test_time = '2014-06-10'
-	test_table = 'RTBLocation'
 	# 实际中
-	total = get_sum(test_time, {}, test_table, is_train=False)
+	total = get_sum(test_time, {}, table_name, is_train=False)
 	manage = TermTestManage(total)
+
+	# 加载基础维度
+	filename = DIM_FILE + '.txt'
+	fo = open(filename, 'r')
+	lines = fo.readlines()
+	manage.load_dim(lines)
+	fo.close()
 
 	# 加载修正组合
 	fo = open(TERM_FILE, 'r')
 	lines = fo.readlines()
 	manage.load(lines)
-	fo.close()
-
-	# 加载基础维度
-	filename = DIM_FILE + '_' + test_table + '.txt'
-	fo = open(filename, 'r')
-	lines = fo.readlines()
-	manage.load_dim(lines)
 	fo.close()
 
 	result = []
@@ -52,19 +51,19 @@ if __name__ == '__main__':
 		term_map=get_termmap_x(dim_dict_combine,2)
 		result_term.append(term_map)
 		result.append(
-			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
 			                      p=False))
 	for i in range(0, 100):
 		term_map=get_termmap_x(dim_dict_combine,3)
 		result_term.append(term_map)
 		result.append(
-			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
 			                      p=False))
 	for i in range(0, 50):
 		term_map=get_termmap_x(dim_dict_combine,4)
 		result_term.append(term_map)
 		result.append(
-			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False),
+			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
 			                      p=False))
 
 	# x_list, y1_list = zip(*result)

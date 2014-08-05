@@ -18,17 +18,18 @@ if __name__ == '__main__':
 	with chronic.Timer('create'):
 		manage = TermTestManage()
 
+		# 加载基础维度
+		fo = open(DIM_FILE, 'r')
+		lines = fo.readlines()
+		manage.load_dim(lines)
+		fo.close()
+
 		# 加载修正组合
 		fo = open(TERM_FILE, 'r')
 		lines = fo.readlines()
 		manage.load(lines)
 		fo.close()
 
-		# 加载基础维度
-		fo = open(DIM_FILE, 'r')
-		lines = fo.readlines()
-		manage.load_dim(lines)
-		fo.close()
 		f = Flow(test_time, test_table)
 		#load_dim()
 		#dim_dict_combine = dim_combine()
