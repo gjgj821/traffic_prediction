@@ -1,0 +1,11 @@
+{'test': {'count': 1, 'total_elapsed': 0.0057909488677978516, 'average_elapsed': 0.0057909488677978516}, 'create': {'count': 1, 'total_elapsed': 1.7593858242034912, 'average_elapsed': 1.7593858242034912}}
+{'test': {'count': 1, 'total_elapsed': 0.005257129669189453, 'average_elapsed': 0.005257129669189453}, 'create': {'count': 1, 'total_elapsed': 1.7499618530273438, 'average_elapsed': 1.7499618530273438}}
+{'test': {'count': 1, 'total_elapsed': 0.0036818981170654297, 'average_elapsed': 0.0036818981170654297}, 'create': {'count': 1, 'total_elapsed': 1.7653310298919678, 'average_elapsed': 1.7653310298919678}}
+{'test': {'count': 1, 'total_elapsed': 0.004034996032714844, 'average_elapsed': 0.004034996032714844}, 'create': {'count': 1, 'total_elapsed': 1.7876451015472412, 'average_elapsed': 1.7876451015472412}}
+{'test': {'count': 1, 'total_elapsed': 0.0046520233154296875, 'average_elapsed': 0.0046520233154296875}, 'create': {'count': 1, 'total_elapsed': 1.764430046081543, 'average_elapsed': 1.764430046081543}}
+{'test': {'count': 1, 'total_elapsed': 0.005342960357666016, 'average_elapsed': 0.005342960357666016}, 'create': {'count': 1, 'total_elapsed': 1.7738080024719238, 'average_elapsed': 1.7738080024719238}}
+{'test': {'count': 1, 'total_elapsed': 0.004147052764892578, 'average_elapsed': 0.004147052764892578}, 'create': {'count': 1, 'total_elapsed': 1.7643299102783203, 'average_elapsed': 1.7643299102783203}}
+{'test': {'count': 1, 'total_elapsed': 0.003305196762084961, 'average_elapsed': 0.003305196762084961}, 'create': {'count': 1, 'total_elapsed': 1.7756738662719727, 'average_elapsed': 1.7756738662719727}}
+{'test': {'count': 1, 'total_elapsed': 0.0035021305084228516, 'average_elapsed': 0.0035021305084228516}, 'create': {'count': 1, 'total_elapsed': 1.7619130611419678, 'average_elapsed': 1.7619130611419678}}
+{'test': {'count': 1, 'total_elapsed': 0.0031900405883789062, 'average_elapsed': 0.0031900405883789062}, 'create': {'count': 1, 'total_elapsed': 1.7708139419555664, 'average_elapsed': 1.7708139419555664}}
+{'test': {'count': 1, 'total_elapsed': 0.0071680545806884766, 'average_elapsed': 0.0071680545806884766}, 'create': {'count': 1, 'total_elapsed': 1.7741880416870117, 'average_elapsed': 1.7741880416870117}}
