@@ -13,6 +13,8 @@ DATE_FORMAT = '%Y-%m-%d'
 
 TERM_FILE = 'term_list.txt'
 DIM_FILE = 'dim_list.txt'
+manage = None
+f = None
 
 
 def parse_param(s):
@@ -27,19 +29,6 @@ def parse_param(s):
 
 def exec_result(length, data):
 	value_list = []
-	manage = TermTestManage()
-	# 加载修正组合
-	fo = open(TERM_FILE, 'r')
-	lines = fo.readlines()
-	manage.load(lines)
-	fo.close()
-
-	# 加载基础维度
-	fo = open(DIM_FILE, 'r')
-	lines = fo.readlines()
-	manage.load_dim(lines)
-	fo.close()
-	f = Flow(datetime.datetime.now().strftime(DATE_FORMAT), 'RTPApp')
 	value = f.total_current()
 	for i in range(length):
 		value_list.append(manage.estimate(term_map=data, total=value))
@@ -68,5 +57,20 @@ class HTTPHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 if __name__ == '__main__':
 	PORT = 9111
 	httpd = SocketServer.TCPServer(("", PORT), HTTPHandler)
+
+	manage = TermTestManage()
+	# 加载修正组合
+	fo = open(TERM_FILE, 'r')
+	lines = fo.readlines()
+	manage.load(lines)
+	fo.close()
+
+	# 加载基础维度
+	fo = open(DIM_FILE, 'r')
+	lines = fo.readlines()
+	manage.load_dim(lines)
+	fo.close()
+
+	f = Flow(datetime.datetime.now(), 'RTPApp')
 	print "serving at port", PORT
 	httpd.serve_forever()
