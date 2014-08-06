@@ -22,9 +22,9 @@ SOURCE_DB_PASS = 'qwe123'
 SOURCE_DB_NAME = 'bunny'
 
 mysqlConnectStat = MySQLConnection(host=STAT_DB_HOST, user=STAT_DB_USER, passwd=STAT_DB_PASS, db=STAT_DB_NAME,
-                                   port=STAT_DB_PORT)
+								   port=STAT_DB_PORT)
 mysqlConnectSource = MySQLConnection(host=SOURCE_DB_HOST, user=SOURCE_DB_USER, passwd=SOURCE_DB_PASS, db=SOURCE_DB_NAME,
-                                     port=SOURCE_DB_PORT)
+									 port=SOURCE_DB_PORT)
 mysqlConverterUTF8 = MySQLConverter(charset='utf8')
 
 
@@ -46,7 +46,8 @@ def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datet
 				reverse = True
 			if type(value) is list:
 				op = ' not in ' if reverse else ' in '
-				where += " and %s %s ('%s')" % (key, op, "','".join([mysqlConverterUTF8.escape(v if v != 'other' else '' ) for v in value ]))
+				where += " and %s %s ('%s')" % (
+					key, op, "','".join([mysqlConverterUTF8.escape(v if v != 'other' else '') for v in value]))
 			else:
 				op = ' != ' if reverse else ' = '
 				where += " and %s %s '%s'" % (key, op, mysqlConverterUTF8.escape(value))
