@@ -2,6 +2,8 @@
 # coding=utf-8
 
 from decimal import Decimal
+from pprint import pprint
+import chronic
 import matplotlib.pyplot as plt
 from core.dbget import *
 from core.term_test import TermTestManage
@@ -47,24 +49,30 @@ if __name__ == '__main__':
 			                      p=False))
 		# result.append(manage.estimate_test(term_map=term_map, real=get_sum(test_time, term_map, test_table, is_train=False), p=False))
 	'''
+
 	for i in range(0, 200):
-		term_map=get_termmap_x(dim_dict_combine,2)
-		result_term.append(term_map)
-		result.append(
-			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
-			                      p=False))
+		with chronic.Timer('test1'):
+			term_map=get_termmap_x(dim_dict_combine,2)
+			result_term.append(term_map)
+			result.append(
+				manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
+									p=False))
+
 	for i in range(0, 100):
-		term_map=get_termmap_x(dim_dict_combine,3)
-		result_term.append(term_map)
-		result.append(
-			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
-			                      p=False))
+		with chronic.Timer('test2'):
+			term_map=get_termmap_x(dim_dict_combine,3)
+			result_term.append(term_map)
+			result.append(
+				manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
+									p=False))
+
 	for i in range(0, 50):
-		term_map=get_termmap_x(dim_dict_combine,4)
-		result_term.append(term_map)
-		result.append(
-			manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
-			                      p=False))
+		with chronic.Timer('test3'):
+			term_map=get_termmap_x(dim_dict_combine,4)
+			result_term.append(term_map)
+			result.append(
+				manage.estimate_test2(term_map=term_map, real=get_sum(test_time, term_map, table_name, is_train=False),
+									p=False))
 
 	# x_list, y1_list = zip(*result)
 	x_list, y1_list, y2_list = zip(*result)
@@ -95,4 +103,5 @@ if __name__ == '__main__':
 	#plt.xlim(0.0, max_value)
 	#plt.ylim(0.0, max_value)
 	plt.show()
+	pprint(chronic.timings)
 

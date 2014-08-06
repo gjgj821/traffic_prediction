@@ -186,7 +186,7 @@ def get_termmap_x(dim_dict_combine,count):
 		r = random.randint(0, len(dim_dict_combine[key]) - 1)
 		tm[key] = dim_dict_combine[key][r]
 		count-=1
-	print tm
+	#print tm
 	return tm
 
 if __name__ == '__main__':
