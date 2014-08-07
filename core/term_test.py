@@ -4,6 +4,9 @@ import itertools
 from term import Term, TermManage, ACCURACY_F
 
 __author__ = 'GaoJie'
+
+# 总条件组合数，用于限制使用速度为先方式进行计算
+PRODUCT_TOTAL = 20
 getcontext().prec = ACCURACY_F
 
 
@@ -14,6 +17,7 @@ class TermTestManage(object):
         self.ratio_fix = None
         # 只训练2，3维数据
         self.term_map = [{}, {}]
+        #self.term_map = {}
         self.dim_list = []
         self.dim_map_list = []
         self.need_map = []
@@ -21,6 +25,8 @@ class TermTestManage(object):
         return
 
     def get_term(self, term_map):
+        #string = TermTest.get_string(term_map)
+        #return self.term_map[string] if string in self.term_map else None
         dim_key, term_key = TermTest.get_key(term_map, self.dim_map_list)
         this_sum = TermTest.get_sum(term_map)
         if this_sum > 3:
@@ -37,6 +43,7 @@ class TermTestManage(object):
         for line in lines:
             line = line.strip()
             term = TermTest.parse(line.decode('utf-8'), self)
+            #self.term_map[term.get_string(term.term_map)] = term
             dim_key, term_key = TermTest.get_key(term.term_map, self.dim_map_list)
             this_map = self.term_map[term.sum - 2]
             if dim_key not in this_map:
@@ -130,6 +137,7 @@ class TermTestManage(object):
     def parse_term_map(self, term_map, fix=True):
         """
         解析条件，并获取比例值
+        简单计算，带入部分因子来修正结果
         """
         ratio_list = []
         fix_list = []
@@ -172,11 +180,14 @@ class TermTestManage(object):
         return ratio, Decimal(reduce(lambda x, y: x * y, ratio_list))
 
     def parse_term_map2(self, term_map, fix=True):
+        """
+        展开条件组合，尽可能的带入更多符合的因子计算，来修正结果
+        """
         if not fix:
             return self.parse_term_map(term_map, fix)
-        ratio, _ = self.parse_term_map(term_map, False)
         fix_dim = []
         fix_list = []
+        fix_number_list = []
         ratio_list = []
         for dim, value in term_map.items():
             reverse = False
@@ -188,7 +199,15 @@ class TermTestManage(object):
             if reverse:
                 value = ['!%s' % v for v in value]
                 value[0:0] = 0
+            fix_number_list.append(len(value))
             fix_list.append(value)
+        total = reduce(lambda x, y: x * y, fix_number_list)
+        #print total
+        # 对于过度复杂的条件，则还是使用优化计算
+        if total > PRODUCT_TOTAL:
+            return self.parse_term_map(term_map, False)
+        else:
+            ratio, _ = self.parse_term_map(term_map, False)
         for item in itertools.product(*fix_list):
             term_map_tmp = {}
             for i in range(0, len(item)):
