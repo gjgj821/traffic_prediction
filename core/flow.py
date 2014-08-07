@@ -34,8 +34,33 @@ class Flow(object):
         yes_ratio_list, yes_total = self.load_yesterday()
         return self.fix(yes_ratio_list, yes_total, hour, ratio_list, total)
 
-    def future(self, total, length=1):
-        return total
+    def future(self, length=1):
+        """
+            :param length:
+            :return: a list of the total amount in forward days
+            """
+        time_array = time.strptime(self.date_time, "%Y-%m-%d")
+        query_stamp = int(time.mktime(time_array))
+        last_week = []
+        l = range(1, length + 2)
+        l.reverse()
+        for i in l:
+            time_stamp = query_stamp - 86400 * i
+            time_array = time.localtime(time_stamp)
+            date = time.strftime("%Y-%m-%d", time_array)
+            last_week.append(get_sum(date, {}, self.table, is_train=False))
+        #print last_week
+        rates = []
+        for i in range(1, len(last_week)):
+            rates.append((last_week[i] - last_week[i - 1]) / last_week[i - 1])
+        #print rates
+        ret = []
+        for r in rates:
+            if len(ret) == 0:
+                ret.append(last_week[-1] * (1 + r))
+            else:
+                ret.append(ret[-1] * (1 + r))
+        return ret
 
     @staticmethod
     def amend(hourly_list):
