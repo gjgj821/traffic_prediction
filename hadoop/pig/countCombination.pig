@@ -2,15 +2,15 @@
 register './combine_udf.py' using jython as combineUDFS;
 data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigStorage('|') AS(
        -- Bid Request
-       adx                                   :int,
+       adx                                   :int,          --U
        request_id                            :chararray,
        type                                  :int,
        adSlot_id                             :int,
        adSolt_creative_type                  :int,
        adSlot_allowed_size                   :chararray,
        adSlot_disallowed_ad_category_id      :int,
-       adSlot_fixed_price                    :float,        -- reserve price
-       adSlot_min_cpm_micros                 :float,
+       adSlot_fixed_price                    :float,
+       adSlot_min_cpm_micros                 :float,        -- reserve price
        user_id                               :chararray,
        user_Data_id                          :chararray,
        user_Data_segment                     :chararray,
@@ -44,7 +44,7 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        app_in_app_purchase                   :chararray,
        app_category_id                       :int,          --U
        is_test                               :int,
-       timestamp                             :int,
+       timestamp                             :int,          -- time base
        location_geo_criteria_id              :int,
        device_user_agent                     :chararray,
        app_limei_app_id                      :int,          --U
@@ -90,25 +90,25 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        );
 
 -- test purpose
-data_raw = limit data_raw 10;
+data_raw = limit data_raw 1000;
 
 data_need = FOREACH data_raw GENERATE combineUDFS.combine_udf(
-device_os,
-device_os_version,
-device_brand,
-device_model,
-device_device_type,
-detworkConnection_connection_type,
-detworkConnection_carrier_id,
-location_country_id,
-location_region_id,
-location_city_id,
-app_category_id,
-app_limei_app_id,
-res_bid_strategy
+    adx,
+    device_os_version,
+    device_brand,
+    device_model,
+    device_device_type,
+    detworkConnection_connection_type,
+    detworkConnection_carrier_id,
+    location_country_id,
+    location_region_id,
+    location_city_id,
+    app_category_id,
+    app_limei_app_id
 )
-AS COMBINE_B;
-DUMP data_need;
+AS combine_b;
 
--- get fields which i need
--- data_need = FOREACH data_raw GENERATE bag{} AS ;
+data_fla = FOREACH data_need GENERATE FLATTEN(combine_b) AS comb;
+grpd = GROUP data_fla BY comb;
+uniqcnt = FOREACH grpd GENERATE group, COUNT(data_fla.comb);        -- wrong
+DUMP uniqcnt;

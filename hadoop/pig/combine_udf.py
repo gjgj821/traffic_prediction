@@ -11,9 +11,10 @@ def combine_udf(*args):
 		if item != None:
 			key_dict[i]=item
 			count+=1
-
 	outBag = []
-	for i in range(0,1 << count):
+	tup=('0',)
+	outBag.append(tup)
+	for i in range(1,1 << count):
 		tmp=i
 		dim=0
 		keys=''
@@ -28,16 +29,16 @@ def combine_udf(*args):
 			outBag.append(tup)
 	return outBag
 
-# device_os                             :chararray,    --U 0
-# device_os_version                     :chararray,    --U 1
-# device_brand                          :chararray,    --u 2
-# device_model                          :chararray,    --u 3
-# device_device_type                    :int,          --u 4
-# detworkConnection_connection_type     :int,          --U 5
-# detworkConnection_carrier_id          :int,          --U 6
-# location_country_id                   :int,          --U 7
-# location_region_id                    :int,          --U 8
-# location_city_id                      :int,          --U 9
-# app_category_id                       :int,          --U 10
-# app_limei_app_id                      :int,          --U 11
-# res_bid_strategy                      :int,          --U 12
+# adx                                   :int,          --U 0
+# device_os                             :chararray,    --U 1
+# device_os_version                     :chararray,    --U 2
+# device_brand                          :chararray,    --u 3
+# device_model                          :chararray,    --u 4
+# device_device_type                    :int,          --u 5
+# detworkConnection_connection_type     :int,          --U 6
+# detworkConnection_carrier_id          :int,          --U 7
+# location_country_id                   :int,          --U 8
+# location_region_id                    :int,          --U 9
+# location_city_id                      :int,          --U 10
+# app_category_id                       :int,          --U 11
+# app_limei_app_id                      :int,          --U 12
