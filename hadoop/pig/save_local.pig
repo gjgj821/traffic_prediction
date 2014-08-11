@@ -1,5 +1,5 @@
 --save data to local
-joined_data = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined/part-r-00020.gz' USING PigStorage('|') AS(
+data = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined/part-r-00020.gz' USING PigStorage('|') AS(
        -- Bid Request
        adx                                   :int,
        request_id                            :chararray,
@@ -8,7 +8,7 @@ joined_data = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined/part-r-0
        adSolt_creative_type                  :int,
        adSlot_allowed_size                   :chararray,
        adSlot_disallowed_ad_category_id      :int,
-       adSlot_fixed_price                    :float,
+       adSlot_fixed_price                    :float,        -- reserve price
        adSlot_min_cpm_micros                 :float,
        user_id                               :chararray,
        user_Data_id                          :chararray,
@@ -46,7 +46,7 @@ joined_data = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined/part-r-0
        timestamp                             :int,
        location_geo_criteria_id              :int,
        device_user_agent                     :chararray,
-       app_limei_app_id                      :int,
+       app_limei_app_id                      :int,          --U
        device_model_id                       :int,
        -- Wangwei add
        hyperlocal_coners                     :chararray,
@@ -70,7 +70,7 @@ joined_data = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined/part-r-0
        res_adx                               :int,
        imp_request_id                        :int,
        imp_adslot_id                         :int,
-       imp_closing_price                     :int,         -- type?
+       imp_closing_price                     :float,        -- dealing price
        imp_ip                                :chararray,
        imp_timestamp                         :int,
        clk_request_id                        :int,
@@ -88,5 +88,6 @@ joined_data = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined/part-r-0
        conv_creative_id                      :int
        );
 
-lim_data = SAMPLE joined_data 0.05;
+data_filted = filter data by adx == 3;  -- use double click ad exchange
+lim_data = SAMPLE data_filted 0.05;
 STORE lim_data INTO '/tmp/wangwei/data/piece' USING PigStorage('|');

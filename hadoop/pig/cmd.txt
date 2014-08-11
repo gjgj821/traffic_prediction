@@ -1,0 +1,11 @@
+#check field
+awk -F'|' '{print $1,$34,$35,$46}' part-r-00000
+
+#run pig with nohup
+nohup pig save_local.pig > nohup_0807.log &
+
+#copy to local
+hadoop fs -copyToLocal /tmp/wangwei/data/ ../
+
+#clean data
+hadoop fs -rmr -skipTrash /tmp/wangwei/data/
