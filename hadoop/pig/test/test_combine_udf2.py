@@ -93,19 +93,19 @@ def combine_merged_udf(*args):
 	return outBag
 
 # merge -------- should map to id
-# adx                                   :int,          --U 0    0
-# device_os                             :chararray,    --U 1    1
-# device_os_version                     :chararray,    --U 2    1
-# device_brand                          :chararray,    --u 3    2
-# device_model                          :chararray,    --u 4    2
-# device_device_type                    :int,          --u 5    3
-# detworkConnection_connection_type     :int,          --U 6    4
-# detworkConnection_carrier_id          :int,          --U 7    5
-# location_country_id                   :int,          --U 8    6
-# location_region_id                    :int,          --U 9    6
-# location_city_id                      :int,          --U 10   6
-# app_category_id                       :int,          --U 11   7
-# app_limei_app_id                      :int,          --U 12   8
+# adx                                   :int,          --U 0
+# device_device_type                    :int,          --u 1
+# detworkConnection_connection_type     :int,          --U 2
+# detworkConnection_carrier_id          :int,          --U 3
+# app_category_id                       :int,          --U 4
+# device_os                             :chararray,    --U 5
+# device_os_version                     :chararray,    --U 6
+# location_country_id                   :int,          --U 7
+# location_region_id                    :int,          --U 8
+# location_city_id                      :int,          --U 9
+# device_brand                          :chararray,    --u 10
+# device_model                          :chararray,    --u 11
+# app_limei_app_id                      :int,          --U 12
 
 r = combine_merged_udf('0','1','2','3','4','5','6','7','8','9','10','11','12')
 for i in r:
