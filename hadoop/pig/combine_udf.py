@@ -68,13 +68,13 @@ class CrossCombine(object):
 		self.res = ['']
 		self.res_chain = [0]
 		self.count = [0]
-	def cross(self, L, Limit,level):
+	def cross(self, L, Limit, level):
 		"""
 		:param L: this dim list
 		:param Limit: allowed combined dims before combine this dim
 		:return: /
 		"""
-		assert len(L) < len(Limit)
+		#assert len(L) < len(Limit)
 		res_len = len(self.res)
 		L_len = len(L)
 		for i in range(0, res_len):
@@ -84,14 +84,21 @@ class CrossCombine(object):
 					self.res_chain.append(self.res_chain[i] | 1 << level)
 					self.count.append(self.count[i]+1)
 
-Limits=[[99],[99,99],[99,1],[99],[99],[99],[99,99,1],[99],[99]]
+Limits=[[99],[99],[99],[99],[4],[4,4],[4,4,1],[4,1],[1]]
 
 # def combine_udf(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12):
-@outputSchema("combination:bag{t:tuple(comb:chararray)}")
 def combine_merged_udf(*args):
 	la=[]
 	#adx
 	la.append([args[0]])
+	# device_device_type
+	la.append([args[5]])
+    # detworkConnection_connection_type
+	la.append([args[6]])
+    # detworkConnection_carrier_id
+	la.append([args[7]])
+	# app_category_id
+	la.append([args[11]])
 	#device_os device_os_version
 	l=[]
 	if args[1] != None:
@@ -101,19 +108,6 @@ def combine_merged_udf(*args):
 			if os_dict.get(k)!=None:
 				l.append(os_dict[k])
 	la.append(l)
-	#device_brand device_model
-	l=[]
-	if args[3] != None:
-		l.append(args[3])
-		if args[4] != None:
-			l.append(args[4])
-	la.append(l)
-	# device_device_type
-	la.append([args[5]])
-    # detworkConnection_connection_type
-	la.append([args[6]])
-    # detworkConnection_carrier_id
-	la.append([args[7]])
     # location_country_id location_region_id location_city_id
 	l=[]
 	if args[8] != None:
@@ -123,13 +117,19 @@ def combine_merged_udf(*args):
 			if args[10] != None:
 				l.append(args[10])
 	la.append(l)
-    # app_category_id
-	la.append([args[11]])
+	#device_brand device_model
+	l=[]
+	if args[3] != None:
+		l.append(args[3])
+		if args[4] != None:
+			l.append(args[4])
+	la.append(l)
     # app_limei_app_id
 	la.append([args[12]])
 	#----------------------------
 	c = CrossCombine()
 	for i in range(0,len(la)):
+		#print la[i],Limits[i]
 		c.cross(la[i],Limits[i],i)
 	outBag = []
 	for i in range(0,len(c.res)):
@@ -138,16 +138,16 @@ def combine_merged_udf(*args):
 	return outBag
 
 # merge -------- should map to id
-# adx                                   :int,          --U 0    0
-# device_os                             :chararray,    --U 1    1
-# device_os_version                     :chararray,    --U 2    1
-# device_brand                          :chararray,    --u 3    2
-# device_model                          :chararray,    --u 4    2
-# device_device_type                    :int,          --u 5    3
-# detworkConnection_connection_type     :int,          --U 6    4
-# detworkConnection_carrier_id          :int,          --U 7    5
-# location_country_id                   :int,          --U 8    6
-# location_region_id                    :int,          --U 9    6
-# location_city_id                      :int,          --U 10   6
-# app_category_id                       :int,          --U 11   7
-# app_limei_app_id                      :int,          --U 12   8
+# adx                                   :int,          --U 0
+# device_device_type                    :int,          --u 1
+# detworkConnection_connection_type     :int,          --U 2
+# detworkConnection_carrier_id          :int,          --U 3
+# app_category_id                       :int,          --U 4
+# device_os                             :chararray,    --U 5
+# device_os_version                     :chararray,    --U 5
+# location_country_id                   :int,          --U 6
+# location_region_id                    :int,          --U 6
+# location_city_id                      :int,          --U 6
+# device_brand                          :chararray,    --u 7
+# device_model                          :chararray,    --u 7
+# app_limei_app_id                      :int,          --U 8
