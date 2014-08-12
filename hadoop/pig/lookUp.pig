@@ -90,9 +90,10 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        );
 
 -- test purpose
-data_raw = SAMPLE data_raw 0.0001;
+data_raw = FILTER data_raw BY adx == 3 AND device_os MATCHES '2';
+data_raw = SAMPLE data_raw 0.00001;
 
-data_need = FOREACH data_raw GENERATE combineUDFS.combine_udf(
+data_need = FOREACH data_raw GENERATE
     adx,
     device_os,
     device_os_version,
@@ -106,13 +107,5 @@ data_need = FOREACH data_raw GENERATE combineUDFS.combine_udf(
     location_city_id,
     app_category_id,
     app_limei_app_id
-)
-AS combine_b;
---DUMP data_need;
-
-data_fla = FOREACH data_need GENERATE FLATTEN(combine_b) AS comb;
-grpd = GROUP data_fla BY comb PARALLEL 10;
---DUMP grpd;
-uniqcnt = FOREACH grpd GENERATE group, COUNT(data_fla);
---DUMP uniqcnt;
-STORE uniqcnt INTO '/tmp/wangwei/data/piece' USING PigStorage('|');
+    ;
+DUMP data_need;

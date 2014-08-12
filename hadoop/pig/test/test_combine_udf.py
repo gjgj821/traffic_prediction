@@ -2,51 +2,6 @@
 
 __author__ = 'wangwei'
 
-# def combine_udf(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12):
-@outputSchema("combination:bag{t:tuple(comb:chararray)}")
-def combine_udf(*args):
-	count = 0
-	key_dict = {}
-	for i,item in enumerate(args):
-		if item != None:
-			key_dict[i] = item
-			count += 1
-	#convert device os version 5/0/1 to 5.x
-	if key_dict.get(2) != None:
-		key_dict[2]=key_dict[2][0]+'.x'
-
-	outBag = []
-	tup=('0',)
-	outBag.append(tup)
-	for i in range(1,1 << count):
-		tmp=i
-		dim=0
-		keys=''
-		for k in key_dict:
-			t = tmp & 1
-			tmp = tmp >> 1
-			if t == 1:
-				dim |= 1 << k
-				keys += '.%s'%(key_dict[k])
-		if dim != 0:
-			tup = ('%s%s'%(dim, keys),)
-			outBag.append(tup)
-	return outBag
-
-# adx                                   :int,          --U 0
-# device_os                             :chararray,    --U 1
-# device_os_version                     :chararray,    --U 2
-# device_brand                          :chararray,    --u 3
-# device_model                          :chararray,    --u 4
-# device_device_type                    :int,          --u 5
-# detworkConnection_connection_type     :int,          --U 6
-# detworkConnection_carrier_id          :int,          --U 7
-# location_country_id                   :int,          --U 8
-# location_region_id                    :int,          --U 9
-# location_city_id                      :int,          --U 10
-# app_category_id                       :int,          --U 11
-# app_limei_app_id                      :int,          --U 12
-
 # +----+----------+---------+-----------+
 # | id | parentId | osName  | osVersion |
 # +----+----------+---------+-----------+
@@ -68,13 +23,13 @@ class CrossCombine(object):
 		self.res = ['']
 		self.res_chain = [0]
 		self.count = [0]
-	def cross(self, L, Limit,level):
+	def cross(self, L, Limit, level):
 		"""
 		:param L: this dim list
 		:param Limit: allowed combined dims before combine this dim
 		:return: /
 		"""
-		assert len(L) < len(Limit)
+		#assert len(L) < len(Limit)
 		res_len = len(self.res)
 		L_len = len(L)
 		for i in range(0, res_len):
@@ -87,7 +42,6 @@ class CrossCombine(object):
 Limits=[[99],[99,99],[99,1],[99],[99],[99],[99,99,1],[99],[99]]
 
 # def combine_udf(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12):
-@outputSchema("combination:bag{t:tuple(comb:chararray)}")
 def combine_merged_udf(*args):
 	la=[]
 	#adx
@@ -130,6 +84,7 @@ def combine_merged_udf(*args):
 	#----------------------------
 	c = CrossCombine()
 	for i in range(0,len(la)):
+		#print la[i],Limits[i]
 		c.cross(la[i],Limits[i],i)
 	outBag = []
 	for i in range(0,len(c.res)):
@@ -151,3 +106,8 @@ def combine_merged_udf(*args):
 # location_city_id                      :int,          --U 10   6
 # app_category_id                       :int,          --U 11   7
 # app_limei_app_id                      :int,          --U 12   8
+
+r = combine_merged_udf('0','1','2','3','4','5','6','7','8','9','10','11','12')
+for i in r:
+	print i
+print 'length:',len(r)
