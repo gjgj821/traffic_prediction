@@ -87,6 +87,7 @@ class CrossCombine(object):
 Limits=[[99],[99],[99],[99],[4],[4,4],[4,4,1],[4,1],[1]]
 
 # def combine_udf(a0,a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12):
+@outputSchema("combination:bag{t:tuple(comb:chararray)}")
 def combine_merged_udf(*args):
 	la=[]
 	#adx
