@@ -1,3 +1,6 @@
+#!/usr/bin/python
+
+
 import time
 
 __author__ = 'wangwei'

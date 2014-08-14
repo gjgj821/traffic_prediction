@@ -80,7 +80,10 @@ class CrossCombine(object):
 		for i in range(0, res_len):
 			for j in range(0, L_len):
 				if self.count[i] <= Limit[j] :
-					self.res.append(self.res[i]+'.%s'%(L[j]))
+					if L[j] != None:
+						self.res.append(self.res[i]+'.%s'%(L[j]))
+					else:
+						self.res.append(self.res[i]+'.%s'%(0))
 					self.res_chain.append(self.res_chain[i] | 1 << level)
 					self.count.append(self.count[i]+1)
 
@@ -113,10 +116,10 @@ def combine_merged_udf(*args):
 	l=[]
 	if args[8] != None:
 		l.append(args[8])
-		if args[9] != None:
-			l.append(args[9])
-			if args[10] != None:
-				l.append(args[10])
+	if args[9] != None:
+		l.append(args[9])
+	if args[10] != None:
+		l.append(args[10])
 	la.append(l)
 	#device_brand device_model
 	l=[]
@@ -130,7 +133,7 @@ def combine_merged_udf(*args):
 	#----------------------------
 	c = CrossCombine()
 	for i in range(0,len(la)):
-		#print la[i],Limits[i]
+		# print la[i],Limits[i]
 		c.cross(la[i],Limits[i],i)
 	outBag = []
 	for i in range(0,len(c.res)):
@@ -144,8 +147,8 @@ def combine_merged_udf(*args):
 # detworkConnection_connection_type     :int,          --U 2
 # detworkConnection_carrier_id          :int,          --U 3
 # app_category_id                       :int,          --U 4
-# device_os                             :chararray,    --U 5
-# device_os_version                     :chararray,    --U 5
+# device_os                             :int,          --U 5
+# device_os_version                     :int,          --U 5
 # location_country_id                   :int,          --U 6
 # location_region_id                    :int,          --U 6
 # location_city_id                      :int,          --U 6

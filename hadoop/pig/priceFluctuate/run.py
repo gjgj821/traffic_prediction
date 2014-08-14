@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
+
 import time
 from org.apache.pig.scripting import *
 __author__ = 'wangwei'
@@ -20,7 +20,7 @@ def getParams():
 
 if __name__ == '__main__':
 	startDate = '2014-08-01'
-	endDate = '2014-08-02'  #not include in
+	endDate = '2014-08-14'  #not include in
 	Pig.registerUDF("./getDateHour.py", "timeUDFS")
 	pig = Pig.compileFromFile('./priceFluctuate.pig')
 	bound = pig.bind(getParams())

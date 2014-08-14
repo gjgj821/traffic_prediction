@@ -111,8 +111,8 @@ imp_closing_price AS dealp,
 d_g = GROUP d_need BY (adx,datehour);
 deal_r = FOREACH d_g GENERATE group AS k,
 (float)COUNT(d_need.dealp)/COUNT(d_need.minp) AS dealrate,
-(int)(SUM(d_need.minp)/COUNT(d_need.minp)) AS avgminp,
-(int)(SUM(d_need.dealp)/COUNT(d_need.dealp)) AS avgdealp,
-(int)(SUM(d_need.deald)/COUNT(d_need.dealp)) AS avgdeald;
+(long)(SUM(d_need.minp)/COUNT(d_need.minp)) AS avgminp,
+(long)(SUM(d_need.dealp)/COUNT(d_need.dealp)) AS avgdealp,
+(long)(SUM(d_need.deald)/COUNT(d_need.dealp)) AS avgdeald;
 
 STORE deal_r INTO '/tmp/wangwei/data/priceSummary/$DATE/' USING PigStorage('|');
