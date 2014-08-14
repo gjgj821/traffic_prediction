@@ -1,8 +1,14 @@
 -- summary the following hourly:
 -- deal_rate = COUNT()/COUNT(total_hour)
 -- (if imp_closing_price != 0) deviation = imp_closing_price/1000 - reserve price
-register './getDateHour.py' using jython as timeUDFS;
-data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigStorage('|') AS(
+
+-- register './getDateHour.py' using jython as timeUDFS;
+/*
+* params need:
+* DATE
+*
+* */
+data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/$DATE/joined/' USING PigStorage('|') AS(
        -- Bid Request
        adx                                   :int,          -- U
        request_id                            :chararray,
@@ -107,16 +113,6 @@ deal_r = FOREACH d_g GENERATE group AS k,
 (float)COUNT(d_need.dealp)/COUNT(d_need.minp) AS dealrate,
 (int)(SUM(d_need.minp)/COUNT(d_need.minp)) AS avgminp,
 (int)(SUM(d_need.dealp)/COUNT(d_need.dealp)) AS avgdealp,
-(int)(SUM(d_need.deald)/COUNT(d_need.dealp)) AS avgdeald
-PARALLEL 10;
+(int)(SUM(d_need.deald)/COUNT(d_need.dealp)) AS avgdeald;
 
-
--- d_f = FILTER d_need BY dealp != 0;
--- d_g = GROUP d_f BY (adx,datehour);
--- deal_dev = FOREACH d_g GENERATE group AS k,
--- AVG(d_f.deald) AS dealdev;
-
--- res = JOIN deal_r BY k, deal_dev BY k;
-
-DUMP deal_r;
-
+STORE deal_r INTO '/tmp/wangwei/data/priceSummary/$DATE/' USING PigStorage('|');
