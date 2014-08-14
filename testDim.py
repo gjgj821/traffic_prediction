@@ -6,6 +6,7 @@ from pprint import pprint
 import chronic
 import matplotlib.pyplot as plt
 from core.dbget import *
+from hadoop.hadoopget import *
 from core.term_test import TermTestManage
 from term_combiner import *
 

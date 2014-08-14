@@ -1,6 +1,7 @@
 # coding=utf-8
 from decimal import getcontext
 from dbget import *
+from hadoop.hadoopget import *
 from relative import Relative
 
 __author__ = 'GaoJie'
