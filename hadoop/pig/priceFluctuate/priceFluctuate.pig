@@ -1,10 +1,10 @@
 -- summary the following hourly:
--- rate
+-- deal_rate = COUNT()/COUNT(total_hour)
 -- (if imp_closing_price != 0) deviation = imp_closing_price/1000 - reserve price
 register './getDateHour.py' using jython as timeUDFS;
 data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigStorage('|') AS(
        -- Bid Request
-       adx                                   :int,          --U
+       adx                                   :int,          -- U
        request_id                            :chararray,
        type                                  :int,
        adSlot_id                             :int,
@@ -18,23 +18,23 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        user_Data_segment                     :chararray,
        device_id                             :int,
        device_supplemental_id                :int,
-       device_os                             :chararray,    --U
-       device_os_version                     :chararray,    --U
-       device_brand                          :chararray,    --U
-       device_model                          :chararray,    --U
-       device_device_type                    :int,          --U
+       device_os                             :chararray,    -- U
+       device_os_version                     :chararray,    -- U
+       device_brand                          :chararray,    -- U
+       device_model                          :chararray,    -- U
+       device_device_type                    :int,          -- U
        device_screen_orientation             :chararray,
        device_screen_size                    :chararray,
        device_device_pixel_ratio_millis      :chararray,
-       detworkConnection_connection_type     :int,          --U
-       detworkConnection_carrier_id          :int,          --U
+       detworkConnection_connection_type     :int,          -- U
+       detworkConnection_carrier_id          :int,          -- U
        ip                                    :chararray,
        location_latitude                     :chararray,
        location_longitude                    :chararray,
        location_altitude                     :int,
-       location_country_id                   :int,          --U
-       location_region_id                    :int,          --U
-       location_city_id                      :int,          --U
+       location_country_id                   :int,          -- U
+       location_region_id                    :int,          -- U
+       location_city_id                      :int,          -- U
        location_postal_code                  :chararray,
        location_lac                          :chararray,
        app_id                                :int,
@@ -44,12 +44,12 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        app_version                           :chararray,
        app_paid                              :int,
        app_in_app_purchase                   :chararray,
-       app_category_id                       :int,          --U
+       app_category_id                       :int,          -- U
        is_test                               :int,
        timestamp                             :int,          -- time base
        location_geo_criteria_id              :int,
        device_user_agent                     :chararray,
-       app_limei_app_id                      :int,          --U
+       app_limei_app_id                      :int,          -- U
        device_model_id                       :int,
        -- Wangwei add
        hyperlocal_coners                     :chararray,
@@ -63,7 +63,7 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        res_adgroup_id                        :int,
        res_creative_id                       :int,
        res_size                              :chararray,
-       res_bid_strategy                      :int,          --U
+       res_bid_strategy                      :int,          -- U
        res_creative_type                     :int,
        res_company_id                        :int,
        res_timestamp                         :int,
@@ -93,13 +93,30 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
 
 -- test purpose
 -- data_raw = SAMPLE data_raw 0.0001;
-data_raw = limit data_raw 2000;
+-- data_raw = limit data_raw 20000;
 
 d_need = FOREACH data_raw GENERATE
 adx AS adx,
-timeUDFS.getDateHour(timestamp) AS datahour,
+timeUDFS.getDateHour(timestamp) AS datehour,
 adSlot_min_cpm_micros AS minp,
-imp_closing_price AS dealp;
+imp_closing_price AS dealp,
+(imp_closing_price == 0 ? 0 : imp_closing_price-adSlot_min_cpm_micros/1000) AS deald;
 
-d_filted = FILTER d_need BY dealp != 0;
-dump d_filted;
+d_g = GROUP d_need BY (adx,datehour);
+deal_r = FOREACH d_g GENERATE group AS k,
+(float)COUNT(d_need.dealp)/COUNT(d_need.minp) AS dealrate,
+(int)(SUM(d_need.minp)/COUNT(d_need.minp)) AS avgminp,
+(int)(SUM(d_need.dealp)/COUNT(d_need.dealp)) AS avgdealp,
+(int)(SUM(d_need.deald)/COUNT(d_need.dealp)) AS avgdeald
+PARALLEL 10;
+
+
+-- d_f = FILTER d_need BY dealp != 0;
+-- d_g = GROUP d_f BY (adx,datehour);
+-- deal_dev = FOREACH d_g GENERATE group AS k,
+-- AVG(d_f.deald) AS dealdev;
+
+-- res = JOIN deal_r BY k, deal_dev BY k;
+
+DUMP deal_r;
+

@@ -2,7 +2,7 @@ import time
 
 __author__ = 'wangwei'
 
-@outputSchema("datahour:chararray")
+@outputSchema("datehour:chararray")
 def getDateHour(timeStamp):
 	timeArray = time.localtime(timeStamp)
 	otherStyleTime = time.strftime("%Y-%m-%d %H", timeArray)
