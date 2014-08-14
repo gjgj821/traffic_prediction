@@ -1,5 +1,5 @@
 # coding=utf-8
-from decimal import getcontext
+from decimal import getcontext, Decimal
 from dbget import *
 from hadoop.hadoopget import *
 from relative import Relative
@@ -45,9 +45,8 @@ class TermManage(object):
 
     def add_dim(self, dim):
         """
-
+        添加计算维度
         """
-        self.dim_map_list.append(dim)
         result = get_group(self.date_time, dim, self.table, where=self.where)
         ##对数据量少的条件过滤
         result = filter(self.need_filter, result)
@@ -61,6 +60,9 @@ class TermManage(object):
             term_map[dim] = item[0]
             self.add_term(term_map, item[1])
         print (dim, len(result))
+        if len(result) == 0:
+            return self
+        self.dim_map_list.append(dim)
         self.dim_list.append(result)
         return self
 
@@ -137,6 +139,8 @@ class TermManage(object):
         return lines
 
     def get_relative_value(self, dim, value):
+        if dim not in NEED_RELATE:
+            return value
         if dim not in self.dim_relative_map:
             relative = getattr(Relative, 'get_%s' % dim.lower())
             relative_map = relative()
@@ -207,7 +211,7 @@ class Term(object):
         if self.ratio:
             return self.ratio
         sum_int = get_sum(self.manage.date_time, self.term_map, self.manage.table) if self.sum_value is None else self.sum_value
-        self.ratio = sum_int / self.manage.total
+        self.ratio = Decimal(sum_int) / Decimal(self.manage.total)
         return self.ratio
 
     def support_relative(self):

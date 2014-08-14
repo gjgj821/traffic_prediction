@@ -16,7 +16,7 @@ class TermTestManage(object):
         self.ratio = None
         self.ratio_fix = None
         # 只训练2，3维数据
-        self.term_map = [{}, {}]
+        self.term_map = [{}, {}, {}, {}, {}]
         #self.term_map = {}
         self.dim_list = []
         self.dim_map_list = []
@@ -145,7 +145,7 @@ class TermTestManage(object):
         for dim, value in term_map.items():
             reverse = False
             ## 取反符号
-            if dim[:1] == '!':
+            if type(dim) is str and dim[:1] == '!':
                 dim = dim[1:]
                 reverse = True
             index = self.dim_map_list.index(dim)
@@ -192,7 +192,7 @@ class TermTestManage(object):
         for dim, value in term_map.items():
             reverse = False
             # # 取反符号
-            if dim[:1] == '!':
+            if type(dim) is str and dim[:1] == '!':
                 dim = dim[1:]
                 reverse = True
             fix_dim.append(dim)
@@ -335,7 +335,7 @@ class TermTestManage(object):
         reverse = False
         for dim, value in term_map.items():
             # # 取反符号
-            if value[:1] == '!':
+            if type(value) is str and value[:1] == '!':
                 reverse = True
                 value = value[1:]
             index = self.dim_map_list.index(dim)
@@ -405,7 +405,7 @@ class TermTest(object):
         for dim, value in term_map.items():
             index = dim_list.index(dim)
             dim_key |= 1 << index
-            term_key += value + u'|'
+            term_key += str(value) + u'|'
         return dim_key, term_key
 
     def __str__(self):
