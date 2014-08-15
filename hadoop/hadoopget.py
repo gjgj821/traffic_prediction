@@ -26,8 +26,6 @@ def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datet
     """
     获取多维度组合的总量，代理接口，与dbget同步
     """
-    if len(field_map.keys()) == 0:
-        return data.history_sum(date_time)
     return  data.get_sum(field_map)
 
 

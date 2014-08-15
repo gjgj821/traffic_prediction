@@ -1,17 +1,17 @@
 #!/usr/bin/python
 # coding=utf-8
 import SimpleHTTPServer
-from pprint import pprint
 import threading
-from multiprocessing import Process, Array
 import SocketServer
 import datetime
 import urllib
 import json
-import chronic
 from core.term_test import TermTestManage
 from core.flow import Flow
-import hadoop.hadoopget
+
+#import chronic
+#from pprint import pprint
+#import hadoop.hadoopget
 
 DATE_FORMAT = '%Y-%m-%d'
 
@@ -22,6 +22,8 @@ DB_NAME = 'RTBApp'
 
 manage=None
 f=None
+
+lock = threading.Lock()
 
 def parse_param(s):
     param = {}
@@ -36,20 +38,22 @@ def parse_param(s):
 def exec_result(length, data):
     value_list = []
     value = f.total_current()
-    with chronic.Timer('exec_result'):
-        for i in range(length):
-            value_list.append(str(manage.estimate(term_map=data, total=value)))
-            value = f.future(value, i)
+    #with chronic.Timer('exec_result'):
+    for i in range(length):
+        value_list.append(str(manage.estimate(term_map=data, total=value)))
+        value = f.future(value, i)
 
     # 计算单次执行时间
-    pprint(chronic.timings)
+    #pprint(chronic.timings)
 
-    print ','.join(value_list)
+    #print ','.join(value_list)
     return ','.join(value_list)
 
 
 def load():
     global manage, f
+    # 锁定
+    lock.acquire()
     manage = TermTestManage()
 
     now = datetime.datetime.now()
@@ -68,8 +72,8 @@ def load():
     manage.load(lines)
     fo.close()
 
-    # 更新hadoop数据
-    hadoop.hadoopget.data.reload()
+    #释放
+    lock.release()
 
 class HTTPHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
     def do_GET(self):

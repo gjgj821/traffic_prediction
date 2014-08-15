@@ -5,6 +5,7 @@ from core.flow import Flow
 import matplotlib.pyplot as plt
 
 __author__ = 'GaoJie'
+DB_NAME = 'RTBApp'
 
 if __name__ == '__main__':
     train_time = '2014-06-01'
@@ -15,7 +16,7 @@ if __name__ == '__main__':
     for i in range(50):
         date_time_array = now - datetime.timedelta(days=-1 * i)
         current_date = date_time_array.strftime("%Y-%m-%d")
-        f = Flow(current_date, 'RTBApp')
+        f = Flow(current_date, DB_NAME)
         x_list.append(current_date)
         y1_list.append(f.total)
         i = 0

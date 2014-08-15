@@ -2,7 +2,6 @@
 import datetime
 from dbget import *
 from decimal import Decimal
-from hadoop.hadoopget import *
 
 __author__ = 'GaoJie'
 
@@ -14,32 +13,40 @@ class Flow(object):
     def __init__(self, date_time, table):
         self.date_time = date_time
         self.table = table
-        self.hourly_list, self.total = self.amend(get_sum_hourly(date_time, table))
+        self.hourly_list, self.total = self.amend(get_sum_hourly(self.date_time, self.table))
+        self.yesterday = None
+        self.past_sum = {}
+        self.hourly_map = {}
 
-    def load_yesterday(self):
+    def load_yesterday(self, force=False):
+        if not force and self.yesterday:
+            return self.yesterday[0], self.yesterday[1]
         now = datetime.datetime.strptime(self.date_time, '%Y-%m-%d')
         date_time_array = now - datetime.timedelta(days=1)
         hourly_list, total = self.amend(get_sum_hourly(date_time_array.strftime("%Y-%m-%d"), self.table))
-        return self.ratio(hourly_list, total), total
+        self.yesterday = []
+        self.yesterday.append(self.ratio(hourly_list, total))
+        self.yesterday.append(total)
+        return self.yesterday[0], self.yesterday[1]
 
-    def total_current(self, hour=None, total=None):
+    def total_current(self, hour=None, force=False):
         """
         计算当前流量
         """
         if not hour:
             hour = len(self.hourly_list) - 1
-            total = self.total
+        if not force and hour in self.hourly_map:
+            return self.hourly_map[hour]
+        total = self.total
         ratio_list = self.ratio(self.hourly_list, self.total)[:hour]
-        if not total:
-            total = int(reduce(lambda x, y: x + y, ratio_list) * self.total)
         yes_ratio_list, yes_total = self.load_yesterday()
-        return self.fix(yes_ratio_list, yes_total, hour, ratio_list, total)
+        self.hourly_map[hour] = self.fix(yes_ratio_list, yes_total, hour, ratio_list, total)
+        return self.hourly_map[hour]
 
-    def future(self, length=1):
+    def future(self, length=1, force=False):
         """
-            :param length:
-            :return: a list of the total amount in forward days
-            """
+        获取预估流量
+        """
         time_array = time.strptime(self.date_time, "%Y-%m-%d")
         query_stamp = int(time.mktime(time_array))
         last_week = []
@@ -49,7 +56,12 @@ class Flow(object):
             time_stamp = query_stamp - 86400 * i
             time_array = time.localtime(time_stamp)
             date = time.strftime("%Y-%m-%d", time_array)
-            last_week.append(get_sum(date, {}, self.table, is_train=False))
+            if force or date not in self.past_sum:
+                ps = get_sum(date, {}, self.table, is_train=False)
+                self.past_sum[date] = ps
+            else:
+                ps = self.past_sum[date]
+            last_week.append(ps)
         #print last_week
         rates = []
         for i in range(1, len(last_week)):
@@ -62,6 +74,14 @@ class Flow(object):
             else:
                 ret.append(ret[-1] * (1 + r))
         return ret
+
+    def reload(self):
+        """
+        更新数据
+        """
+        self.yesterday = None
+        self.past_sum = {}
+        self.hourly_list, self.total = self.amend(get_sum_hourly(self.date_time, self.table))
 
     @staticmethod
     def amend(hourly_list):
@@ -96,9 +116,3 @@ class Flow(object):
             return 0
         change_ratio = (current_total - reduce(lambda x, y: x + y, yes_ratio_list[:hour]) * yes_total) / yes_total
         return int(yes_total * (1 + change_ratio))
-
-    @staticmethod
-    def fix2(yes_ratio_list, yes_total, hour, current_ratio_list, current_total):
-        if not current_total:
-            return 0
-        return 0
