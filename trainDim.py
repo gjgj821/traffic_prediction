@@ -56,5 +56,5 @@ if __name__ == '__main__':
 
     filename = DIM_FILE + '.txt'
     output = open(filename, 'w')
-    output.writelines(m1.export_dim(DIM_LIST, relative=False))
+    output.writelines(m.export_dim(DIM_LIST, relative=False))
     output.close()
