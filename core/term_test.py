@@ -20,7 +20,6 @@ class TermTestManage(object):
         #self.term_map = {}
         self.dim_list = []
         self.dim_map_list = []
-        self.need_map = []
         self.ok = False
         return
 
@@ -44,11 +43,10 @@ class TermTestManage(object):
             line = line.strip()
             term = TermTest.parse(line.decode('utf-8'), self)
             #self.term_map[term.get_string(term.term_map)] = term
-            dim_key, term_key = TermTest.get_key(term.term_map, self.dim_map_list)
-            this_map = self.term_map[term.sum - 2]
-            if dim_key not in this_map:
-                this_map[dim_key] = {}
-            this_map[dim_key][term_key] = term
+            this_map = self.term_map[term.sum() - 2]
+            if term.dim_key not in this_map:
+                this_map[term.dim_key] = {}
+            this_map[term.dim_key][term.term_key] = term
         return self
 
     def load_dim(self, lines):
@@ -56,22 +54,21 @@ class TermTestManage(object):
         加载基础维度
         """
         result_map = {}
-        dim = None
         for line in lines:
             line = line.strip()
             if not line:
                 continue
             if line[:2] == '##':
                 if result_map:
-                    self.dim_map_list.append(dim)
                     self.dim_list.append(result_map)
                 dim = line[2:]
                 result_map = {}
+                self.dim_map_list.append(dim)
+                #print self.dim_map_list
             else:
                 term = TermTest.parse(line.decode('utf-8'), self)
-                result_map[term.term_map[dim]] = term.ratio
+                result_map[term.term_key] = term.ratio
         if result_map:
-            self.dim_map_list.append(dim)
             self.dim_list.append(result_map)
         # print self.dim_list
         return self
@@ -226,6 +223,7 @@ class TermTestManage(object):
         for value in ll:
             if type(value) is list:
                 return self.parse_and(dim, ll)
+            #  dim
             if value in self.dim_list[dim]:
                 ratio_dim.append(self.dim_list[dim][value])
             else:
@@ -362,19 +360,25 @@ class TermTestManage(object):
 
 class TermTest(object):
     def __init__(self, term_map, manage, ratio, ratio3, ratio4):
-        self.sum = self.get_sum(term_map)
-        self.term_map = term_map
-        self.manage = manage
+        #self.sum = self.get_sum(term_map)
+        #self.term_map = term_map
+        #self.manage = manage
         self.ratio = Decimal(ratio)
         self.ratio3 = Decimal(ratio3)
+        #self.fix = Decimal(ratio) - Decimal(ratio3)
         self.ratio4 = Decimal(ratio4)
-    #self.string = self.get_string(self.term_map)
+        self.dim_key, self.term_key = self.get_key(term_map, manage.dim_map_list)
+        #self.string = self.get_string(self.term_map)
 
     def fix(self):
         """
         获取该词的差率
         """
+        #return self.fix
         return self.ratio - self.ratio3
+
+    def sum(self):
+        return len(self.term_key.split(u'|'))
 
     @staticmethod
     def parse(string, manage):
@@ -401,12 +405,9 @@ class TermTest(object):
     @staticmethod
     def get_key(term_map, dim_list):
         dim_key = 0
-        term_key = u''
+        term_key = []
         for dim, value in term_map.items():
             index = dim_list.index(dim)
             dim_key |= 1 << index
-            term_key += str(value) + u'|'
-        return dim_key, term_key
-
-    def __str__(self):
-        return self.get_string(self.term_map)
+            term_key.append(str(value))
+        return dim_key, u'|'.join(term_key)

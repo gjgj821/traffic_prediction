@@ -16,7 +16,7 @@ REQUEST_UP = 1
 EFFECT_RADIO = 0.5
 
 ## 过滤精确度，过滤不足该量的定向条件，对于单维度很多条件的则过滤一定比例的条件（按总请求量升序过滤）并且计算精度也是该值与总量的比率
-ACCURACY_VALUE = 1
+ACCURACY_VALUE = 1000
 
 ## 得出计算的精确度
 ACCURACY_F = 15

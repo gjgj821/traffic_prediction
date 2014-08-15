@@ -24,12 +24,14 @@ if __name__ == '__main__':
         lines = fo.readlines()
         manage.load_dim(lines)
         fo.close()
+        del lines
 
         # 加载修正组合
         fo = open(TERM_FILE, 'r')
         lines = fo.readlines()
         manage.load(lines)
         fo.close()
+        del lines
 
         f = Flow(test_time, test_table)
     #load_dim()
