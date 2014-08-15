@@ -4,7 +4,7 @@ import os
 __author__ = 'GaoJie'
 # 加载hadoop结果集，计算
 
-DATA_DIR = '/data/piece/'
+DATA_DIR = 'data/piece/'
 # merge -------- should map to id
 # adx                                   :int,          --U 0
 # device_device_type                    :int,          --u 1
@@ -63,7 +63,7 @@ class HadoopData(object):
         dim_sum = len(field_map.keys())
         this_map = self.term_map[dim_sum]
         if dim_sum == 0:
-            print this_map
+            #print this_map
             return this_map
         dim_key, value_key = self.get_key(field_map)
         if dim_key not in this_map:
@@ -87,7 +87,7 @@ class HadoopData(object):
     def get_key(term_map):
         dim_key = 0
         term_key = u''
-        print term_map
+        #print term_map
         for dim, value in term_map.items():
             index = DIM_LIST.index(dim)
             dim_key |= 1 << index
@@ -111,3 +111,4 @@ class HadoopData(object):
             self.load(lines)
 
 data = HadoopData()
+data.reload()
