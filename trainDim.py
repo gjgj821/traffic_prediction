@@ -6,8 +6,10 @@ from hadoop.hadoopget import DIM_LIST
 
 __author__ = 'GaoJie'
 
-TERM_FILE = 'term_list.txt'
-DIM_FILE = 'dim_list'
+TERM_FILE = 'data/term_list.txt'
+DIM_FILE = 'data/dim_list'
+
+DB_NAME = 'RTBApp'
 
 LEVEL_DIM = [
     ['AppId', 'DeviceModel', 'City'],
@@ -16,15 +18,14 @@ LEVEL_DIM = [
 ]
 
 if __name__ == '__main__':
-    train_time = '2014-06-10'
     term_map_all = {}
 
-    m1 = TermManage('RTBApp', train_time)
+    m = TermManage(DB_NAME)
     for dim in DIM_LIST:
-        m1.add_dim(dim)
+        m.add_dim(dim)
     for dim in LEVEL_DIM[0]:
         for other_dim in LEVEL_DIM[1] + LEVEL_DIM[2]:
-            term_map_list = m1.union_dim(2, [dim, other_dim])
+            term_map_list = m.union_dim(2, [dim, other_dim])
             term_map_all = dict(term_map_all, **term_map_list)
     comb_list = []
     for x in range(2, len(LEVEL_DIM[2]) + 1):
@@ -33,19 +34,19 @@ if __name__ == '__main__':
         for second_dim in LEVEL_DIM[1] + LEVEL_DIM[2]:
             if dim == second_dim:
                 continue
-            term_map_list = m1.union_dim(2, [dim, second_dim])
+            term_map_list = m.union_dim(2, [dim, second_dim])
             term_map_all = dict(term_map_all, **term_map_list)
 
         for comb in comb_list:
             for second_dim in LEVEL_DIM[1]:
                 dim_list_tmp = [dim, second_dim] + list(comb)
-                term_map_list = m1.union_dim(len(dim_list_tmp), dim_list_tmp)
+                term_map_list = m.union_dim(len(dim_list_tmp), dim_list_tmp)
                 term_map_all = dict(term_map_all, **term_map_list)
             dim_list_tmp = [dim] + list(comb)
-            term_map_list = m1.union_dim(len(dim_list_tmp), dim_list_tmp)
+            term_map_list = m.union_dim(len(dim_list_tmp), dim_list_tmp)
             term_map_all = dict(term_map_all, **term_map_list)
     for comb in comb_list:
-        term_map_list = m1.union_dim(len(comb), comb)
+        term_map_list = m.union_dim(len(comb), comb)
         term_map_all = dict(term_map_all, **term_map_list)
 
     type_list = [value.get_line(relative=False) for key, value in term_map_all.items()]

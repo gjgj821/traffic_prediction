@@ -4,7 +4,7 @@ import os
 __author__ = 'GaoJie'
 # 加载hadoop结果集，计算
 
-DATA_DIR = __package__.replace('.','/')+'/data/piece/'
+DATA_DIR = '/data/piece/'
 # merge -------- should map to id
 # adx                                   :int,          --U 0
 # device_device_type                    :int,          --u 1
@@ -26,7 +26,8 @@ def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datet
     """
     获取多维度组合的总量，代理接口，与dbget同步
     """
-
+    if len(field_map.keys()) == 0:
+        return data.history_sum(date_time)
     return  data.get_sum(field_map)
 
 
@@ -102,11 +103,13 @@ class HadoopData(object):
         dim_sum = len(dim_info) - 1
         return dim_sum, int(dim_info[0]), u'|'.join(dim_info[1:]), int(info[1])
 
+    def reload(self):
+        self.term_map = [0, {}, {}, {}, {}, {}]
+        files = os.listdir(DATA_DIR)
+        for f in files:
+            fo = open(DATA_DIR + f, 'r')
+            lines = fo.readlines()
+            fo.close()
+            self.load(lines)
 
 data = HadoopData()
-files = os.listdir(DATA_DIR)
-for f in files:
-    fo = open(DATA_DIR+f, 'r')
-    lines = fo.readlines()
-    fo.close()
-    data.load(lines)

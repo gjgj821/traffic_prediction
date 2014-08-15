@@ -11,11 +11,14 @@ import json
 import chronic
 from core.term_test import TermTestManage
 from core.flow import Flow
+import hadoop.hadoopget
 
 DATE_FORMAT = '%Y-%m-%d'
 
-TERM_FILE = 'term_list.txt'
-DIM_FILE = 'dim_list.txt'
+TERM_FILE = 'data/term_list.txt'
+DIM_FILE = 'data/dim_list.txt'
+
+DB_NAME = 'RTBApp'
 
 manage=None
 f=None
@@ -33,20 +36,6 @@ def parse_param(s):
 def exec_result(length, data):
     value_list = []
     value = f.total_current()
-    # manage = TermTestManage()
-    # # 加载修正组合
-    # fo = open(TERM_FILE, 'r')
-    # lines = fo.readlines()
-    # manage.load(lines)
-    # fo.close()
-    #
-    # # 加载基础维度
-    # fo = open(DIM_FILE, 'r')
-    # lines = fo.readlines()
-    # manage.load_dim(lines)
-    # fo.close()
-    # f = Flow(datetime.datetime.now().strftime(DATE_FORMAT), 'RTPApp')
-    # value = f.total_current()
     with chronic.Timer('exec_result'):
         for i in range(length):
             value_list.append(str(manage.estimate(term_map=data, total=value)))
@@ -58,6 +47,29 @@ def exec_result(length, data):
     print ','.join(value_list)
     return ','.join(value_list)
 
+
+def load():
+    global manage, f
+    manage = TermTestManage()
+
+    now = datetime.datetime.now()
+    day = now.strftime(DATE_FORMAT)
+    f = Flow(day, DB_NAME)
+
+    # 加载基础维度
+    fo = open(DIM_FILE, 'r')
+    lines = fo.readlines()
+    manage.load_dim(lines)
+    fo.close()
+
+    # 加载修正组合
+    fo = open(TERM_FILE, 'r')
+    lines = fo.readlines()
+    manage.load(lines)
+    fo.close()
+
+    # 更新hadoop数据
+    hadoop.hadoopget.data.reload()
 
 class HTTPHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
     def do_GET(self):
@@ -71,6 +83,9 @@ class HTTPHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
         param = json.loads(content)
         #param['data'] = json.loads(param['data'])
         print param
+        if 'reload' in param:
+            load()
+            return
         if 'data' not in param:
             return
         elif 'length' in param:
@@ -86,20 +101,8 @@ if __name__ == '__main__':
     httpd = SocketServer.TCPServer(("", PORT), HTTPHandler)
     print "serving at port", PORT
 
-    manage = TermTestManage()
+    load()
 
-    # 加载基础维度
-    fo = open(DIM_FILE, 'r')
-    lines = fo.readlines()
-    manage.load_dim(lines)
-    fo.close()
-    f = Flow('2014-06-10', 'RTBApp')
-
-    # 加载修正组合
-    fo = open(TERM_FILE, 'r')
-    lines = fo.readlines()
-    manage.load(lines)
-    fo.close()
     print "==========load finish=========="
     print "MAIN: thread",threading.current_thread().getName()
 

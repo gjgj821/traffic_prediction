@@ -31,7 +31,7 @@ def round_f(d):
 
 
 class TermManage(object):
-    def __init__(self, table, date_time, where=False):
+    def __init__(self, table, date_time=False, where=False):
         self.table = table
         self.date_time = date_time
         self.where = where

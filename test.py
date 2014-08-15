@@ -1,15 +1,16 @@
 #!/usr/bin/python
 # coding=utf-8
 from pprint import pprint
+
 import chronic
-from core.dbget import *
+
 from core.term_test import TermTestManage
 from core.flow import Flow
-from term_combiner import get_termmap, load_dim, dim_combine
+
 
 __author__ = 'GaoJie'
-TERM_FILE = 'term_list.txt'
-DIM_FILE = 'dim_list.txt'
+TERM_FILE = 'data/term_list.txt'
+DIM_FILE = 'data/dim_list.txt'
 
 
 if __name__ == '__main__':

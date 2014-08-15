@@ -2,6 +2,7 @@
 import datetime
 from dbget import *
 from decimal import Decimal
+from hadoop.hadoopget import *
 
 __author__ = 'GaoJie'
 
