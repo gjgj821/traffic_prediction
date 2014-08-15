@@ -90,7 +90,7 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        );
 
 -- test purpose
-data_raw = SAMPLE data_raw 0.0001;
+-- data_raw = SAMPLE data_raw 0.0001;
 
 data_need = FOREACH data_raw GENERATE combineUDFS.combine_merged_udf(
     adx,

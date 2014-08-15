@@ -63,4 +63,4 @@ def visualData(adx):
 	plt.title('deal price adx=%s'%(adx))
 	plt.show()
 
-visualData(1)
+visualData(3)
