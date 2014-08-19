@@ -27,7 +27,7 @@ def parseRecord(line):
 		data[adx][4].append(deald)
 
 def readData():
-	din=open('../../data/priceSummary/total.txt','r')
+	din=open('../../../data/priceSummary/total.txt','r')
 	for line in din:
 		parseRecord(line.strip('\n'))
 
@@ -61,6 +61,12 @@ def visualData(adx):
 	plt.plot(data[adx][0], data[adx][3], 'b.')
 	plt.grid()
 	plt.title('deal price adx=%s'%(adx))
+	plt.show()
+	plt.plot(data[adx][1], data[adx][4], 'b.')
+	plt.grid()
+	plt.xlabel('deal_rate')
+	plt.ylabel('deal_price - min_cpm/1000')
+	plt.title('deviation to deal_rate adx=%s'%(adx))
 	plt.show()
 
 visualData(3)

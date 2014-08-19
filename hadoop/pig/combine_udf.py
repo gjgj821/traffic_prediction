@@ -79,7 +79,7 @@ class CrossCombine(object):
 		L_len = len(L)
 		for i in range(0, res_len):
 			for j in range(0, L_len):
-				if self.count[i] <= Limit[j] :
+				if self.count[i] <= Limit[j]:
 					if L[j] != None:
 						self.res.append(self.res[i]+'.%s'%(L[j]))
 					else:
