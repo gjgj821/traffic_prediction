@@ -45,7 +45,7 @@ data_raw = LOAD '/user/jiangshen/dsp_log_for_hbase/2014-08-01/joined' USING PigS
        app_category_id                       :int,          --U
        is_test                               :int,
        timestamp                             :int,          -- time base
-       location_geo_criteria_id              :int,
+       location_geo_criteria_id              :int,  --43
        device_user_agent                     :chararray,
        app_limei_app_id                      :int,          --U
        device_model_id                       :int,
