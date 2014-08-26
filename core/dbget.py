@@ -17,8 +17,8 @@ STAT_DB_NAME = 'test'
 
 SOURCE_DB_HOST = 'dsp.corp.limei.com'
 SOURCE_DB_PORT = '3306'
-SOURCE_DB_USER = 'kaiden'
-SOURCE_DB_PASS = 'qwe123'
+SOURCE_DB_USER = 'bunny'
+SOURCE_DB_PASS = 'DDsMKoB3hLfV'
 SOURCE_DB_NAME = 'bunny'
 
 mysqlConnectStat = MySQLConnection(host=STAT_DB_HOST, user=STAT_DB_USER, passwd=STAT_DB_PASS, db=STAT_DB_NAME,
@@ -98,12 +98,19 @@ def get_relate(field, table, id_field='id', where='1'):
     获取字段对应的键值关系
     """
     cursor = mysqlConnectSource.cursor()
-    select = '`%s`,`%s`' % (id_field, field)
+    select = '`%s`,`%s`' % (field, id_field)
     sql = 'select %s from `%s` where %s ' % (select, table, where)
     cursor.execute(sql)
     result = cursor.fetchall()
     cursor.close()
     relative_map = {}
     for item in result:
-        relative_map[item[1]] = item[0]
+        relative_map[item[0]] = item[1]
     return relative_map
+
+
+def get_parent(field, table, parent_field='parentId', where='1'):
+    """
+    获取字段对应的子父级关系
+    """
+    return get_relate(field, table, parent_field, where)
