@@ -40,7 +40,6 @@ class TermManage(object):
         self.term_map = {}
         self.dim_list = []
         self.dim_map_list = []
-        self.dim_relative_map = {}
         return
 
     def add_dim(self, dim):
@@ -138,17 +137,6 @@ class TermManage(object):
                 lines.append(term.get_line(relative=relative))
         return lines
 
-    def get_relative_value(self, dim, value):
-        if dim not in NEED_RELATE:
-            return value
-        if dim not in self.dim_relative_map:
-            relative = getattr(Relative, 'get_%s' % dim.lower())
-            relative_map = relative()
-            self.dim_relative_map[dim] = relative_map
-        else:
-            relative_map = self.dim_relative_map[dim]
-        return relative_map[value] if value in relative_map else value
-
     @staticmethod
     def has_term(term_map, map_list):
         """
@@ -202,7 +190,7 @@ class Term(object):
         #影响度
         self.ratio4 = None
         self.string = self.get_string(self.term_map)
-        self.relative_string = self.get_relative_string(self.term_map)
+        self.relative_string = self.string # self.get_relative_string(self.term_map)
 
     def support(self):
         """
@@ -268,10 +256,11 @@ class Term(object):
     def get_line(self, relative=True):
         return self.format(encode=True, relative=relative)+"\n"
 
-    def get_relative_string(self, term_map):
+    @staticmethod
+    def get_relative_string(term_map):
         string = ''
         for key, value in term_map.items():
-            string += u'%s=%s|' % (key, self.manage.get_relative_value(key, value))
+            string += u'%s=%s|' % (key, Relative.mapping_value(key, value))
         return string
 
     @staticmethod
