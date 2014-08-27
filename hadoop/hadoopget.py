@@ -5,24 +5,24 @@ from core.relative import Relative,  Parent
 __author__ = 'GaoJie'
 # 加载hadoop结果集，计算
 
-DATA_DIR = 'data/piece/'
+DATA_DIR = 'data/mapred/'
 # merge -------- should map to id
 # adx                                   :int,          --U 0
 # device_device_type                    :int,          --u 1
 # detworkConnection_connection_type     :int,          --U 2
-# detworkConnection_carrier_id          :int,          --U 3
-# app_category_id                       :int,          --U 4
-# device_os                             :chararray,    --U 5
-# device_os_version                     :chararray,    --U 5
-# location_country_id                   :int,          --U 6
-# location_region_id                    :int,          --U 6
-# location_city_id                      :int,          --U 6
+# device_os                             :int,          --U 3
+# device_os_version                     :int,          --U 3
+# detworkConnection_carrier_id          :int,          --U 4
+# app_category_id                       :int,          --U 5
+# location_geo_criteria_id              :int,          --U 6
 # device_brand                          :chararray,    --u 7
 # device_model                          :chararray,    --u 7
 # app_limei_app_id                      :int,          --U 8
-DIM_LIST = ['adx', 'DeviceType', 'ConnectionType', 'CarrierName', 'Categorys', 'OS', 'Citys', 'DeviceModel', 'AppId']
+DIM_LIST = ['adx', 'DeviceType', 'ConnectionType', 'OS', 'CarrierName', 'Categorys', 'Citys', 'DeviceModel', 'AppId']
 NEED_RELATE = ['DeviceModel']
 NEED_PATENT = ['Citys', 'OS', 'DeviceModel']
+
+data = None
 
 def get_sum(date_time, field_map, table, sum_field='Requests', date_field='Datetime', is_train=True, where='1'):
     """
@@ -38,7 +38,7 @@ def get_group(date_time, field, table, sum_field='Requests', date_field='Datetim
     return data.get_group(field)
 
 
-class HadoopData(object):
+class HadoopData:
     def __init__(self):
         self.term_map = [0,{},{},{},{},{}]
         self.need_parent_index = []
@@ -94,7 +94,11 @@ class HadoopData(object):
         if dim_sum == 0:
             #print this_map
             return this_map
-        dim_key, value_key = self.get_key(field_map)
+        dim_key, value_list = self.get_key(field_map)
+        value_key = u'.'.join(value_list)
+        #print field_map
+        #print dim_key, value_key
+
         if dim_key not in this_map:
             return 0
         if value_key not in this_map[dim_key]:
@@ -115,17 +119,17 @@ class HadoopData(object):
     @staticmethod
     def get_key(term_map):
         dim_key = 0
-        term_key = u''
+        value_list = []
         #print term_map
 
         for dim, value in term_map.items():
             index = DIM_LIST.index(dim)
             dim_key |= 1 << index
-            term_key += value + u'|'
-        return dim_key, term_key
+            value_list.append(value)
+        return dim_key, value_list
 
     def parse(self, string):
-        info = string.split("|")
+        info = string.split("\t")
         dim_info = info[0].split('.')
         dim_sum = len(dim_info) - 1
         dim_key = int(dim_info[0])
@@ -136,7 +140,7 @@ class HadoopData(object):
                 for i in xrange(index):
                     if dim_key & ( 1 << i):
                         t += 1
-                value_list[t] = Relative.mapping_value(DIM_LIST[index], value_list[t])
+                value_list[t] = str(Relative.mapping_value(DIM_LIST[index], value_list[t]))
         return dim_sum, dim_key, value_list, int(info[1])
 
     def reload(self):
@@ -148,6 +152,6 @@ class HadoopData(object):
             fo.close()
             self.load(lines)
 
-
-data = HadoopData()
-data.reload()
+def init_hapood():
+    data = HadoopData()
+    data.reload()

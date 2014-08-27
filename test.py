@@ -44,3 +44,5 @@ if __name__ == '__main__':
 
     # 计算单次执行时间
     pprint(chronic.timings)
+    while True:
+        continue

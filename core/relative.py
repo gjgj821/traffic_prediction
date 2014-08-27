@@ -61,7 +61,7 @@ dim_father_map = {}
 
 class Parent(object):
     @classmethod
-    def get_city(cls):
+    def get_citys(cls):
         map_dict = get_parent('id', 'b_base_geo')
         return cls._filter(map_dict)
 

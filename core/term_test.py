@@ -10,12 +10,11 @@ PRODUCT_TOTAL = 20
 getcontext().prec = ACCURACY_F
 
 
-class TermTestManage(object):
+class TermTestManage:
     def __init__(self, total=0):
         self.total = total
         self.ratio = None
         self.ratio_fix = None
-        # 只训练2，3维数据
         self.term_map = [{}, {}, {}, {}, {}]
         #self.term_map = {}
         self.dim_list = []
@@ -47,6 +46,7 @@ class TermTestManage(object):
             if term.dim_key not in this_map:
                 this_map[term.dim_key] = {}
             this_map[term.dim_key][term.term_key] = term
+
         return self
 
     def load_dim(self, lines):
@@ -358,7 +358,7 @@ class TermTestManage(object):
         return ratio
 
 
-class TermTest(object):
+class TermTest:
     def __init__(self, term_map, manage, ratio, ratio3, ratio4):
         #self.sum = self.get_sum(term_map)
         #self.term_map = term_map

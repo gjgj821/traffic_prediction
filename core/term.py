@@ -16,7 +16,7 @@ REQUEST_UP = 1
 EFFECT_RADIO = 0.5
 
 ## 过滤精确度，过滤不足该量的定向条件，对于单维度很多条件的则过滤一定比例的条件（按总请求量升序过滤）并且计算精度也是该值与总量的比率
-ACCURACY_VALUE = 1000
+ACCURACY_VALUE = 5000
 
 ## 得出计算的精确度
 ACCURACY_F = 15
@@ -30,8 +30,9 @@ def round_f(d):
     return d
 
 
-class TermManage(object):
+class TermManage:
     def __init__(self, table, date_time=False, where=False):
+        init_hapood()
         self.table = table
         self.date_time = date_time
         self.where = where
@@ -73,19 +74,19 @@ class TermManage(object):
         self.term_map[string] = Term(term_map, self, sum_value)
         return self.term_map[string]
 
-    def union_dim(self, r, dim_list=None):
+    def union_dim(self, r, dim_list=None, relative=True):
         """
         多维度并集
         """
-        need_map = {}
+        need_list = []
         if dim_list:
             dim_list = [self.dim_map_list.index(dim) for dim in dim_list if dim in self.dim_map_list]
             if len(dim_list) < 2 or r > len(dim_list):
-                return need_map
+                return need_list
         else:
             dim_num = len(self.dim_map_list)
             if r > dim_num:
-                return need_map
+                return need_list
             dim_list = range(0, dim_num)
         #获取不重复的排列组合
         comb_list = itertools.combinations(dim_list, r)
@@ -103,15 +104,16 @@ class TermManage(object):
                 if self.has_term(term_map, self.term_map):
                     continue
                 sum_value = get_sum(self.date_time, term_map, self.table)
-                term = self.add_term(term_map, sum_value)
+                term = Term(term_map, self, sum_value)
+                #term = self.add_term(term_map, sum_value)
                 #if not self.need_filter(term):
-                #	continue
+                #   continue
                 #term.effect()
                 #print term.format()
                 #print term.format2()
                 if self.is_effect(term):
-                    need_map[term.uuid()] = term
-        return need_map
+                    need_list.append(term.get_line(relative=relative))
+        return need_list
 
     def get_term(self, term_map):
         string = Term.get_string(term_map)
@@ -167,7 +169,7 @@ class TermManage(object):
         return True
 
 
-class Term(object):
+class Term:
     def __init__(self, term_map, manage, sum_value=None):
         self._sum = len(term_map.keys())
         self.term_map = term_map
@@ -199,6 +201,7 @@ class Term(object):
         if self.ratio:
             return self.ratio
         sum_int = get_sum(self.manage.date_time, self.term_map, self.manage.table) if self.sum_value is None else self.sum_value
+        #print sum_int
         self.ratio = Decimal(sum_int) / Decimal(self.manage.total)
         return self.ratio
 
@@ -228,6 +231,9 @@ class Term(object):
         ratio = (self.support()) * REQUEST_UP
         ratio2 = self.support_relative()
         self.ratio4 = math.sqrt(ratio ** 2 + ratio2 ** 2)
+        if (not ratio or not ratio2 ) and self.ratio4 == 1:
+            self.ratio4 = 0
+            return 0
         #print self.ratio4, ratio, ratio2
         return self.ratio4
 
