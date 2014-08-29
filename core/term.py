@@ -16,7 +16,7 @@ REQUEST_UP = 1
 EFFECT_RADIO = 0.5
 
 ## 过滤精确度，过滤不足该量的定向条件，对于单维度很多条件的则过滤一定比例的条件（按总请求量升序过滤）并且计算精度也是该值与总量的比率
-ACCURACY_VALUE = 5000
+ACCURACY_VALUE = 0
 
 ## 得出计算的精确度
 ACCURACY_F = 15
@@ -231,9 +231,9 @@ class Term:
         ratio = (self.support()) * REQUEST_UP
         ratio2 = self.support_relative()
         self.ratio4 = math.sqrt(ratio ** 2 + ratio2 ** 2)
-        if (not ratio or not ratio2 ) and self.ratio4 == 1:
-            self.ratio4 = 0
-            return 0
+        # if (not ratio or not ratio2 ) and self.ratio4 == 1:
+        #     self.ratio4 = 0
+        #     return 0
         #print self.ratio4, ratio, ratio2
         return self.ratio4
 
