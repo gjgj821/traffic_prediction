@@ -129,7 +129,7 @@ public class CombinationCount {
                 writeToCT(context,this.device_model,7,false,true);
                 writeToCT(context,this.app_id,8,false,true);
             }
-            private boolean writeToCT(Context co, String cur,int level, boolean isGrey, boolean isRed){
+            private boolean writeToCT(Context context, String cur,int level, boolean isGrey, boolean isRed){
                 if(cur.equals("")){
                     return false;
                 }
@@ -152,7 +152,7 @@ public class CombinationCount {
                             this.flags.add(f);
                             try {
                                 word.set(""+f+w);
-                                co.write(word, one);
+                                context.write(word, one);
                             }catch (Exception e){
                                 e.printStackTrace();
                             }
@@ -164,7 +164,7 @@ public class CombinationCount {
                         this.flags.add(f);
                         try {
                             word.set(""+f+w);
-                            co.write(word, one);
+                            context.write(word, one);
                         }catch (Exception e){
                             e.printStackTrace();
                         }
