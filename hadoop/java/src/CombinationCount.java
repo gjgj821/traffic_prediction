@@ -24,9 +24,11 @@ public class CombinationCount {
             //System.out.println("------------Into map!-------------");
             //System.out.println("Value: "+value.toString());
             String[] data = value.toString().split("\\|",-1);
-            System.out.println("Data[0]: "+data[0]);
-            DataProcess dp = new DataProcess(data);
-            dp.combine(context);
+            //System.out.println("Data[0]: "+data[0]);
+			if(data.length >= 45){
+				DataProcess dp = new DataProcess(data);
+				dp.combine(context);
+			}
         }
 
         //os_dict = {'24':11, '25':12, '26':13, '27':14, '11':31, '12':32, '13':33, '14':34}
